@@ -1,4 +1,4 @@
-# Training, Lab, and Challenges
+# Training Labs & Challenges
 
 
 

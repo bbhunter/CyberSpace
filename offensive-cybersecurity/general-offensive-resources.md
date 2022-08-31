@@ -1,8 +1,8 @@
-# Offensive Cybersecurity
+# General Offensive Resources
 
 
 
-| General Tools and References                                                                      |                                                                                                        |                                                                                     |
+|                                                                                                   |                                                                                                        |                                                                                     |
 | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- |
 | [SANS SLingshot Tool](https://www.sans.org/tools/slingshot/)                                      | [Red Teaming Cheat Sheet Repo from @0xjs](https://github.com/0xJs/RedTeaming\_CheatSheet)              | [Pentest Reporting Tool from @micro-joan](https://github.com/micro-joan/BlackStone) |
 | [Nahamsec's beginner repo](https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters) | [PayloadsAllTheThings Repo](https://github.com/swisskyrepo/PayloadsAllTheThings) !                     | [Z4nzu's Hacking Tool](https://github.com/Z4nzu/hackingtool)                        |
