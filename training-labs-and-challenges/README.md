@@ -1,4 +1,4 @@
-# Training Labs & Challenges
+# Online Lab Environments
 
 
 
