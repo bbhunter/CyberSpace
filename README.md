@@ -1,4 +1,4 @@
-# Table of contents [Click here for the GitBook of this Repository](https://martian1337.gitbook.io/cyberspace/)
+# Table of contents ([Click here for the GitBook of this Repository](https://martian1337.gitbook.io/cyberspace/))
 
 * [Free Infosec Video Channels](./)
 * [Cybersecurity Podcasts](page-2.md)
