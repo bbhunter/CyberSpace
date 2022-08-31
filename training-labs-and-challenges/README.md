@@ -1,2 +1,2 @@
-# training-labs-and-challenges
+# Training-Labs-and-challenges
 
