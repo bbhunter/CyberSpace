@@ -6,4 +6,5 @@
   * [Useful Extensions](offensive-cybersecurity/useful-extensions.md)
   * [OSINT](offensive-cybersecurity/osint/README.md)
     * [OSINT Tools](offensive-cybersecurity/osint/osint-tools.md)
-* [Page 1](page-1.md)
+  * [Social Engineering](offensive-cybersecurity/social-engineering.md)
+  * [Web Application Security](offensive-cybersecurity/web-application-security.md)
