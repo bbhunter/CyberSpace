@@ -1,8 +1,8 @@
 # Table of contents
 
-* [Cybersecurity Podcasts](README.md)
+* [Table of contents](README.md)
 * [Free Infosec Video Channels](<Free Infosec Video Channels.md>)
-* [Table of contents](<README (1).md>)
+* [Cybersecurity Podcasts](<Cybersecurity Podcasts.md>)
 * [defensive-cybersecurity](defensive-cybersecurity/README.md)
   * [DF & IR](defensive-cybersecurity/df-and-ir.md)
   * [Feed and Trends](defensive-cybersecurity/feed-and-trends.md)
