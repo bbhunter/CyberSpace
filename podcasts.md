@@ -1,0 +1,13 @@
+# Cybersecurity Podcasts
+
+
+
+|                                                                                        |                                                                                   |                                                                                               |
+| -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| [Absolute AppSec](https://absoluteappsec.com/)                                         | [Adventures of Alice and Bob by BeyondTrust](https://www.beyondtrust.com/podcast) | [Cyber Security Sauna](https://cybersecuritysauna.libsyn.com/)                                |
+| [Darknet Diaries](https://darknetdiaries.com/)                                         | [Hacking Humans](https://thecyberwire.com/podcasts/hacking-humans)                | [Malicious Life by Cybereason](https://malicious.life/)                                       |
+| [Naked Security Podcast by SOPHOS](https://nakedsecurity.sophos.com/category/podcast/) | [OWASP Podcast](https://owasp.org/www-project-podcast/)                           | [Security Weekly](https://securityweekly.com/)                                                |
+| [Smashing Security](https://www.smashingsecurity.com/)                                 | [Social-Engineer Podcast](https://www.social-engineer.org/podcasts/)              | [The 443 Security Simplified](https://www.secplicity.org/category/the-443/)                   |
+| [The Cyber Queens Podcast](https://www.cyberqueenspodcast.com/)                        | [The Cyber Tap (Purdue cyberTAP)](https://cyber.tap.purdue.edu/)                  | [The Hacker Chronicles Podcast by Tenable](https://www.tenable.com/podcast/hacker-chronicles) |
+| [The Hacker Mind](https://thehackermind.com/)                                          | [The H4unt3d Hacker](https://thehauntedhacker.com/podcasts)                       | [The Shared Security Show](https://sharedsecurity.net/)                                       |
+| [What The Shell](https://whattheshellpod.com/)                                         | ---                                                                               | updated comprehensive list in-progress                                                        |
