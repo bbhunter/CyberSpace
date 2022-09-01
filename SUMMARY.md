@@ -7,7 +7,7 @@
   * [Online Lab Environments](<training-labs-and-challenges/Online Lab Environments.md>)
   * [More Watching, Reading and Repos](training-labs-and-challenges/more-watching-reading-and-repos.md)
 * [Defensive-Cybersecurity (drafting)](defensive-cybersecurity/README.md)
-  * [DF & IR](defensive-cybersecurity/df-and-ir.md)
+  * [DFIR](defensive-cybersecurity/df-and-ir.md)
   * [Feed and Trends](defensive-cybersecurity/feed-and-trends.md)
   * [General Defensive Resources](defensive-cybersecurity/general-defensive-resources.md)
   * [Malware Resources for Analysis/Reverse Engineering](defensive-cybersecurity/malware-resources-for-analysis-reverse-engineering.md)
