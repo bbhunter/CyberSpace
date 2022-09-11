@@ -1,7 +1,5 @@
 # General Offensive Resources
 
-
-
 |                                                                                                   |                                                                                                        |                                                                                     |
 | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- |
 | [SANS SLingshot Tool](https://www.sans.org/tools/slingshot/)                                      | [Red Teaming Cheat Sheet Repo from @0xjs](https://github.com/0xJs/RedTeaming\_CheatSheet)              | [Pentest Reporting Tool from @micro-joan](https://github.com/micro-joan/BlackStone) |
@@ -10,3 +8,4 @@
 | [Pimp My Kali](https://github.com/Dewalt-arch/pimpmykali)                                         | [Online Hash Cracking Service](https://crackstation.net/) !                                            | [fsociety Hacking Tools](https://github.com/Manisso/fsociety)                       |
 | [Payloadbox Repository](https://github.com/payloadbox) !                                          | [Awesome Andoid Security](https://github.com/saeidshirazi/awesome-android-security) !                  | [Bug Bounty Tips](https://github.com/KingOfBugbounty/KingOfBugBountyTips)           |
 | [Lockdoor Framework Pentesting Tool](https://github.com/SofianeHamlaoui/Lockdoor-Framework)       | [Penetration Testing Execution Standard Guide](http://www.pentest-standard.org/index.php/Main\_Page) ! | [CyberChef Recipes Repo](https://github.com/mattnotmax/cyberchef-recipes)           |
+| [HackTricks](https://book.hacktricks.xyz/) !                                                      |                                                                                                        |                                                                                     |
