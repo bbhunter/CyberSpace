@@ -11,6 +11,7 @@
   * [Useful Extensions](offensive-cybersecurity/useful-extensions.md)
   * [OSINT](offensive-cybersecurity/osint/README.md)
     * [OSINT Tools](offensive-cybersecurity/osint/osint-tools.md)
+  * [Wordlists and Passwords](offensive-cybersecurity/wordlists-and-passwords.md)
   * [Social Engineering](offensive-cybersecurity/social-engineering.md)
   * [Web Application Security](offensive-cybersecurity/web-application-security/README.md)
     * [Reconnaissance](offensive-cybersecurity/web-application-security/reconnaissance.md)
