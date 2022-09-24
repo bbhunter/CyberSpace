@@ -42,3 +42,9 @@
   * [Learn Linux/ShellCode](system-programming-coding/learn-linux-shellcode.md)
   * [SECURE CODING AND CHALLENGES](system-programming-coding/secure-coding-and-challenges.md)
 * [General Tools](general-tools.md)
+
+## techniques learned
+
+* [Hack the Box](techniques-learned/hack-the-box/README.md)
+  * [SQL](techniques-learned/hack-the-box/sql.md)
+  * [XSS](techniques-learned/hack-the-box/xss.md)
