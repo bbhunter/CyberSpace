@@ -48,3 +48,7 @@
 * [Hack the Box](techniques-learned/hack-the-box/README.md)
   * [SQL](techniques-learned/hack-the-box/sql.md)
   * [XSS](techniques-learned/hack-the-box/xss.md)
+
+***
+
+* [Page 1](page-1.md)
