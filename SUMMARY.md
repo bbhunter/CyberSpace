@@ -43,12 +43,13 @@
   * [SECURE CODING AND CHALLENGES](system-programming-coding/secure-coding-and-challenges.md)
 * [General Tools](general-tools.md)
 
-## techniques learned
+## notes
 
-* [Hack the Box](techniques-learned/hack-the-box/README.md)
-  * [SQL](techniques-learned/hack-the-box/sql.md)
-  * [XSS](techniques-learned/hack-the-box/xss.md)
+* [Hack the Box](notes/hack-the-box/README.md)
+  * [SQL](notes/hack-the-box/sql.md)
+  * [XSS](notes/hack-the-box/xss.md)
 
 ***
 
 * [Basic Linux for CTFs](basic-linux-for-ctfs.md)
+* [Nmap](nmap.md)
