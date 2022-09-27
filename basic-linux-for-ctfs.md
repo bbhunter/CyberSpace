@@ -2,14 +2,18 @@
 description: Useful Find command reference
 ---
 
-# Page 1
+# Basic Linux for CTFs
 
 When capturing flags use the following for searching of specific files:
 
 \
-`find / -type f -iname "file.txt" 2>/dev/null`
 
-``
+
+```
+find / -type f -iname "file.txt" 2>/dev/null 
+```
+
+
 
 | `/`      | The top-level directory is the root filesystem and contains all of the files required to boot the operating system before other filesystems are mounted as well as the files required to boot the other filesystems. After boot, all of the other filesystems are mounted at standard mount points as subdirectories of the root. |
 | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
