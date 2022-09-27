@@ -51,4 +51,4 @@
 
 ***
 
-* [Page 1](page-1.md)
+* [Basic Linux for CTFs](basic-linux-for-ctfs.md)
