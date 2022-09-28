@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Table of Contents](SUMMARY.md)
+* [Table of Contents](README.md)
 
 ## Resources and Tool References
 
