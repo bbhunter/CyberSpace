@@ -55,3 +55,7 @@
 * [SQLi](practical-notes/hack-the-box/sql.md)
 * [XSS](practical-notes/hack-the-box/xss.md)
 * [DNS](practical-notes/dns.md)
+
+***
+
+* [Page 1](page-1.md)
