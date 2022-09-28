@@ -1,4 +1,4 @@
-# SQL
+# SQLi
 
 After successfully authenticating to a SQL Server \
 It is worth a shot to verify if xp\_cmdshell has been previously activated with:\
