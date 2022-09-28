@@ -1,8 +1,6 @@
 # Table of Contents
 
 
-* [Table of Contents](<README (1).md>)
-
 ### Resources and Tool References
 
 * [Free Infosec Video Channels](resources-and-tool-references/free-infosec-video-channels.md)
