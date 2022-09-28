@@ -48,9 +48,9 @@
 
 ## practical notes
 
-* [Hack the Box](practical-notes/hack-the-box/README.md)
-  * [SQL](practical-notes/hack-the-box/sql.md)
-  * [XSS](practical-notes/hack-the-box/xss.md)
+* [Hack the Box](practical-notes/hack-the-box.md)
 * [Basic Linux for CTFs](practical-notes/basic-linux-for-ctfs.md)
 * [Nmap](practical-notes/nmap.md)
 * [ffuf](practical-notes/ffuf.md)
+* [SQLi](practical-notes/sqli.md)
+* [XSS](practical-notes/xss.md)
