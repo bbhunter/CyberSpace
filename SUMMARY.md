@@ -41,7 +41,7 @@
   * [Feed and Trends](resources-and-tool-references/defensive-cybersecurity/feed-and-trends.md)
   * [Malware Resources for Analysis/Reverse Engineering](resources-and-tool-references/defensive-cybersecurity/malware-resources-for-analysis-reverse-engineering.md)
   * [Vulnerability Scanning](resources-and-tool-references/defensive-cybersecurity/vulnerability-scanning.md)
-* [System Programming/Coding](resources-and-tool-references/system-programming-coding/README.md)
+* [Languages, programming and coding](resources-and-tool-references/system-programming-coding/README.md)
   * [Learn Linux/ShellCode](resources-and-tool-references/system-programming-coding/learn-linux-shellcode.md)
   * [SECURE CODING AND CHALLENGES](resources-and-tool-references/system-programming-coding/secure-coding-and-challenges.md)
 * [General Tools](resources-and-tool-references/general-tools.md)
