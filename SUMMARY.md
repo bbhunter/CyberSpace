@@ -1,10 +1,8 @@
 # Table of contents
 
-
-
 ## Resources and Tool References
 
-* [Free Infosec Video Channels](resources-and-tool-references/free-infosec-video-channels.md)
+* [Free Infosec Video Channels](README.md)
 * [Cybersecurity Podcasts](resources-and-tool-references/cybersecurity-podcasts.md)
 * [Training-Labs-and-challenges](resources-and-tool-references/training-labs-and-challenges/README.md)
   * [Online Lab Environments](resources-and-tool-references/training-labs-and-challenges/online-lab-environments.md)
@@ -55,7 +53,4 @@
 * [SQLi](practical-notes/hack-the-box/sql.md)
 * [XSS](practical-notes/hack-the-box/xss.md)
 * [DNS](practical-notes/dns.md)
-
-***
-
-* [Page 1](page-1.md)
+* [Page 1](practical-notes/page-1.md)
