@@ -48,7 +48,6 @@
 
 ## practical notes
 
-* [Hack the Box](practical-notes/hack-the-box/README.md)
 * [Basic Linux for CTFs](practical-notes/basic-linux-for-ctfs.md)
 * [Nmap](practical-notes/nmap.md)
 * [ffuf](practical-notes/ffuf.md)
