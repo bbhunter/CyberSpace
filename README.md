@@ -1,8 +1,5 @@
 # Table of Contents
 
-# Table of contents
-
-* [Table of Contents](README.md)
 
 ## Resources and Tool References
 
