@@ -1,10 +1,10 @@
 # Table of contents
 
-* [Table of Contents](README..d)
+* [Table of Contents](README.md)
 
 ## Resources and Tool References
 
-* [Free Infosec Video Channels](README.md)
+* [Free Infosec Video Channels](resources-and-tool-references/free-infosec-video-channels.md)
 * [Cybersecurity Podcasts](resources-and-tool-references/cybersecurity-podcasts.md)
 * [Training-Labs-and-challenges](resources-and-tool-references/training-labs-and-challenges/README.md)
   * [Online Lab Environments](resources-and-tool-references/training-labs-and-challenges/online-lab-environments.md)
