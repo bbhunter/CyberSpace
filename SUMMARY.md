@@ -53,3 +53,4 @@
 
 * [Basic Linux for CTFs](basic-linux-for-ctfs.md)
 * [Nmap](nmap.md)
+* [ffuf](ffuf.md)
