@@ -1,8 +1,5 @@
 # Table of Contents
 
-## Table of Contents
-
-## Table of contents
 
 * [Table of Contents](<README (1).md>)
 
