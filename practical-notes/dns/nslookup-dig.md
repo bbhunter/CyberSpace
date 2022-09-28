@@ -1,4 +1,4 @@
-# DNS Enumeration via CLI
+# nslookup/dig
 
 
 
