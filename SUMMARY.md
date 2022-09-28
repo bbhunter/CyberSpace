@@ -54,5 +54,6 @@
 * [ffuf](practical-notes/ffuf.md)
 * [SQLi](practical-notes/hack-the-box/sql.md)
 * [XSS](practical-notes/hack-the-box/xss.md)
-* [DNS](practical-notes/dns.md)
+* [DNS](practical-notes/dns/README.md)
+  * [DNS Enumeration via CLI](practical-notes/dns/dns-enumeration-via-cli.md)
 * [curl](practical-notes/page-1.md)
