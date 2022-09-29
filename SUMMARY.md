@@ -56,6 +56,8 @@
 * [DNS](practical-notes/dns.md)
   * [nslookup/dig](practical-notes/dns/nslookup-dig.md)
 * [curl](practical-notes/page-1.md)
+* [Python](practical-notes/python/README.md)
+  * [Base64 Web Image decoder](practical-notes/python/base64-web-image-decoder.md)
 
 ***
 
