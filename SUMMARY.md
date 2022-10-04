@@ -59,7 +59,4 @@
 * [Python](practical-notes/python/README.md)
   * [Base64 Web Image decoder](practical-notes/python/base64-web-image-decoder.md)
 * [Shodan](practical-notes/shodan.md)
-
-***
-
-* [WireShark filters](wireshark-filters.md)
+* [WireShark filters](practical-notes/wireshark-filters.md)
