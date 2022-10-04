@@ -46,7 +46,7 @@
   * [SECURE CODING AND CHALLENGES](resources-and-tool-references/system-programming-coding/secure-coding-and-challenges.md)
 * [General Tools](resources-and-tool-references/general-tools.md)
 
-## practical notes
+## Practical Notes
 
 * [Basic Linux for CTFs](practical-notes/basic-linux-for-ctfs.md)
 * [Nmap](practical-notes/nmap.md)
