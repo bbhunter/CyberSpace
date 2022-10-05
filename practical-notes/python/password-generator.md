@@ -1,7 +1,7 @@
 # Password Generator
 
 ```
-// Random Password generator. Insert additional characters as desired
+# Random Password generator. Insert additional characters as desired
 
 import os
 
