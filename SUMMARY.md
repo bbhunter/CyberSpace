@@ -58,6 +58,7 @@
 * [curl](practical-notes/page-1.md)
 * [Python](practical-notes/python/README.md)
   * [Base64 Web Image decoder](practical-notes/python/base64-web-image-decoder.md)
+  * [Password Generator](practical-notes/python/password-generator.md)
 * [Shodan](practical-notes/shodan.md)
 * [WireShark filters](practical-notes/wireshark-filters.md)
 * [NoSQL](practical-notes/nosql.md)
