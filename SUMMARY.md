@@ -7,7 +7,7 @@
 * [Free Infosec Video Channels](resources-and-tool-references/free-infosec-video-channels.md)
 * [Cybersecurity Podcasts](resources-and-tool-references/cybersecurity-podcasts.md)
 * [Training-Labs-and-challenges](resources-and-tool-references/training-labs-and-challenges/README.md)
-  * [Online Lab Environments](resources-and-tool-references/training-labs-and-challenges/online-lab-environments.md)
+  * [Lab Environments](resources-and-tool-references/training-labs-and-challenges/online-lab-environments.md)
   * [More Watching, Reading and Repos](resources-and-tool-references/training-labs-and-challenges/more-watching-reading-and-repos.md)
 * [Offensive-Cybersecurity](resources-and-tool-references/offensive-cybersecurity/README.md)
   * [General Offensive Resources](resources-and-tool-references/offensive-cybersecurity/general-offensive-resources.md)
