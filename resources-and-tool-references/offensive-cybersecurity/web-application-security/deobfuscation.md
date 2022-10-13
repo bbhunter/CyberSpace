@@ -10,7 +10,7 @@ description: >-
 | JavaScript Deobfuscation                                                           |                                                                               |                                                                                     |
 | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
 | [Online Javascript Obfuscator](https://obfuscator.io/)                             | [JavaScript Console](https://jsconsole.com/) (test javascript code excution)  | [Toptal JavaScript-Minifier](https://www.toptal.com/developers/javascript-minifier) |
-| [Beautifier ](https://beautifier.io/)(obfuscator/code editor for CSS, HTML and JS) | [JSNice](http://www.jsnice.org/) (JS de-obfuscator)                           |                                                                                     |
+| [Beautifier ](https://beautifier.io/)(obfuscator/code editor for CSS, HTML and JS) | [JSNice](http://www.jsnice.org/) (JS de-obfuscator)                           | [Prettier ](https://prettier.io/playground/)(obfuscator/code editor)                |
 |                                                                                    |                                                                               |                                                                                     |
 
 | PHP Deobfuscation |   |   |
