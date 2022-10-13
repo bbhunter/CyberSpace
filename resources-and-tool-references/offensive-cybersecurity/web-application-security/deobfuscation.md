@@ -7,11 +7,11 @@ description: >-
 
 # Deobfuscation
 
-| JavaScript Deobfuscation                                                     |                                                                               |                                                                                     |
-| ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| [Online Javascript Obfuscator](https://obfuscator.io/)                       | [JavaScript Console](https://jsconsole.com/) (test javascript code excution)  | [Toptal JavaScript-Minifier](https://www.toptal.com/developers/javascript-minifier) |
-| [Beautify](https://beautifytools.com/javascript-obfuscator.php) (obfuscator) | [JSNice](http://www.jsnice.org/) (de-obfuscator)                              |                                                                                     |
-|                                                                              |                                                                               |                                                                                     |
+| JavaScript Deobfuscation                                                           |                                                                               |                                                                                     |
+| ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| [Online Javascript Obfuscator](https://obfuscator.io/)                             | [JavaScript Console](https://jsconsole.com/) (test javascript code excution)  | [Toptal JavaScript-Minifier](https://www.toptal.com/developers/javascript-minifier) |
+| [Beautifier ](https://beautifier.io/)(obfuscator/code editor for CSS, HTML and JS) | [JSNice](http://www.jsnice.org/) (JS de-obfuscator)                           |                                                                                     |
+|                                                                                    |                                                                               |                                                                                     |
 
 | PHP Deobfuscation |   |   |
 | ----------------- | - | - |
