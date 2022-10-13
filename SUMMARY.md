@@ -54,6 +54,7 @@
 * [ffuf](practical-notes/ffuf.md)
 * [SQLi](practical-notes/hack-the-box/sql.md)
 * [XSS](practical-notes/hack-the-box/xss.md)
+* [Insecure Direct Object Reference (IDOR) Checklist](practical-notes/insecure-direct-object-reference-idor-checklist.md)
 * [DNS](practical-notes/dns.md)
   * [nslookup/dig](practical-notes/dns/nslookup-dig.md)
 * [curl](practical-notes/page-1.md)
