@@ -4,7 +4,7 @@
 
 | **Command**                                                                                                                                                     | **Description**                                                               |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| ```shell-session ffuf -h ```                                                                                                                                                       | ffuf help                                                                     |
+| ```ffuf -h ```                                                                                                                                                       | ffuf help                                                                     |
 | `ffuf -w wordlist.txt:FUZZ -u http://SERVER_IP:PORT/FUZZ`                                                                                                       | Directory Fuzzing                                                             |
 | `ffuf -w wordlist.txt:FUZZ -u http://SERVER_IP:PORT/indexFUZZ`                                                                                                  | Extension Fuzzing                                                             |
 | `ffuf -w wordlist.txt:FUZZ -u http://SERVER_IP:PORT/blog/FUZZ.php`                                                                                              | Page Fuzzing                                                                  |
