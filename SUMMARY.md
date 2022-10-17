@@ -4,7 +4,6 @@
 
 ## Resources and Tool References
 
-* [Free Infosec Video Channels](resources-and-tool-references/free-infosec-video-channels.md)
 * [Cybersecurity Podcasts](resources-and-tool-references/cybersecurity-podcasts.md)
 * [Training-Labs-and-challenges](resources-and-tool-references/training-labs-and-challenges/README.md)
   * [Lab Environments](resources-and-tool-references/training-labs-and-challenges/online-lab-environments.md)
