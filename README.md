@@ -1,7 +1,5 @@
 # Table of contents
 
-* [Table of Contents](README.md)
-
 ## Resources and Tool References
 
 * [Cybersecurity Podcasts](resources-and-tool-references/cybersecurity-podcasts.md)
