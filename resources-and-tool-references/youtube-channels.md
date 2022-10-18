@@ -1,5 +1,11 @@
 # Youtube Channels
 
+---
+layout: editorial
+---
+
+# Free Infosec Video Channels
+
 |                                                                                                                                     |                                                                                                      |                                                                                                        |
 | ----------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
 | [HackerOne videos](https://www.hacker101.com/videos)                                                                                | [InsiderPhD](https://www.youtube.com/c/InsiderPhD)                                                   | [Series for new bug hunters](https://www.youtube.com/playlist?list=PLbyncTkpno5FAC0DJYuJrEqHSMdudEffw) |

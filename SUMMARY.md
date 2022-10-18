@@ -5,6 +5,10 @@
 ## Resources and Tool References
 
 * [Cybersecurity Podcasts](resources-and-tool-references/cybersecurity-podcasts.md)
+* [Youtube Channels](resources-and-tool-references/youtube-channels.md)
+* [Languages, programming and coding](resources-and-tool-references/system-programming-coding/README.md)
+  * [Language learning resources](resources-and-tool-references/system-programming-coding/learn-linux-shellcode.md)
+  * [SECURE CODING AND CHALLENGES](resources-and-tool-references/system-programming-coding/secure-coding-and-challenges.md)
 * [Training-Labs-and-challenges](resources-and-tool-references/training-labs-and-challenges/README.md)
   * [Lab Environments](resources-and-tool-references/training-labs-and-challenges/online-lab-environments.md)
   * [More Watching, Reading and Repos](resources-and-tool-references/training-labs-and-challenges/more-watching-reading-and-repos.md)
@@ -42,11 +46,7 @@
   * [Feed and Trends](resources-and-tool-references/defensive-cybersecurity/feed-and-trends.md)
   * [Malware Resources for Analysis/Reverse Engineering](resources-and-tool-references/defensive-cybersecurity/malware-resources-for-analysis-reverse-engineering.md)
   * [Vulnerability Scanning](resources-and-tool-references/defensive-cybersecurity/vulnerability-scanning.md)
-* [Languages, programming and coding](resources-and-tool-references/system-programming-coding/README.md)
-  * [Language learning resources](resources-and-tool-references/system-programming-coding/learn-linux-shellcode.md)
-  * [SECURE CODING AND CHALLENGES](resources-and-tool-references/system-programming-coding/secure-coding-and-challenges.md)
-* [General Tools](resources-and-tool-references/general-tools.md)
-* [Youtube Channels](resources-and-tool-references/youtube-channels.md)
+* [Additional Tools](resources-and-tool-references/general-tools.md)
 
 ## Practical Notes
 
