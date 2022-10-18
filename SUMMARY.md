@@ -46,6 +46,7 @@
   * [Language learning resources](resources-and-tool-references/system-programming-coding/learn-linux-shellcode.md)
   * [SECURE CODING AND CHALLENGES](resources-and-tool-references/system-programming-coding/secure-coding-and-challenges.md)
 * [General Tools](resources-and-tool-references/general-tools.md)
+* [Youtube Channels](resources-and-tool-references/youtube-channels.md)
 
 ## Practical Notes
 
