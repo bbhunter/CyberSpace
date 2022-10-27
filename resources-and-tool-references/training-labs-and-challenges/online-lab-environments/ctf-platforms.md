@@ -1,0 +1,16 @@
+# CTF Platforms
+
+|                                                                           |                                                                      |                                                                                |
+| ------------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| [HackTheBox](https://www.ctf.hackthebox.com/)                             | RingZer0ctf                                                          | [Backdoor](https://backdoor.sdslabs.co/)                                       |
+| [cmdchallenge](https://cmdchallenge.com/)                                 | [hpandro1337](http://ctf.hpandro.raviramesh.info/) Android CTF       | [PWN Challenge](http://pwn.eonew.cn/) - Binary Exploitation                    |
+| [PWN Adventure](http://pwnadventure.com/) - Vulnerable MMORPG             | [SmashTheStack](http://www.smashthestack.org/) - Binary Exploitation | [Microcorruption](https://microcorruption.com/login) - Debug Assembly programs |
+| [crackmes](https://crackmes.one/) - Reverse engineering                   | [webhacking.kr](https://webhacking.kr/) - Web exploitation           | [LordofSQLi](https://los.rubiya.kr/) - SQLinjection challenges                 |
+| [DefendTheWeb](https://defendtheweb.net/) - Web exploitation              | [XSS Game](http://www.xssgame.com/)                                  | [cryptohack](https://cryptohack.org/)                                          |
+| [cryptopals](https://cryptopals.com/)                                     | [id0-rsa](https://id0-rsa.pub/) - Crypto challenges                  | [TryToDecrypt](https://www.trytodecrypt.com/index.php)                         |
+| [echoCTF](https://echoctf.red/)                                           | [exploit.education](https://exploit.education/)                      | [HBH](https://hbh.sh/home) Jeopardy-style CTF platform                         |
+| [MOD-X](http://www.mod-x.co.uk/main.php%22) - Jeopardy-style CTF platform | [PWN.TN](https://pwn.tn/)                                            | [Prompt Riddle](https://promptriddle.com/) - Prompt-based CTF                  |
+| [Hacker Gateway](https://www.hackergateway.com/)                          | [SuNiNaTaS](http://suninatas.com/)                                   | [UnderTheWire](https://underthewire.tech/) - Powershell challenges             |
+|                                                                           |                                                                      |                                                                                |
+|                                                                           |                                                                      |                                                                                |
+|                                                                           |                                                                      |                                                                                |
