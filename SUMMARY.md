@@ -68,3 +68,4 @@
 * [WireShark filters](practical-notes/wireshark-filters.md)
 * [Andoid App Testing](practical-notes/andoid-app-testing.md)
 * [Splunk IR](practical-notes/splunk-ir.md)
+* [PowerShell](practical-notes/powershell.md)
