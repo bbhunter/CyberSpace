@@ -2,7 +2,7 @@
 
 |                                                                           |                                                                      |                                                                                |
 | ------------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| [HackTheBox](https://www.ctf.hackthebox.com/)                             | RingZer0ctf                                                          | [Backdoor](https://backdoor.sdslabs.co/)                                       |
+| [HackTheBox](https://www.ctf.hackthebox.com/)                             | [RingZer0ctf](https://ringzer0ctf.com/)                              | [Backdoor](https://backdoor.sdslabs.co/)                                       |
 | [cmdchallenge](https://cmdchallenge.com/)                                 | [hpandro1337](http://ctf.hpandro.raviramesh.info/) Android CTF       | [PWN Challenge](http://pwn.eonew.cn/) - Binary Exploitation                    |
 | [PWN Adventure](http://pwnadventure.com/) - Vulnerable MMORPG             | [SmashTheStack](http://www.smashthestack.org/) - Binary Exploitation | [Microcorruption](https://microcorruption.com/login) - Debug Assembly programs |
 | [crackmes](https://crackmes.one/) - Reverse engineering                   | [webhacking.kr](https://webhacking.kr/) - Web exploitation           | [LordofSQLi](https://los.rubiya.kr/) - SQLinjection challenges                 |
