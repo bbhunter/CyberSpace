@@ -46,6 +46,7 @@
   * [DFIR](resources-and-tool-references/defensive-cybersecurity/df-and-ir.md)
   * [Feed and Trends](resources-and-tool-references/defensive-cybersecurity/feed-and-trends.md)
   * [Malware Resources for Analysis/Reverse Engineering](resources-and-tool-references/defensive-cybersecurity/malware-resources-for-analysis-reverse-engineering.md)
+  * [Log Files - Unix](resources-and-tool-references/defensive-cybersecurity/log-files-unix.md)
   * [Vulnerability Scanning](resources-and-tool-references/defensive-cybersecurity/vulnerability-scanning.md)
 * [Additional Tools](resources-and-tool-references/general-tools.md)
 
