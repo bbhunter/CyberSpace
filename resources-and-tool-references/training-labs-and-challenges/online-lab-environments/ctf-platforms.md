@@ -12,5 +12,3 @@
 | [MOD-X](http://www.mod-x.co.uk/main.php%22) - Jeopardy-style CTF platform | [PWN.TN](https://pwn.tn/)                                            | [Prompt Riddle](https://promptriddle.com/) - Prompt-based CTF                  |
 | [Hacker Gateway](https://www.hackergateway.com/)                          | [SuNiNaTaS](http://suninatas.com/)                                   | [UnderTheWire](https://underthewire.tech/) - Powershell challenges             |
 |                                                                           |                                                                      |                                                                                |
-|                                                                           |                                                                      |                                                                                |
-|                                                                           |                                                                      |                                                                                |
