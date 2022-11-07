@@ -33,7 +33,7 @@
     * [Post-Exploitation Tools](resources-and-tool-references/offensive-cybersecurity/system-penetration-testing/post-exploitation-tools.md)
   * [Cloud Penetration Testing](resources-and-tool-references/offensive-cybersecurity/cloud-penetration-testing.md)
   * [Blockchain Security](resources-and-tool-references/offensive-cybersecurity/blockchain-security.md)
-  * [Page 1](resources-and-tool-references/offensive-cybersecurity/page-1.md)
+  * [Page 1](broken-reference)
 * [Defensive-Cybersecurity (drafting)](resources-and-tool-references/defensive-cybersecurity/)
   * [General Defensive Resources](resources-and-tool-references/defensive-cybersecurity/general-defensive-resources.md)
   * [DFIR](resources-and-tool-references/defensive-cybersecurity/df-and-ir.md)

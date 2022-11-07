@@ -6,9 +6,10 @@ description: Languages
 
 
 
-| Languages                                               |                               |                           |                                    |
-| ------------------------------------------------------- | ----------------------------- | ------------------------- | ---------------------------------- |
-| [Python](https://wiki.python.org/moin/BeginnersGuide) ! | [C](https://www.learn-c.org/) | [Go](https://www.go.dev/) | [Rust](https://www.rust-lang.org/) |
+| Languages                                                                           |                               |                           |                                    |
+| ----------------------------------------------------------------------------------- | ----------------------------- | ------------------------- | ---------------------------------- |
+| [Python](https://wiki.python.org/moin/BeginnersGuide) !                             | [C](https://www.learn-c.org/) | [Go](https://www.go.dev/) | [Rust](https://www.rust-lang.org/) |
+| [Free Programming Books](https://github.com/EbookFoundation/free-programming-books) |                               |                           |                                    |
 
 | Web Languages                                             |                                 |   |
 | --------------------------------------------------------- | ------------------------------- | - |
