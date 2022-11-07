@@ -12,9 +12,7 @@ find / -type f -iname "file.txt" 2>/dev/null
 
 
 
-
-
-|                       |                                                                                                                                                                                                                                                                                |
+|       **Option**      |                                                                                                                                 **Description**                                                                                                                                |
 | :-------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |       `-type f`       |                                                                                           Hereby, we define the type of the searched object. In this case, '`f`' stands for '`file`'.                                                                                          |
 |     `-name *.conf`    |                                                                  With '`-name`', we indicate the name of the file we are looking for. The asterisk (`*`) stands for 'all' files with the '`.conf`' extension.                                                                  |
@@ -32,8 +30,9 @@ find / -type f -name *.conf -user root -size +20k -newermt 2020-03-03 -exec ls -
 
 
 
-| `/`      | The top-level directory is the root filesystem and contains all of the files required to boot the operating system before other filesystems are mounted as well as the files required to boot the other filesystems. After boot, all of the other filesystems are mounted at standard mount points as subdirectories of the root. |
+| **Path** | **Description**                                                                                                                                                                                                                                                                                                                   |
 | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `/`      | The top-level directory is the root filesystem and contains all of the files required to boot the operating system before other filesystems are mounted as well as the files required to boot the other filesystems. After boot, all of the other filesystems are mounted at standard mount points as subdirectories of the root. |
 | `/bin`   | Contains essential command binaries.                                                                                                                                                                                                                                                                                              |
 | `/boot`  | Consists of the static bootloader, kernel executable, and files required to boot the Linux OS.                                                                                                                                                                                                                                    |
 | `/dev`   | Contains device files to facilitate access to every hardware device attached to the system.                                                                                                                                                                                                                                       |
@@ -48,12 +47,12 @@ find / -type f -name *.conf -user root -size +20k -newermt 2020-03-03 -exec ls -
 | `/tmp`   | The operating system and many programs use this directory to store temporary files. This directory is generally cleared upon system boot and may be deleted at other times without any warning.                                                                                                                                   |
 | `/usr`   | Contains executables, libraries, man files, etc.                                                                                                                                                                                                                                                                                  |
 | `/var`   | This directory contains variable data files such as log files, email in-boxes, web application related files, cron files, and more.                                                                                                                                                                                               |
-|          |                                                                                                                                                                                                                                                                                                                                   |
 
 
 
-|  `man <tool>`            | Opens man pages for the specified tool.                                                                                                                    |
+| **Command**              | **Description**                                                                                                                                            |
 | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|  `man <tool>`            | Opens man pages for the specified tool.                                                                                                                    |
 | `<tool> -h`              | Prints the help page of the tool.                                                                                                                          |
 | `apropos <keyword>`      | Searches through man pages' descriptions for instances of a given keyword.                                                                                 |
 | `cat`                    | Concatenate and print files.                                                                                                                               |
