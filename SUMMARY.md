@@ -32,6 +32,7 @@
     * [Server Side Template Injection](resources-and-tool-references/offensive-cybersecurity/web-application-security/server-side-template-injection.md)
     * [SQL Injection](resources-and-tool-references/offensive-cybersecurity/web-application-security/sql-injection.md)
     * [Deobfuscation](resources-and-tool-references/offensive-cybersecurity/web-application-security/deobfuscation.md)
+    * [Server-Side Request Foregery](resources-and-tool-references/offensive-cybersecurity/web-application-security/server-side-request-foregery.md)
   * [Mobile Penetration Testing](resources-and-tool-references/offensive-cybersecurity/mobile-application-security.md)
   * [Network Penetration Testing](resources-and-tool-references/offensive-cybersecurity/network-penetration-testing.md)
   * [System Penetration Testing](resources-and-tool-references/offensive-cybersecurity/system-penetration-testing/README.md)
