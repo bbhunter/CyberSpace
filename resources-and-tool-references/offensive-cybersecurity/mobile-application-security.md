@@ -2,9 +2,9 @@
 
 
 
-| Android PenTesting                                                                                    |                                                    |   |
-| ----------------------------------------------------------------------------------------------------- | -------------------------------------------------- | - |
-| [HacktheBox Android guide for beginners ](https://www.hackthebox.com/blog/intro-to-mobile-pentesting) | [APKNuke](https://github.com/utkarsh24122/apknuke) |   |
+| Android PenTesting                                                                                    |   |   |
+| ----------------------------------------------------------------------------------------------------- | - | - |
+| [HacktheBox Android guide for beginners ](https://www.hackthebox.com/blog/intro-to-mobile-pentesting) |   |   |
 
 | IoS PenTesting                                                                                                    |   |   |
 | ----------------------------------------------------------------------------------------------------------------- | - | - |
