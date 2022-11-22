@@ -7,4 +7,6 @@ coverY: 0
 
 Welcome to the CyberSpace Gitbook!! The content and links within this resource align with modern technologies and methodologies.
 
-View the table of contents below to quickly find exactly what you are looking for to meet your practical resources and cybersecurity learning journey.
+View the table of contents below to quickly find exactly what you are looking for to meet your practical resources and cybersecurity learning journey.\
+\
+Ensure to review other projects and training at [http://linktr.ee/martian1337](http://linktr.ee/martian1337)&#x20;
