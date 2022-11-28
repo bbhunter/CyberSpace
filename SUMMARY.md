@@ -40,6 +40,7 @@
     * [Exploitation Tools](resources-and-tool-references/offensive-cybersecurity/system-penetration-testing/exploitation-tools.md)
     * [Malware Development](resources-and-tool-references/offensive-cybersecurity/system-penetration-testing/malware-development.md)
     * [Post-Exploitation Tools](resources-and-tool-references/offensive-cybersecurity/system-penetration-testing/post-exploitation-tools.md)
+  * [Container Security](resources-and-tool-references/offensive-cybersecurity/container-security.md)
   * [Cloud Penetration Testing](resources-and-tool-references/offensive-cybersecurity/cloud-penetration-testing.md)
   * [Blockchain Security](resources-and-tool-references/offensive-cybersecurity/blockchain-security.md)
 * [Defensive-Cybersecurity](resources-and-tool-references/defensive-cybersecurity/README.md)
