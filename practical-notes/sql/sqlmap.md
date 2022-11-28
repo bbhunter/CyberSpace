@@ -1,6 +1,6 @@
 # SQLmap
 
-| **Command**                                                                                                               | **Description**                                             |
+| Command                                                                                                                   | Description                                                 |
 | ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
 | `sqlmap -h`                                                                                                               | View the basic help menu                                    |
 | `sqlmap -hh`                                                                                                              | View the advanced help menu                                 |

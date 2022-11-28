@@ -12,7 +12,7 @@ find / -type f -iname "file.txt" 2>/dev/null
 
 
 
-|       **Option**      |                                                                                                                                 **Description**                                                                                                                                |
+|         Option        |                                                                                                                                   Description                                                                                                                                  |
 | :-------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |       `-type f`       |                                                                                           Hereby, we define the type of the searched object. In this case, '`f`' stands for '`file`'.                                                                                          |
 |     `-name *.conf`    |                                                                  With '`-name`', we indicate the name of the file we are looking for. The asterisk (`*`) stands for 'all' files with the '`.conf`' extension.                                                                  |
@@ -30,7 +30,7 @@ find / -type f -name *.conf -user root -size +20k -newermt 2020-03-03 -exec ls -
 
 
 
-| **Path** | **Description**                                                                                                                                                                                                                                                                                                                   |
+| Path     | Description                                                                                                                                                                                                                                                                                                                       |
 | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `/`      | The top-level directory is the root filesystem and contains all of the files required to boot the operating system before other filesystems are mounted as well as the files required to boot the other filesystems. After boot, all of the other filesystems are mounted at standard mount points as subdirectories of the root. |
 | `/bin`   | Contains essential command binaries.                                                                                                                                                                                                                                                                                              |
@@ -50,8 +50,9 @@ find / -type f -name *.conf -user root -size +20k -newermt 2020-03-03 -exec ls -
 
 
 
-| **Command**              | **Description**                                                                                                                                            |
+| Command                  | Description                                                                                                                                                |
 | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Command**              | **Description**                                                                                                                                            |
 |  `man <tool>`            | Opens man pages for the specified tool.                                                                                                                    |
 | `<tool> -h`              | Prints the help page of the tool.                                                                                                                          |
 | `apropos <keyword>`      | Searches through man pages' descriptions for instances of a given keyword.                                                                                 |

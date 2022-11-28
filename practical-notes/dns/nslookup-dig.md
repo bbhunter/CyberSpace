@@ -2,8 +2,9 @@
 
 
 
-| `nslookup $TARGET`                 | Identify the `A` record for the target domain.       |
+| Command                            | Description                                          |
 | ---------------------------------- | ---------------------------------------------------- |
+| `nslookup $TARGET`                 | Identify the `A` record for the target domain.       |
 | `nslookup -query=A $TARGET`        | Identify the `A` record for the target domain.       |
 | `dig $TARGET @<nameserver/IP>`     | Identify the `A` record for the target domain.       |
 | `dig a $TARGET @<nameserver/IP>`   | Identify the `A` record for the target domain.       |
