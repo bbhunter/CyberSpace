@@ -9,7 +9,7 @@
   * [SECURE CODING AND CHALLENGES](resources-and-tool-references/system-programming-coding/secure-coding-and-challenges.md)
 * [Training-Labs-and-challenges](resources-and-tool-references/training-labs-and-challenges/)
   * [Lab Environments](resources-and-tool-references/training-labs-and-challenges/online-lab-environments.md)
-    * [CTF Platforms](resources-and-tool-references/training-labs-and-challenges/ctf-platforms.md)
+    * [CTF Platforms](resources-and-tool-references/training-labs-and-challenges/online-lab-environments/ctf-platforms.md)
   * [More Watching, Reading and Repos](resources-and-tool-references/training-labs-and-challenges/more-watching-reading-and-repos.md)
 * [Offensive-Cybersecurity](resources-and-tool-references/offensive-cybersecurity/)
   * [General Offensive Resources](resources-and-tool-references/offensive-cybersecurity/general-offensive-resources.md)
