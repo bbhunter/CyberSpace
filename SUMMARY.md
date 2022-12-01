@@ -68,6 +68,7 @@
   * [nslookup/dig](practical-notes/dns/nslookup-dig.md)
 * [curl](practical-notes/page-1.md)
 * [Python](practical-notes/python/README.md)
+  * [Python reverse connection](practical-notes/python/python-reverse-connection.md)
   * [Base64 Web Image decoder](practical-notes/python/base64-web-image-decoder.md)
   * [Password Generator](practical-notes/python/password-generator.md)
   * [redirect.py](practical-notes/python/redirect.py.md)
