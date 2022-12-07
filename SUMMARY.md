@@ -80,6 +80,7 @@
   * [PowerShell Enumeration](practical-notes/powershell/powershell-enumeration.md)
   * [Logging/Monitoring](practical-notes/powershell/logging-monitoring.md)
   * [Applications/Services](practical-notes/powershell/applications-services.md)
+  * [Live Examination](practical-notes/powershell/live-examination.md)
 
 ***
 
