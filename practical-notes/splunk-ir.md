@@ -1,5 +1,5 @@
 ---
-description: Working Dashboards for Splunk
+description: General Queries and Dashboards for Splunk
 ---
 
 # Splunk Queries
