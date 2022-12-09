@@ -36,3 +36,11 @@ Data Exfiltration - Suspicious Destinations
 | fillnull value="" Country
 | table _time, Risk, dest, "Unique Sources", MBytes, Country
 ```
+
+Detects when the number of successful Windows logon events are more than the daily average for a user account
+
+```
+index=windows EventCode=4624 | eval user=lower(Account_Name) | timechart span=1d avg(count) as daily_avg by user | where count > daily_avg
+
+```
+
