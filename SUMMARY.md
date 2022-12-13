@@ -67,6 +67,7 @@
 * [DNS](practical-notes/dns.md)
   * [nslookup/dig](practical-notes/dns/nslookup-dig.md)
 * [curl](practical-notes/page-1.md)
+* [JSON](practical-notes/json.md)
 * [Python](practical-notes/python/README.md)
   * [SSH login to access restricted env via escape](practical-notes/python/ssh-login-to-access-restricted-env-via-escape.md)
   * [Python reverse connection](practical-notes/python/python-reverse-connection.md)
