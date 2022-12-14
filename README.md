@@ -9,4 +9,4 @@ Welcome to the CyberSpace Gitbook!! The content and links within this resource a
 
 View the table of contents below to quickly find exactly what you are looking for to meet your practical resources and cybersecurity learning journey.\
 \
-Ensure to review other projects and join our Discord community at [http://linktr.ee/martian1337](http://linktr.ee/martian1337)&#x20;
+Ensure to review other projects and join our Discord community at [https://linktr.ee/martian1337](https://linktr.ee/martian1337)&#x20;
