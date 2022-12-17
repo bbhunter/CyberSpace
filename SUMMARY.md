@@ -63,6 +63,7 @@
   * [NoSQL Basics](practical-notes/sql/nosql.md)
   * [SQLmap](practical-notes/sql/sqlmap.md)
 * [XSS](practical-notes/hack-the-box/xss.md)
+* [API Testing Checklist](practical-notes/api-testing-checklist.md)
 * [Insecure Direct Object Reference (IDOR) Checklist](practical-notes/insecure-direct-object-reference-idor-checklist.md)
 * [DNS](practical-notes/dns.md)
   * [nslookup/dig](practical-notes/dns/nslookup-dig.md)
