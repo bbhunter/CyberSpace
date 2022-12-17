@@ -32,3 +32,4 @@ API Documentation Conventions
 | \[]        | <p>/api/v1/user?find=[name]</p><p> </p><p> </p>                                                                              | Square brackets indicate that the input is optional.                                                                                                                                                                     |
 | \|\|       | “blue” \|\| “green” \|\| “red”                                                                                               | Double bars represent different possible values that can be used.                                                                                                                                                        |
 
+* [ ] Set parameters to variable in Postman
