@@ -64,6 +64,7 @@
   * [SQLmap](practical-notes/sql/sqlmap.md)
 * [XSS](practical-notes/hack-the-box/xss.md)
 * [API Testing Checklist](practical-notes/api-testing-checklist.md)
+* [Bug Bounty](practical-notes/bug-bounty.md)
 * [Insecure Direct Object Reference (IDOR) Checklist](practical-notes/insecure-direct-object-reference-idor-checklist.md)
 * [Command Injection Testing](practical-notes/command-injection-testing.md)
 * [DNS](practical-notes/dns.md)
