@@ -12,7 +12,7 @@ PrettyRecon - Active Reconnaissance Tool
 | Google Dork                 | Purpose                       |
 | --------------------------- | ----------------------------- |
 | `intitle:"index of /.git/"` | Searching for Git Directories |
-| `inurl:"index.php?id="`     | Searching for PHP pages       |
+|                             |                               |
 
 Sensitive Information Exposure methods\
 \

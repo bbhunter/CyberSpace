@@ -76,6 +76,7 @@
 * [Shodan](practical-notes/shodan.md)
 * [WireShark filters](practical-notes/wireshark-filters.md)
 * [Andoid App Testing](practical-notes/andoid-app-testing.md)
+* [iOS Testing](practical-notes/ios-testing.md)
 * [Splunk Queries](practical-notes/splunk-ir.md)
 * [Python](practical-notes/python/README.md)
   * [SSH login to access restricted env via escape](practical-notes/python/ssh-login-to-access-restricted-env-via-escape.md)
