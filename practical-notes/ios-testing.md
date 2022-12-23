@@ -20,5 +20,5 @@ Application Testing setup:
 
     a. `iproxy 2222 22 & ssh -R 8082:localhost:8082 root@localhost -p 2222`
 5. On apple device visit http://burpsuite to verify connectivity and download Burp CA certificate
-6. Go to iPhone settings in the "profile downloaded" section and install certificate
+6. Go to apple device settings in the "profile downloaded" section and install certificate
 7. Go Settings >General >About > Certificate Trust Settings and activate toggle switch&#x20;
