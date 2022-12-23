@@ -75,7 +75,7 @@
 * [JSON](practical-notes/json.md)
 * [Shodan](practical-notes/shodan.md)
 * [WireShark filters](practical-notes/wireshark-filters.md)
-* [Andoid App Testing](practical-notes/andoid-app-testing.md)
+* [Android Application Testing](practical-notes/andoid-app-testing.md)
 * [iOS Application Testing](practical-notes/ios-application-testing.md)
 * [Splunk Queries](practical-notes/splunk-ir.md)
 * [Python](practical-notes/python/README.md)
