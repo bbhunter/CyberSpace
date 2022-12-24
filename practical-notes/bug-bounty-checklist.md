@@ -3,16 +3,19 @@
 #### **Information Gathering:**
 
 \
-LeakIX - often blocked by organizations for gray hat searches\
-Shodan - scans less frequently than LeakIX but whitelisted\
-Censys - best overall scanner but without vulnerability discovery
+[LeakIX](https://leakix.net/) - often blocked by organizations for gray hat searches\
+[Shodan](https://www.shodan.io/) - scans less frequently than LeakIX but whitelisted\
+[Censys](https://search.censys.io/) - best overall scanner but without vulnerability discovery
 
-PrettyRecon - Active Reconnaissance Tool
+[PrettyRecon](https://prettyrecon.com/) - Active Reconnaissance Tool\
+\
+Daily updated Text file of all domains within scope on active Bug Bounty Programs \
+[https://github.com/arkadiyt/bounty-targets-data/blob/main/data/domains.txt](https://github.com/arkadiyt/bounty-targets-data/blob/main/data/domains.txt)
 
 | Google Dork                 | Purpose                       |
 | --------------------------- | ----------------------------- |
 | `intitle:"index of /.git/"` | Searching for Git Directories |
-|                             |                               |
+| `inurl:"index.php?id="`     | Searching for PHP pages       |
 
 Sensitive Information Exposure methods\
 \
