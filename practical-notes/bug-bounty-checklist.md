@@ -9,7 +9,7 @@
 
 [PrettyRecon](https://prettyrecon.com/) - Active Reconnaissance Tool\
 \
-Daily updated Text file of all domains within scope on active Bug Bounty Programs \
+Daily updated Text file of all domains within scope on several Bug Bounty Programs \
 [https://github.com/arkadiyt/bounty-targets-data/blob/main/data/domains.txt](https://github.com/arkadiyt/bounty-targets-data/blob/main/data/domains.txt)
 
 | Google Dork                 | Purpose                       |
