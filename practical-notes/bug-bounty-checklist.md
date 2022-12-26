@@ -17,11 +17,11 @@ Daily updated Text file of all domains within scope on active Bug Bounty Program
 | `intitle:"index of /.git/"` | Searching for Git Directories |
 | `inurl:"index.php?id="`     | Searching for PHP pages       |
 
-| Shodan Dork                           | Purpose                             |
-| ------------------------------------- | ----------------------------------- |
-| hostname:".gov" product:"Jenkins" 200 | Searching Jenkins instances in .gov |
-|                                       |                                     |
-|                                       |                                     |
+| Shodan Dork                             | Purpose                             |
+| --------------------------------------- | ----------------------------------- |
+| `hostname:".gov" product:"Jenkins" 200` | Searching Jenkins instances in .gov |
+|                                         |                                     |
+|                                         |                                     |
 
 
 
