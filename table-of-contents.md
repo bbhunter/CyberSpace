@@ -1,8 +1,5 @@
 # Table of Contents
 
-* [CyberSpace Gitbook](README.md)
-* [Table of Contents](table-of-contents.md)
-
 ## Resources and Tool References
 
 * [Cybersecurity Podcasts](resources-and-tool-references/cybersecurity-podcasts.md)
