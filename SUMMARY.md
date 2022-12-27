@@ -1,7 +1,7 @@
 # Table of contents
 
 * [CyberSpace Gitbook](README.md)
-* [Table of Contents](<README (1).md>)
+* [Table of Contents](table-of-contents.md)
 
 ## Resources and Tool References
 
