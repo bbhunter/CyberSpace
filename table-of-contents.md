@@ -86,8 +86,5 @@
   * [Logging/Monitoring](practical-notes/powershell/logging-monitoring.md)
   * [Applications/Services](practical-notes/powershell/applications-services.md)
   * [Live Examination](practical-notes/powershell/live-examination.md)
-
-***
-
 * [Golang](golang/README.md)
   * [Golang Reverse shell](golang/golang-reverse-shell.md)
