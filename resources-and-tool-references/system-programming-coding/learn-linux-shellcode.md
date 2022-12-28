@@ -11,7 +11,7 @@
 | [Linux Hint](https://linuxhint.com/)         | [Linux Command](https://linuxcommand.org/) | [Linux Handbook](https://linuxhandbook.com/)       | [Linux Journey](https://linuxjourney.com/) |
 | [Linux Survival](https://linuxsurvival.com/) | [Tecmint](https://www.tecmint.com/)        | [Python Tutorial](https://www.pythontutorial.net/) |                                            |
 
-| Web Languages                                                             |   |   |
-| ------------------------------------------------------------------------- | - | - |
-| [Codepen](https://codepen.io/) - build, test, and discover front-end code |   |   |
-|                                                                           |   |   |
+| Web Languages                                                             |                                                                                    |   |
+| ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | - |
+| [Codepen](https://codepen.io/) - build, test, and discover front-end code | [The Odin Project](https://www.theodinproject.com/) - full-stack curriculum (free) |   |
+|                                                                           |                                                                                    |   |
