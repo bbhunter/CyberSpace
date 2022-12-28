@@ -27,6 +27,7 @@
     * [Web Application Firewall Detection and Evasions](resources-and-tool-references/offensive-cybersecurity/web-application-security/web-application-firewall-detection-and-evasions.md)
     * [API Security](resources-and-tool-references/offensive-cybersecurity/web-application-security/api-security.md)
     * [Cross-Site Scripting (XSS)](resources-and-tool-references/offensive-cybersecurity/web-application-security/cross-site-scripting-xss.md)
+    * [Clickjacking](resources-and-tool-references/offensive-cybersecurity/web-application-security/clickjacking.md)
     * [Deserialization](resources-and-tool-references/offensive-cybersecurity/web-application-security/deserialization.md)
     * [File Inclusion](resources-and-tool-references/offensive-cybersecurity/web-application-security/file-inclusion.md)
     * [Server Side Template Injection](resources-and-tool-references/offensive-cybersecurity/web-application-security/server-side-template-injection.md)
