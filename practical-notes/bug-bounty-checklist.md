@@ -12,10 +12,11 @@
 Daily updated Text file of all domains within scope on active Bug Bounty Programs \
 [https://github.com/arkadiyt/bounty-targets-data/blob/main/data/domains.txt](https://github.com/arkadiyt/bounty-targets-data/blob/main/data/domains.txt)
 
-| Google Dork                 | Purpose                       |
-| --------------------------- | ----------------------------- |
-| `intitle:"index of /.git/"` | Searching for Git Directories |
-| `inurl:"index.php?id="`     | Searching for PHP pages       |
+| Google Dork                             | Purpose                        |
+| --------------------------------------- | ------------------------------ |
+| `intitle:"index of /.git/"`             | Searching for Git Directories  |
+| `inurl:"index.php?id="`                 | Searching for PHP pages        |
+| `inurl:"admin/dashboard.php" site:.com` | Searching for admin dashboards |
 
 | Shodan Dork                             | Purpose                             |
 | --------------------------------------- | ----------------------------------- |
