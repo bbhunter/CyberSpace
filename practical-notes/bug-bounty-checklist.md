@@ -24,6 +24,19 @@ Daily updated Text file of all domains within scope on active Bug Bounty Program
 |                                         |                                     |
 |                                         |                                     |
 
+## Recon one-liner (bash script)&#x20;
+
+from [@notnci](https://gist.github.com/notnci/e65f9d1a167909f1a3f352aded53998b) with beginner explanation
+
+`shodan download testing 'cloud.region:"us-east-1" 200 product:"Elastic" port:8001'; shodan parse --fields ip_str,port testing.json.gz | tee testing_parsed.out | awk '{print$1":"$2}' | httpx -silent -o testing_httpx.out | nuclei -as -silent -o testing_nuclei.out; cat testing_nuclei.out | awk -F " " '{print $6}' | grip | uniq -u | tee testing_vuln_ips.out | nrich - | tee testing_nrich.out`
+
+* Shodan is a search engine for internet-connected devices. The `download` command appears to be attempting to search for devices in the US East (N. Virginia) region that have a product named "Elastic" and are listening on port 8001. The `parse` command is used to extract certain fields (in this case, `ip_str` and `port`) from the results of the search, which are stored in the file `testing.json.gz`.
+* `httpx` is a tool that can be used to perform HTTP requests and analyze the response. In this case, the command appears to be using the `-silent` flag to suppress output and the `-o` flag to write the response to a file called `testing_httpx.out`. The input for this command appears to be the list of IP addresses and ports extracted from the Shodan search results.
+* `nuclei` is a tool for detecting vulnerabilities and misconfigurations in web applications. The `-as` flag stands for "active scan", which means that the tool will perform various types of requests to the target web application in order to identify potential vulnerabilities. The `-silent` flag suppresses output, and the `-o` flag specifies an output file for the results. The input for this command appears to be the list of IP addresses and ports extracted from the Shodan search results.
+* `awk` is a tool for processing text files. The command appears to be extracting the sixth field (`$6`) from the output of the `nuclei` command, which is piped (`|`) to the `grip` command.
+* `grip` is a command line tool for rendering local readme files before sending them to GitHub. In this case, it appears to be used to render the output of the `awk` command, which is then passed to `uniq` with the `-u` flag to remove duplicate lines. The resulting list of unique lines is written to the file `testing_vuln_ips.out`.
+* `nrich` is a tool for performing OSINT (Open Source Intelligence) on IP addresses. The input for this command appears to be the list of IP addresses and ports extracted from the Shodan search results, and the `-` flag tells the tool to read the input from standard input (stdin). The results are written to the file `testing_nrich.out`.
+
 
 
 Sensitive Information Exposure methods\
