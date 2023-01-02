@@ -20,6 +20,10 @@ description: >-
 
       `Referer: example.com/users/`<mark style="color:red;">`02`</mark>                                        =>             `200 OK`
 * [ ] Encrypted IDs: If application is using encrypted IDs, try to decrypt using hashing/cracking tool
+* [ ] Send wildcard `{""user_id"":""*""}`
+* [ ] Send ID twice `URL?id=&id=`
+* [ ] JSON wrap {“id”:111} --> `{“id”:{“id”:111}}`
+* [ ] Wrap ID with an array {“id”:111} --> `{“id”:[111]}`
 * [ ] Swap GUID with Numeric ID or email:\
   `/users/XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXX`   => `/users/02` or `/users/a@b.com`
 * [ ] Try GUIDs such as:\
