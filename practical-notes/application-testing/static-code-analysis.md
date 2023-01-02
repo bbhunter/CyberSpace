@@ -2,7 +2,7 @@
 
 Install semgrep ([SonarQube](https://docs.sonarqube.org/latest/analyzing-source-code/overview/) alternative):
 
-[semgrep](https://semgrep.dev/docs/getting-started/) - static source code analyzer which works on on over 25  languages
+[semgrep](https://semgrep.dev/docs/getting-started/) - static source code analyzer which works on over 25  languages
 
 Install: `python3 -m pip install semgrep`
 
