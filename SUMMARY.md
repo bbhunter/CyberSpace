@@ -60,6 +60,7 @@
 * [Basic Linux for CTFs](practical-notes/basic-linux-for-ctfs.md)
 * [Nmap](practical-notes/nmap.md)
 * [Bug Bounty Checklist](practical-notes/bug-bounty-checklist/README.md)
+  * [Recon](practical-notes/bug-bounty-checklist/recon.md)
   * [SQLi](practical-notes/bug-bounty-checklist/sqli.md)
 * [Application Testing](practical-notes/application-testing/README.md)
   * [Static Code Analysis](practical-notes/application-testing/static-code-analysis.md)
