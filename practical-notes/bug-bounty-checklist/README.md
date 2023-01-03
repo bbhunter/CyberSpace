@@ -12,18 +12,24 @@
 Daily updated Text file of all domains within scope on active Bug Bounty Programs \
 [https://github.com/arkadiyt/bounty-targets-data/blob/main/data/domains.txt](https://github.com/arkadiyt/bounty-targets-data/blob/main/data/domains.txt)
 
-| Google Dork                             | Purpose                        |
-| --------------------------------------- | ------------------------------ |
-| `intitle:"index of /.git/"`             | Searching for Directories      |
-| `allintext:index filetype:git`          | Search for extensions          |
-| `inurl:"index.php?id="`                 | Searching for PHP pages        |
-| `inurl:"admin/dashboard.php" site:.com` | Searching for admin dashboards |
+| Google Dork                                           | Purpose                                         |
+| ----------------------------------------------------- | ----------------------------------------------- |
+| `intitle:"index of /.git/"`                           | Searching for Directories                       |
+| `allintext:index filetype:git`                        | Search for extensions                           |
+| `inurl:"index.php?id="`                               | Searching for PHP pages                         |
+| `inurl:"admin/dashboard.php" site:.com`               | Searching for PHP admin dashboards              |
+| `Intitle: "login" "admin" site:http://site.com`       | Searching for admin login pages                 |
+| `intitle:"Index of /" .htaccess site:http://site.com` | Searching for exposed Apache configuration file |
 
 | Shodan Dork                             | Purpose                             |
 | --------------------------------------- | ----------------------------------- |
 | `hostname:".gov" product:"Jenkins" 200` | Searching Jenkins instances in .gov |
 |                                         |                                     |
 |                                         |                                     |
+
+```
+intitle:"Index of /" .htaccess site:http://site.com
+```
 
 ## Recon one-liner (bash script)&#x20;
 
