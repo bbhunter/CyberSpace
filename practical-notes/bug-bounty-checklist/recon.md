@@ -40,7 +40,7 @@ curl -sL https://github.com/arkadiyt/bounty-targets-data/raw/master/data/federac
 
 
 
-## Recon one-liner&#x20;
+## Recon one-liners&#x20;
 
 from [@notnci](https://gist.github.com/notnci/e65f9d1a167909f1a3f352aded53998b) with beginner explanation
 
@@ -57,7 +57,17 @@ shodan download testing 'cloud.region:"us-east-1" 200 product:"Elastic" port:800
 * `grip` is a command line tool for rendering local readme files before sending them to GitHub. In this case, it is used to render the output of the `awk` command, which is then passed to `uniq` with the `-u` flag to remove duplicate lines. The resulting list of unique lines is written to the file `testing_vuln_ips.out`.
 * [`nrich`](https://gitlab.com/shodan-public/nrich) is a tool for performing OSINT (Open Source Intelligence) on IP addresses. The input for this command appears to be the list of IP addresses and ports extracted from the Shodan search results, and the `-` flag tells the tool to read the input from standard input (stdin). The results are written to the file `testing_nrich.out`.
 
+### Find SQLi at scale
 
+`# collect target urls`\
+``\
+`subfinder -d site.com -silent - all | httpx -silent -threads 100 | katana -d 4 -jc -ef css,png,svg,ico,woff,gif | tee -a urls`\
+``\
+`# filter potential SQLi Url`\
+`cat urls | gf sqli | tee -a sqli`\
+``\
+`# run test`\
+`while read line; do sqlmap -u $line --parse-errors --curent-db --invalid-logical --invalid-bignum --invalid-string --risk 3; done < sqli`
 
 #### Local File Inclusion
 
