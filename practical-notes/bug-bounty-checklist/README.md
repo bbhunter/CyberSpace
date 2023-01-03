@@ -30,6 +30,10 @@ from [@notnci](https://gist.github.com/notnci/e65f9d1a167909f1a3f352aded53998b) 
 
 `shodan download testing 'cloud.region:"us-east-1" 200 product:"Elastic" port:8001'; shodan parse --fields ip_str,port testing.json.gz | tee testing_parsed.out | awk '{print$1":"$2}' | httpx -silent -o testing_httpx.out | nuclei -as -silent -o testing_nuclei.out; cat testing_nuclei.out | awk -F " " '{print $6}' | grip | uniq -u | tee testing_vuln_ips.out | nrich - | tee testing_nrich.out`
 
+```
+shodan download testing 'cloud.region:"us-east-1" 200 product:"Elastic" port:8001'; shodan parse --fields ip_str,port testing.json.gz | tee testing_parsed.out | awk '{print$1":"$2}' | httpx -silent -o testing_httpx.out | nuclei -as -silent -o testing_nuclei.out; cat testing_nuclei.out | awk -F " " '{print $6}' | grip | uniq -u | tee testing_vuln_ips.out | nrich - | tee testing_nrich.out
+```
+
 * The `shodan download` command is attempting to search for devices in the US East (N. Virginia) region that have a product named "Elastic" and are listening on port 8001. The `parse` command is used to extract certain fields (in this case, `ip_str` and `port`) from the results of the search, which are stored in the file `testing.json.gz`.
 * `httpx` is a tool that can be used to perform HTTP requests and analyze the response. In this case, the command is using the `-silent` flag to suppress output and the `-o` flag to write the response to a file called `testing_httpx.out`. The input for this command appears to be the list of IP addresses and ports extracted from the Shodan search results.
 * ``[`nuclei`](https://github.com/projectdiscovery/nuclei) is a tool for detecting vulnerabilities and misconfigurations in web applications. The `-as` flag stands for "active scan", which means that the tool will perform various types of requests to the target web application in order to identify potential vulnerabilities. The `-silent` flag suppresses output, and the `-o` flag specifies an output file for the results. The input for this command is the list of IP addresses and ports extracted from the Shodan search results.
