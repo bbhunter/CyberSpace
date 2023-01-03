@@ -14,7 +14,8 @@ Daily updated Text file of all domains within scope on active Bug Bounty Program
 
 | Google Dork                             | Purpose                        |
 | --------------------------------------- | ------------------------------ |
-| `intitle:"index of /.git/"`             | Searching for Git Directories  |
+| `intitle:"index of /.git/"`             | Searching for Directories      |
+| `allintext:index filetype:git`          | Search for extensions          |
 | `inurl:"index.php?id="`                 | Searching for PHP pages        |
 | `inurl:"admin/dashboard.php" site:.com` | Searching for admin dashboards |
 
