@@ -1,6 +1,6 @@
 # Recon One-Liner
 
-### Dump In-scope Assets from BBPs using `bounty-targets-data`
+### Dump In-scope Assets from BBPs using repo from [@arkadiyt](https://github.com/arkadiyt/bounty-targets-data)
 
 **HackerOne Programs**
 
