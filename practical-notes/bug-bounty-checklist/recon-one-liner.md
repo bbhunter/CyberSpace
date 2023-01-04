@@ -38,7 +38,11 @@ curl -sL https://raw.githubusercontent.com/arkadiyt/bounty-targets-data/main/dat
 curl -sL https://raw.githubusercontent.com/arkadiyt/bounty-targets-data/main/data/federacy_data.json | jq -r '.[].targets.in_scope[] | [.target, .type] | @tsv'
 ```
 
+Dump list of all BBP Domains that are in scope
 
+```
+curl -sL https://raw.githubusercontent.com/arkadiyt/bounty-targets-data/main/data/domains.txt
+```
 
 ### Martian Grip
 
