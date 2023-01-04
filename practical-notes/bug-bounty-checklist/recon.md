@@ -5,37 +5,37 @@
 **HackerOne Programs**
 
 ```bash
-curl -sL https://github.com/arkadiyt/bounty-targets-data/blob/master/data/hackerone_data.json?raw=true | jq -r '.[].targets.in_scope[] | [.asset_identifier, .asset_type] | @tsv'
+curl -sL https://raw.githubusercontent.com/arkadiyt/bounty-targets-data/main/data/hackerone_data.json | jq -r '.[].targets.in_scope[] | [.asset_identifier, .asset_type] | @tsv'
 ```
 
 **BugCrowd Programs**
 
 ```bash
-curl -sL https://github.com/arkadiyt/bounty-targets-data/raw/master/data/bugcrowd_data.json | jq -r '.[].targets.in_scope[] | [.target, .type] | @tsv'
+curl -sL https://raw.githubusercontent.com/arkadiyt/bounty-targets-data/main/data/bugcrowd_data.json | jq -r '.[].targets.in_scope[] | [.target, .type] | @tsv'
 ```
 
 **Intigriti Programs**
 
 ```bash
-curl -sL https://github.com/arkadiyt/bounty-targets-data/raw/master/data/intigriti_data.json | jq -r '.[].targets.in_scope[] | [.endpoint, .type] | @tsv'
+curl -sL https://raw.githubusercontent.com/arkadiyt/bounty-targets-data/main/data/intigriti_data.json | jq -r '.[].targets.in_scope[] | [.endpoint, .type] | @tsv'
 ```
 
 **YesWeHack Programs**
 
 ```bash
-curl -sL https://github.com/arkadiyt/bounty-targets-data/raw/master/data/yeswehack_data.json | jq -r '.[].targets.in_scope[] | [.target, .type] | @tsv'
+curl -sL https://raw.githubusercontent.com/arkadiyt/bounty-targets-data/main/data/yeswehack_data.json | jq -r '.[].targets.in_scope[] | [.target, .type] | @tsv'
 ```
 
 **HackenProof Programs**
 
 ```bash
-curl -sL https://github.com/arkadiyt/bounty-targets-data/raw/master/data/hackenproof_data.json | jq -r '.[].targets.in_scope[] | [.target, .type, .instruction] | @tsv'
+curl -sL https://raw.githubusercontent.com/arkadiyt/bounty-targets-data/main/data/hackenproof_data.json | jq -r '.[].targets.in_scope[] | [.target, .type, .instruction] | @tsv'
 ```
 
 **Federacy Programs**
 
 ```bash
-curl -sL https://github.com/arkadiyt/bounty-targets-data/raw/master/data/federacy_data.json | jq -r '.[].targets.in_scope[] | [.target, .type] | @tsv'
+curl -sL https://raw.githubusercontent.com/arkadiyt/bounty-targets-data/main/data/federacy_data.json | jq -r '.[].targets.in_scope[] | [.target, .type] | @tsv'
 ```
 
 
