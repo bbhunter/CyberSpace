@@ -40,9 +40,11 @@ curl -sL https://raw.githubusercontent.com/arkadiyt/bounty-targets-data/main/dat
 
 Dump list of all BBP Domains that are in scope
 
+{% code overflow="wrap" %}
 ```
-curl -sL https://raw.githubusercontent.com/arkadiyt/bounty-targets-data/main/data/domains.txt
+curl -sL https://raw.githubusercontent.com/arkadiyt/bounty-targets-data/main/data/domains.txt > domains.txt
 ```
+{% endcode %}
 
 ### Martian Grip
 
