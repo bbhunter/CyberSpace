@@ -1,4 +1,4 @@
-# Recon
+# Recon One-Liner
 
 ### Dump In-scope Assets from BBPs using `bounty-targets-data`
 
@@ -40,7 +40,7 @@ curl -sL https://raw.githubusercontent.com/arkadiyt/bounty-targets-data/main/dat
 
 
 
-## Recon one-liners&#x20;
+### Martian Grip
 
 from [@notnci](https://gist.github.com/notnci/e65f9d1a167909f1a3f352aded53998b) with beginner explanation
 
