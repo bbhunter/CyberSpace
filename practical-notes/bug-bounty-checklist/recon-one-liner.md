@@ -38,11 +38,11 @@ curl -sL https://raw.githubusercontent.com/arkadiyt/bounty-targets-data/main/dat
 curl -sL https://raw.githubusercontent.com/arkadiyt/bounty-targets-data/main/data/federacy_data.json | jq -r '.[].targets.in_scope[] | [.target, .type] | @tsv'
 ```
 
-Dump list of all BBP Domains that are in scope
+Dump list of all BBP Domains that are in scope and identify those without dns names (ips.txt)
 
 {% code overflow="wrap" %}
 ```
-curl -sL https://raw.githubusercontent.com/arkadiyt/bounty-targets-data/main/data/domains.txt > domains.txt
+curl -sL https://raw.githubusercontent.com/arkadiyt/bounty-targets-data/main/data/domains.txt > domains.txt && grep -E -o '(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)' domains.txt > ips.txt
 ```
 {% endcode %}
 
