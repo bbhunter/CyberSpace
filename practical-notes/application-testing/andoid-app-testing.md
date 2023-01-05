@@ -1,4 +1,4 @@
-# Andoid App Testing
+# Android Application Testing
 
 `TargetSdkversion` \
 ``OS version an app was designed for\
@@ -8,3 +8,8 @@
 ``\
 `<uses-sdk android:minSdkVersion="17" android:minSdkVersion="21"/>` \
 `App minimum and maximum supported versions(range)`
+
+
+
+\
+[APKLeaks](https://github.com/dwisiswant0/apkleaks) - analyze compiled APK file
