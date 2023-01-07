@@ -1,6 +1,6 @@
 ---
-cover: .gitbook/assets/Martian Defense 2022.png
-coverY: 0
+cover: .gitbook/assets/Shield.jpg
+coverY: 336.6371787208608
 ---
 
 # CyberSpace Gitbook
