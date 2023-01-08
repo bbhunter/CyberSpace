@@ -1,6 +1,6 @@
 ---
 cover: .gitbook/assets/Shield.jpg
-coverY: 348.1841004184101
+coverY: 337.797967722654
 ---
 
 # CyberSpace Gitbook
