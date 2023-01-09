@@ -1,9 +1,9 @@
 # Language learning resources
 
-| General                                                                                                  |                                                                                     |
-| -------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| [Interactive language learning Repo from @ronreiter](https://github.com/ronreiter/interactive-tutorials) | [Free Programming Books](https://github.com/EbookFoundation/free-programming-books) |
-| [LearnXinYminutes](https://learnxinyminutes.com/)- Language Learning Site                                |                                                                                     |
+| General                                                                                                  |                                                                                         |
+| -------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| [Interactive language learning Repo from @ronreiter](https://github.com/ronreiter/interactive-tutorials) | [Free Programming Books](https://github.com/EbookFoundation/free-programming-books)     |
+| [LearnXinYminutes](https://learnxinyminutes.com/)- Language Learning Site                                | [DevDocs](https://devdocs.io/) - searchable library of various common API documentation |
 
 | Linux/Shellcode                              |                                            |                                                    |                                            |
 | -------------------------------------------- | ------------------------------------------ | -------------------------------------------------- | ------------------------------------------ |
