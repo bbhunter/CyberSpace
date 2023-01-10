@@ -8,8 +8,8 @@
 
 ## Web Fuzzing
 
-|                                                                                   |   |   |
-| --------------------------------------------------------------------------------- | - | - |
-| [OnelistForall](https://github.com/six2dez/OneListForAll) - AKA Rockyou for web ! |   |   |
-|                                                                                   |   |   |
-|                                                                                   |   |   |
+|                                                                                   |                                                    |   |
+| --------------------------------------------------------------------------------- | -------------------------------------------------- | - |
+| [OnelistForall](https://github.com/six2dez/OneListForAll) - AKA Rockyou for web ! | [FuzzDB](https://github.com/fuzzdb-project/fuzzdb) |   |
+|                                                                                   |                                                    |   |
+|                                                                                   |                                                    |   |
