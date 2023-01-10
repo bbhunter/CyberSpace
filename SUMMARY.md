@@ -21,7 +21,7 @@
     * [OSINT Tools](resources-and-tool-references/offensive-cybersecurity/osint/osint-tools.md)
   * [Wordlists and Passwords](resources-and-tool-references/offensive-cybersecurity/wordlists-and-passwords.md)
   * [Social Engineering](resources-and-tool-references/offensive-cybersecurity/social-engineering.md)
-  * [Web Application Security](resources-and-tool-references/offensive-cybersecurity/web-application-security/README.md)
+  * [Application Security Testing](resources-and-tool-references/offensive-cybersecurity/web-application-security/README.md)
     * [Reconnaissance](resources-and-tool-references/offensive-cybersecurity/web-application-security/reconnaissance.md)
     * [SubDomain/DNS Enumeration](resources-and-tool-references/offensive-cybersecurity/web-application-security/subdomain-dns-enumeration.md)
     * [Web Application Firewall Detection and Evasions](resources-and-tool-references/offensive-cybersecurity/web-application-security/web-application-firewall-detection-and-evasions.md)
