@@ -2,15 +2,15 @@
 description: Languages
 ---
 
-# Languages, programming and coding
+# Scripting, programming, and coding languages
 
 
 
-| Languages                                               |                               |                           |                                    |
+| Scripting/Programming Docs                              |                               |                           |                                    |
 | ------------------------------------------------------- | ----------------------------- | ------------------------- | ---------------------------------- |
 | [Python](https://wiki.python.org/moin/BeginnersGuide) ! | [C](https://www.learn-c.org/) | [Go](https://www.go.dev/) | [Rust](https://www.rust-lang.org/) |
 
-| Web Languages                                             |                                                        |                                                    |
+| Web Language Docs                                         |                                                        |                                                    |
 | --------------------------------------------------------- | ------------------------------------------------------ | -------------------------------------------------- |
 | [SOAP](https://www.w3schools.com/XML/xml\_soap.asp) (XML) | [GraphQL](https://graphql.org/)                        | [HTML](https://www.w3schools.com/html/default.asp) |
 | [CSS](https://www.w3schools.com/Css/)                     | [JavaScript](https://www.w3schools.com/js/DEFAULT.asp) |                                                    |
@@ -28,7 +28,7 @@ description: Languages
 | [Linux Hint](https://linuxhint.com/)         | [Linux Command](https://linuxcommand.org/) | [Linux Handbook](https://linuxhandbook.com/)       | [Linux Journey](https://linuxjourney.com/) |
 | [Linux Survival](https://linuxsurvival.com/) | [Tecmint](https://www.tecmint.com/)        | [Python Tutorial](https://www.pythontutorial.net/) |                                            |
 
-| Web Languages                                                             |                                                                                    |                                                                                        |
+| Web Languages Practice                                                    |                                                                                    |                                                                                        |
 | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | [Codepen](https://codepen.io/) - build, test, and discover front-end code | [The Odin Project](https://www.theodinproject.com/) - full-stack curriculum (free) | [Codeply](https://www.codeply.com/) - HTML/CSS/JS editor with frameworks and templates |
 |                                                                           |                                                                                    |                                                                                        |
