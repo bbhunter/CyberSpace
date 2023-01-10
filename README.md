@@ -1,9 +1,8 @@
 ---
-cover: .gitbook/assets/Shield.jpg
-coverY: 337.797967722654
+coverY: 0
 ---
 
-# CyberSpace Gitbook
+# CyberSpace
 
 Welcome to the CyberSpace Gitbook!! The content and links within this resource align with modern technologies and methodologies.
 
