@@ -5,8 +5,7 @@
 
 ## Resources and Tool References
 
-* [Cybersecurity Podcasts](resources-and-tool-references/cybersecurity-podcasts.md)
-* [Youtube Channels](resources-and-tool-references/youtube-channels.md)
+* [Cybersecurity Media](resources-and-tool-references/cybersecurity-podcasts.md)
 * [Languages, programming and coding](resources-and-tool-references/system-programming-coding/README.md)
   * [Language learning resources](resources-and-tool-references/system-programming-coding/learn-linux-shellcode.md)
   * [SECURE CODING AND CHALLENGES](resources-and-tool-references/system-programming-coding/secure-coding-and-challenges.md)
