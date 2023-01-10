@@ -8,7 +8,6 @@
 * [Cybersecurity Media](resources-and-tool-references/cybersecurity-podcasts.md)
 * [Languages, programming and coding](resources-and-tool-references/system-programming-coding/README.md)
   * [Language learning resources](resources-and-tool-references/system-programming-coding/learn-linux-shellcode.md)
-  * [SECURE CODING AND CHALLENGES](resources-and-tool-references/system-programming-coding/secure-coding-and-challenges.md)
 * [Training, Labs, and Challenges](resources-and-tool-references/training-labs-and-challenges/README.md)
 * [Offensive-Cybersecurity](resources-and-tool-references/offensive-cybersecurity/README.md)
   * [General Offensive Resources](resources-and-tool-references/offensive-cybersecurity/general-offensive-resources.md)

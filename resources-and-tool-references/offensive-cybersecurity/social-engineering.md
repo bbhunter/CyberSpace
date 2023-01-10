@@ -19,9 +19,7 @@ SMS Services
 | [ReceivefreeSMS](http://receivefreesms.com/)                                                                                                                                                    | [7sim](https://7sim.org/)                                                                                                                                                             | [1S2U](https://1s2u.com/)                                                                                                                                                               |
 | [Text anywhere](http://www.textanywhere.net/)                                                                                                                                                   | [Proovl](https://www.proovl.com/numbers)                                                                                                                                              | [Groovl](https://www.groovl.com/)                                                                                                                                                       |
 
-
-
-Text anywhere: http://www.textanywhere.net/ Proovl: https://www.proovl.com/numbers Receive free SMS.NET: http://receivefreesms.net/ 5SIM: https://5sim.net/ Receive SMS Online.IN: http://receivesmsonline.in/ Receive SMS online.EU: http://receivesmsonline.eu/ Groovl: https://www.groovl.com/ 1S2U: https://1s2u.com/ Receive SMS: http://sms-receive.net/ Receive free SMS: http://receivefreesms.com/ Receive SMS online: https://receive-sms-online.com/ Receive an SMS: https://receive-a-sms.com/ 7 SIM.NET: http://7sim.net/: Free SMS code: HS3X: http://hs3x.com/ Get a free SMS number: https://getfreesmsnumber.com/ See SMS: https://www.smsver.com/ Trash Mobile https://es.mytrashmobile.com/numeros[\
+[\
 \
 \
 \
