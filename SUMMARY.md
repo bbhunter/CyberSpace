@@ -37,7 +37,7 @@
     * [Static Code Analysis](resources-and-tool-references/offensive-cybersecurity/web-application-security/static-code-analysis.md)
   * [Mobile Penetration Testing](resources-and-tool-references/offensive-cybersecurity/mobile-application-security.md)
   * [Network Penetration Testing](resources-and-tool-references/offensive-cybersecurity/network-penetration-testing.md)
-  * [System Penetration Testing](resources-and-tool-references/offensive-cybersecurity/system-penetration-testing/README.md)
+  * [System Testing](resources-and-tool-references/offensive-cybersecurity/system-penetration-testing/README.md)
     * [Encryption/Decryption](resources-and-tool-references/offensive-cybersecurity/system-penetration-testing/encryption-decryption.md)
     * [Exploitation Tools](resources-and-tool-references/offensive-cybersecurity/system-penetration-testing/exploitation-tools.md)
     * [Malware Development](resources-and-tool-references/offensive-cybersecurity/system-penetration-testing/malware-development.md)
