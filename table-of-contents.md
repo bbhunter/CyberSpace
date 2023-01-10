@@ -4,8 +4,8 @@
 
 * [Cybersecurity Podcasts](resources-and-tool-references/cybersecurity-podcasts.md)
 * [Youtube Channels](broken-reference)
-* [Languages, programming and coding](resources-and-tool-references/system-programming-coding/)
-  * [Language learning resources](resources-and-tool-references/system-programming-coding/learn-linux-shellcode.md)
+* [Languages, programming and coding](resources-and-tool-references/system-programming-coding.md)
+  * [Language learning resources](broken-reference)
   * [SECURE CODING AND CHALLENGES](broken-reference)
 * [Training-Labs-and-challenges](resources-and-tool-references/training-labs-and-challenges/)
   * [Lab Environments](broken-reference)

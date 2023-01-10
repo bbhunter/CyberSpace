@@ -5,9 +5,6 @@
 
 ## Resources and Tool References
 
-* [Cybersecurity Media](resources-and-tool-references/cybersecurity-podcasts.md)
-* [Languages, programming and coding](resources-and-tool-references/system-programming-coding/README.md)
-  * [Language learning resources](resources-and-tool-references/system-programming-coding/learn-linux-shellcode.md)
 * [Training, Labs, and Challenges](resources-and-tool-references/training-labs-and-challenges/README.md)
 * [Offensive-Cybersecurity](resources-and-tool-references/offensive-cybersecurity/README.md)
   * [General Offensive Resources](resources-and-tool-references/offensive-cybersecurity/general-offensive-resources.md)
@@ -48,6 +45,8 @@
   * [Malware Resources for Analysis/Reverse Engineering](resources-and-tool-references/defensive-cybersecurity/malware-resources-for-analysis-reverse-engineering.md)
   * [Log Files - Unix](resources-and-tool-references/defensive-cybersecurity/log-files-unix.md)
   * [Vulnerability Scanning](resources-and-tool-references/defensive-cybersecurity/vulnerability-scanning.md)
+* [Languages, programming and coding](resources-and-tool-references/system-programming-coding.md)
+* [Cybersecurity Media](resources-and-tool-references/cybersecurity-podcasts.md)
 * [Additional Tools](resources-and-tool-references/general-tools.md)
 
 ## Practical Notes
