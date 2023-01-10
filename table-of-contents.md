@@ -7,7 +7,7 @@
 * [Languages, programming and coding](resources-and-tool-references/system-programming-coding/)
   * [Language learning resources](resources-and-tool-references/system-programming-coding/learn-linux-shellcode.md)
   * [SECURE CODING AND CHALLENGES](resources-and-tool-references/system-programming-coding/secure-coding-and-challenges.md)
-* [Training-Labs-and-challenges](resources-and-tool-references/training-labs-and-challenges.md)
+* [Training-Labs-and-challenges](resources-and-tool-references/training-labs-and-challenges/)
   * [Lab Environments](broken-reference)
   * [CTF Platforms](broken-reference)
   * [More Watching, Reading and Repos](broken-reference)

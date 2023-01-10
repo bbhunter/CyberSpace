@@ -1,4 +1,4 @@
-# Training-Labs-and-challenges
+# Training,-Labs,-and-Challenges
 
 ## Lab Environments
 
