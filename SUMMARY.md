@@ -55,7 +55,7 @@
 * [Nmap](practical-notes/nmap.md)
 * [Bug Bounty](practical-notes/bug-bounty-checklist/README.md)
   * [Recon One-Liners](practical-notes/bug-bounty-checklist/recon-one-liners.md)
-* [Interesting Web Paths](practical-notes/interesting-web-paths.md)
+  * [Interesting Web Paths](practical-notes/bug-bounty-checklist/interesting-web-paths.md)
 * [Application Testing](practical-notes/application-testing/README.md)
   * [Static Code Analysis](practical-notes/application-testing/static-code-analysis.md)
   * [File Inclusion](practical-notes/application-testing/file-inclusion.md)
