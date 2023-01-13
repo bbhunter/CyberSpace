@@ -66,7 +66,7 @@
 * [Insecure Direct Object Reference (IDOR) Checklist](practical-notes/application-testing/insecure-direct-object-reference-idor-checklist.md)
 * [Command Injection Testing](practical-notes/command-injection-testing.md)
 * [DNS](practical-notes/dns.md)
-  * [nslookup/dig](practical-notes/dns/nslookup-dig.md)
+  * [nslookup/dig](broken-reference)
 * [curl](practical-notes/page-1.md)
 * [SSH & SSL](practical-notes/ssh-and-ssl.md)
 * [JSON](practical-notes/json.md)

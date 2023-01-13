@@ -2,7 +2,7 @@
 description: Reliable Resources for AppSec
 ---
 
-# Web Application Security
+# Application Security Testing
 
 | General                                                                                                              |                                                                                                                                         |                                                                                      |
 | -------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
@@ -12,4 +12,4 @@ description: Reliable Resources for AppSec
 | [Bug Hunter Handbook](https://gowthams.gitbook.io/bughunter-handbook)                                                | [Awesome Bug Bounty Resources](https://github.com/djadmin/awesome-bug-bounty)                                                           | [Awesome Bug Bounty Hunting Tool](https://github.com/0xApt/awesome-bbht)             |
 | [Awesome Hacking Resources](https://github.com/vitalysim/Awesome-Hacking-Resources)                                  | [Damn Vulnerable PHP App](https://github.com/c0brabaghdad1/DVPA)                                                                        | [Vulnerable Java Application](https://github.com/CSPF-Founder/JavaVulnerableLab)     |
 | [OWASP Secrets Management focused vulnerable app](https://github.com/commjoen/wrongsecrets)                          | [403 byebye](https://github.com/nxenon/403-byebye)                                                                                      | [Bug Bounty Wiki](https://bug.bounty.wiki/)                                          |
-| [Awesome Application Security Checklist](https://github.com/MahdiMashrur/Awesome-Application-Security-Checklist)     |                                                                                                                                         |                                                                                      |
+| [Awesome Application Security Checklist](https://github.com/MahdiMashrur/Awesome-Application-Security-Checklist)     | [OWASP Vulnerability Scanner Tool List](https://owasp.org/www-community/Vulnerability\_Scanning\_Tools)                                 |                                                                                      |
