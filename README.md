@@ -5,10 +5,12 @@ coverY: -12
 
 # CyberSpace
 
-Welcome to the CyberSpace Notebook!! The content and links within this resource align with modern technologies and methodologies.
-
-View the table of contents below to quickly find exactly what you are looking for to meet your practical resources and cybersecurity learning journey.
+Welcome to the CyberSpace Notebook!!&#x20;
 
 <figure><img src=".gitbook/assets/shielddarksmall.jpg" alt=""><figcaption></figcaption></figure>
+
+#### What is this?
+
+This is a gitbook with Cybersecurity Resources and practical notes from my professional journey as cybersecurity professional. It is a work in progress and is completed sporadically but frequently.
 
 Ensure to review other projects and join our Discord community at [https://linktr.ee/martian1337](https://linktr.ee/martian1337)&#x20;
