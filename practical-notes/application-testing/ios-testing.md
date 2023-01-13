@@ -3,6 +3,7 @@
 Jailbreak Tools:
 
 Linux Jailbreak Software Checkra1n\
+[Palera1n (newer iOS Jailbreak)](https://github.com/palera1n/palera1n)\
 \
 Windows version of Checkra1n - iRa1n \
 3utools.com - iOS device management tool
