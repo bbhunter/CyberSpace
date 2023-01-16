@@ -1,8 +1,4 @@
----
-description: Languages
----
-
-# Scripting, programming, and coding languages
+# Scripting, programming, and coding
 
 
 
@@ -33,7 +29,15 @@ description: Languages
 | [Codepen](https://codepen.io/) - build, test, and discover front-end code | [The Odin Project](https://www.theodinproject.com/) - full-stack curriculum (free) | [Codeply](https://www.codeply.com/) - HTML/CSS/JS editor with frameworks and templates |
 |                                                                           |                                                                                    |                                                                                        |
 
-## SECURE CODING AND CHALLENGES
+## SECURE CODING
+
+| Coding References                                                                                                                             |                                                                                                                                              |                                                                                                                                                   |
+| --------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Visual Studio Download](https://visualstudio.microsoft.com/downloads/) (VS)                                                                  | [Snyk Vulnerability Scanner](https://docs.snyk.io/ide-tools/visual-studio-code-extension) - extension that does analysis while using VS Code | [AWS CodeWhisperer](https://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/codewhisperer.html) - ML-powered code suggestion VS extension |
+| [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) - VS extension that shows web projects while coding |                                                                                                                                              |                                                                                                                                                   |
+|                                                                                                                                               |                                                                                                                                              |                                                                                                                                                   |
+
+## Challenges
 
 |                                             |                                                           |                                       |                                             |
 | ------------------------------------------- | --------------------------------------------------------- | ------------------------------------- | ------------------------------------------- |
