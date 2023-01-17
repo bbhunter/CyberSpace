@@ -2,7 +2,7 @@
 description: Digital Forensics and Incident Response
 ---
 
-# DFIR
+# DFIR Tools
 
 
 
@@ -18,3 +18,11 @@ description: Digital Forensics and Incident Response
 | [PiRogue Tool Suite (Mobile Device Forensics)](https://github.com/PiRogueToolSuite)         | [PowerGRR](https://github.com/swisscom/PowerGRR)                      | [rkhunter Linux RootKit Scanner](https://salsa.debian.org/pkg-security-team/rkhunter)         |
 | [SANS Sift Workstation Forensic Tool](https://www.sans.org/tools/sift-workstation/)         | [FTK Imager](https://www.exterro.com/forensic-toolkit) !              | [IoT Digital Forensics course](https://github.com/RJC497/IoT-Digital-Forensics-Course) (free) |
 | [C2-Hunter](https://github.com/ZeroMemoryEx/C2-Hunter) - Real-time extraction of C2 traffic |                                                                       |                                                                                               |
+
+#### File/email analysis and sandboxes
+
+|                                                                                                             |                                                           |                                             |
+| ----------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------- |
+| [MxToolbox](https://mxtoolbox.com/EmailHeaders.aspx) - Online email headerr analysis                        | [VirusTotlal](https://www.virustotal.com/gui/home/search) | [AnyRun](https://any.run/) - Online Sandbox |
+| [Hybrid-Analysis ](https://www.hybrid-analysis.com/)- Online Sandbox                                        | [Joe Sandbox](https://www.joesandbox.com/#windows)        | [VMRay Sandbox](https://www.vmray.com/)     |
+| [Browserling](https://app.gitbook.com/s/iTTNU6nxIY2fbSYQhK15/group-1/engagement-contacts) - Browser Sandbox |                                                           |                                             |

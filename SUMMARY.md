@@ -40,7 +40,7 @@
   * [Reverse Shells](resources-and-tool-references/offensive-cybersecurity/reverse-shells.md)
 * [Defensive-Cybersecurity](resources-and-tool-references/defensive-cybersecurity/README.md)
   * [General Defensive Resources](resources-and-tool-references/defensive-cybersecurity/general-defensive-resources.md)
-  * [DFIR](resources-and-tool-references/defensive-cybersecurity/df-and-ir.md)
+  * [DFIR Tools](resources-and-tool-references/defensive-cybersecurity/df-and-ir.md)
   * [Feeds, Trends, and Intel](resources-and-tool-references/defensive-cybersecurity/feed-and-trends.md)
   * [Malware Resources for Analysis/Reverse Engineering](resources-and-tool-references/defensive-cybersecurity/malware-resources-for-analysis-reverse-engineering.md)
   * [Log Files - Unix](resources-and-tool-references/defensive-cybersecurity/log-files-unix.md)
