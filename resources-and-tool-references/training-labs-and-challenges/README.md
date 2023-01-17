@@ -20,7 +20,7 @@
 | [Tryhackme](https://tryhackme.com/)                                                                   | [Vulnhub](https://www.vulnhub.com/) !                                                                 | [W3Challs](https://w3challs.com/)                                | [WeChall](http://www.wechall.net/)                          |
 | [XSS Challenges from @moeinfatehi](https://github.com/moeinfatehi/xss\_vulnerability\_challenges)     | [Zenk-Security](https://www.zenk-security.com/)                                                       | [Zero-Point Security](https://training.zeropointsecurity.co.uk/) |                                                             |
 
-## CTF Platforms
+#### CTF Platforms
 
 |                                                                           |                                                                      |                                                                                |
 | ------------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
@@ -35,7 +35,7 @@
 | [Hacker Gateway](https://www.hackergateway.com/)                          | [PWNX](https://pwnx.io/)                                             | [UnderTheWire](https://underthewire.tech/) - Powershell challenges             |
 | [SuNiNaTaS](http://suninatas.com/)                                        |                                                                      |                                                                                |
 
-## Reading and Repos
+#### Reading and Repos
 
 |                                                                                                                                           |                                                                                                                                 |                                                                                                                          |                                                                                                       |
 | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------- |
