@@ -72,6 +72,7 @@
   * [Android Application Testing](practical-notes/application-testing/andoid-app-testing.md)
   * [ffuf](practical-notes/application-testing/ffuf.md)
 * [Command Injection Testing](practical-notes/command-injection-testing.md)
+* [Git](practical-notes/git.md)
 * [DNS](practical-notes/dns.md)
 * [curl](practical-notes/page-1.md)
 * [SSH & SSL](practical-notes/ssh-and-ssl.md)

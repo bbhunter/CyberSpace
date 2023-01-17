@@ -1,0 +1,16 @@
+# Git
+
+#### How to commit changes from local machine
+
+| Command                                                                                                                       | Description                                                                                                                        |
+| ----------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| `git clone`                                                                                                                   | Authenticate and Clone repository that needs to managed                                                                            |
+| `git add *`                                                                                                                   | Find any files that have changed                                                                                                   |
+| `git commit –m "message to the team/users"`                                                                                   | Commit changes with a message for what changes were made                                                                           |
+| `git push origin master`                                                                                                      | Push changes to master branch                                                                                                      |
+| `git pull`                                                                                                                    | Pull changes for merging/updates                                                                                                   |
+| `git checkout -b testfile.version-number`                                                                                     | <p>Make changes isolated from the master production branch. <br><br>The -b signifies creating a new branch that doesn't exist.</p> |
+| `git push origin --delete testfile.version-number`                                                                            | Delete the testing file/branch after changes                                                                                       |
+| <p><code>ls; git log</code> <br><code>git checkout [commitid]</code> <br><code>git revert</code> <br><code>git log</code></p> | Revert changes made by checking out the commit via commit id with log command                                                      |
+| `git reset --hard origin/master`                                                                                              | Hard Reset after making local changes but the git commit is unwanted or has errors on the local machine                            |
+| <p><code>git clean -nxd</code> <br><code></code><br><code>git clean -fxd</code></p>                                           | Clean directories that were made during changes                                                                                    |
