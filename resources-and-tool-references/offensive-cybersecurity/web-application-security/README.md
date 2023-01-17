@@ -4,6 +4,17 @@ description: Reliable Resources for AppSec
 
 # Application Security Testing
 
+#### Getting Started
+
+| Component              |  Description                                                                                                                                                                                                   |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Back end Servers       | The hardware and operating system that hosts all other components and are usually run on operating systems like Linux, Windows, or using Containers.                                                           |
+| Web Servers            | Web servers handle HTTP requests and connections. Some examples are Apache, NGINX, and IIS.                                                                                                                    |
+| Databases              | Databases (DBs) store and retrieve the web application data. Some examples of relational databases are MySQL, MSSQL, Oracle, PostgreSQL, while examples of non-relational databases include NoSQL and MongoDB. |
+| Development Frameworks | Development Frameworks are used to develop the core Web Application. Some well-known frameworks include PHP, C#, Java, Python, and NodeJS JavaScript                                                           |
+
+#### General Resources
+
 | General                                                                                                              |                                                                                                                                         |                                                                                      |
 | -------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
 | [TCM Security PWST Lab Environment !](https://github.com/mttaggart/pwst-resources)                                   | [Burpsuite: Commercial Web app testing tool](https://portswigger.net/burp) !                                                            | [Awesome Burp Extensions](https://github.com/snoopysecurity/awesome-burp-extensions) |
