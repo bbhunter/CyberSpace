@@ -6,7 +6,7 @@ description: Digital Forensics and Incident Response
 
 
 
-| DF & IR                                                                                     |                                                                       |                                                                                               |
+| General DF & IR                                                                             |                                                                       |                                                                                               |
 | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
 | [ADHD](https://www.blackhillsinfosec.com/projects/adhd/)                                    | [Awesome Event IDs Repo](https://github.com/stuhli/awesome-event-ids) | [BinaryAlert](https://github.com/airbnb/binaryalert)                                          |
 | [BZAR](https://github.com/mitre-attack/bzar)                                                | [CimSweep](https://github.com/PowerShellMafia/CimSweep)               | [Cybersecurity IR Repo](https://github.com/paulveillard/cybersecurity-incident-response)      |
@@ -26,3 +26,11 @@ description: Digital Forensics and Incident Response
 | [MxToolbox](https://mxtoolbox.com/EmailHeaders.aspx) - Online email headerr analysis                        | [VirusTotlal](https://www.virustotal.com/gui/home/search) | [AnyRun](https://any.run/) - Online Sandbox |
 | [Hybrid-Analysis ](https://www.hybrid-analysis.com/)- Online Sandbox                                        | [Joe Sandbox](https://www.joesandbox.com/#windows)        | [VMRay Sandbox](https://www.vmray.com/)     |
 | [Browserling](https://app.gitbook.com/s/iTTNU6nxIY2fbSYQhK15/group-1/engagement-contacts) - Browser Sandbox |                                                           |                                             |
+
+#### M365 and Azure AD Incident Response
+
+|                                                                                                                    |                                                                                  |                                                                                              |
+| ------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| [Azure AD Investigator PowerShell module](https://github.com/AzureAD/Azure-AD-Incident-Response-PowerShell-Module) | [AzureAD Security Assessment](https://github.com/AzureAD/AzureADAssessment)      | [Mandiant Azure AD Investigator](https://github.com/mandiant/Mandiant-Azure-AD-Investigator) |
+| [CISA Sparrow](https://github.com/cisagov/Sparrow)                                                                 | [CrowdStrike Reporting Tool for Azure (CRT)](https://github.com/CrowdStrike/CRT) | [Hawk](https://github.com/T0pCyber/hawk)                                                     |
+| [AzureHound](https://github.com/BloodHoundAD/AzureHound)                                                           | [Office 365 Extractor](https://github.com/PwC-IR/Office-365-Extractor)           | [Azure Sentinel Detections](https://github.com/Azure/Azure-Sentinel/tree/master/Detections)  |
