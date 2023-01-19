@@ -1,4 +1,4 @@
-# Recon One-Liner
+# Recon One-Liners
 
 ### Dump In-scope Assets from BBPs using repo from [@arkadiyt](https://github.com/arkadiyt/bounty-targets-data)
 
@@ -204,6 +204,12 @@ curl -s "https://crt.sh/?q=%25.HOST&output=json" | jq -r '.[].name_value' | sed 
 
 ```bash
 curl "https://recon.dev/api/search?key=apikey&domain=HOST" |jq -r '.[].rawDomains[]' | sed 's/ //g' | sort -u | httpx -silent
+```
+
+#### Discover subdomains and enumerate API endpoints discovered
+
+```
+subfinder -d host.com -silent -all | httpx -silent -o host.txt; for i in $(cat host_httpx.txt); do DOMAIN=$(echo $i | unfurl format %d); ffuf -u $i/FUZZ -w common-api-endpoints.txt -o ${DOMAIN]_ffuf.txt; done
 ```
 
 #### Subdomain Bruteforcer with FFUF
