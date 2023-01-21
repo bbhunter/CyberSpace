@@ -11,6 +11,6 @@ Welcome to the CyberSpace Notebook!!&#x20;
 
 #### What is this?
 
-This is a gitbook with Cybersecurity Resources and practical notes from my professional journey as cybersecurity professional. It is a work in progress and is completed sporadically but frequently.
+This is a gitbook with Cybersecurity Resources and practical notes from my journey as a cybersecurity professional. It is a work in progress and is completed sporadically but frequently.
 
 Ensure to review other projects and join our Discord community at [https://linktr.ee/martian1337](https://linktr.ee/martian1337)&#x20;
