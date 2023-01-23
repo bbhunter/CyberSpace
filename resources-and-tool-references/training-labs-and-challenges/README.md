@@ -1,6 +1,8 @@
 # Training, Labs, and Challenges
 
-## Lab Environments
+## Offensive Training
+
+#### Lab Environments
 
 |                                                                                                       |                                                                                                       |                                                                  |                                                             |
 | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------- |
@@ -18,7 +20,7 @@
 | [Tryhackme](https://tryhackme.com/)                                                                   | [Vulnhub](https://www.vulnhub.com/) !                                                                 | [W3Challs](https://w3challs.com/)                                | [WeChall](http://www.wechall.net/)                          |
 | [XSS Challenges from @moeinfatehi](https://github.com/moeinfatehi/xss\_vulnerability\_challenges)     | [Zenk-Security](https://www.zenk-security.com/)                                                       | [Zero-Point Security](https://training.zeropointsecurity.co.uk/) |                                                             |
 
-## CTF Platforms
+#### CTF Platforms
 
 |                                                                           |                                                                      |                                                                                |
 | ------------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
@@ -33,7 +35,7 @@
 | [Hacker Gateway](https://www.hackergateway.com/)                          | [PWNX](https://pwnx.io/)                                             | [UnderTheWire](https://underthewire.tech/) - Powershell challenges             |
 | [SuNiNaTaS](http://suninatas.com/)                                        |                                                                      |                                                                                |
 
-## Reading and Repos
+#### Reading and Repos
 
 |                                                                                                                                           |                                                                                                                                 |                                                                                                                          |                                                                                                       |
 | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------- |
@@ -41,3 +43,11 @@
 | [p4nda's Bug Bounty Blog](https://enfinlay.github.io/bugbounty/2020/08/15/so-you-wanna-hack.html)                                         | [A blog on subdomain takeovers](https://enfinlay.github.io/sto/ip/domain/bugbounty/2020/09/12/ip-server-domain.html)            | [clos2100 on getting started without a technical background](https://twitter.com/pirateducky/status/1300566000665014275) | [al-madjus from 0 to bug hunter](https://klarsen.net/uncategorized/from-0-to-bug-hunter-my-journey/)  |
 | [dee-see's resources for Android Hacking](https://blog.deesee.xyz/android/security/2020/01/13/android-application-hacking-resources.html) | [Resources from @Nickyie](https://github.com/Nickyie/Cybersecurity-Resources)                                                   | [Resources from @vlakhani28](https://github.com/vlakhani28/Cyber-Security-Resources)                                     | [Book of Secret Knowledge from @trimstray](https://github.com/trimstray/the-book-of-secret-knowledge) |
 | [Resources from @rmusser01](https://github.com/rmusser01/Infosec\_Reference)                                                              | [Cybersecurity Roadmap Repo](https://github.com/0xTRAW/Cybersecurity-Roadmap)                                                   | [Hacksplaining](https://www.hacksplaining.com/) !                                                                        | ---                                                                                                   |
+
+## Defensive training
+
+| Vendor-Specific                                                              |   |   |
+| ---------------------------------------------------------------------------- | - | - |
+| [Qualys Vulnerability Management training](https://www.qualys.com/training/) |   |   |
+|                                                                              |   |   |
+|                                                                              |   |   |
