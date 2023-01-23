@@ -71,6 +71,7 @@
   * [Insecure Direct Object Reference (IDOR) Checklist](practical-notes/application-testing/insecure-direct-object-reference-idor-checklist.md)
   * [Android Application Testing](practical-notes/application-testing/andoid-app-testing.md)
   * [ffuf](practical-notes/application-testing/ffuf.md)
+* [Thick Clients](practical-notes/thick-clients.md)
 * [Command Injection Testing](practical-notes/command-injection-testing.md)
 * [Git](practical-notes/git.md)
 * [DNS](practical-notes/dns.md)
