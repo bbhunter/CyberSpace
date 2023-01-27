@@ -62,7 +62,7 @@
 * [XSS](practical-notes/application-testing/xss.md)
 * [API Security and Testing](practical-notes/application-testing/api-security-and-testing/)
   * [API Testing Checklist](practical-notes/application-testing/api-security-and-testing/api-testing-checklist.md)
-* [Bug Bounty Checklist](practical-notes/application-testing/bug-bounty-checklist/)
+* [Bug Bounty Checklist](practical-notes/bug-bounty-checklist/)
 * [Insecure Direct Object Reference (IDOR) Checklist](practical-notes/application-testing/insecure-direct-object-reference-idor-checklist.md)
 * [Command Injection Testing](practical-notes/command-injection-testing.md)
 * [DNS](practical-notes/dns.md)
