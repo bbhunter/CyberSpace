@@ -21,4 +21,4 @@ Ensure to review other projects and join our Discord community at [https://linkt
 
 
 
-Note: Some of the contents include a mixture of personal notes, projects and material that could be accredited to various authors.[NextTable of Contents](https://app.gitbook.com/s/6hMLyCaDTEPpIOdM77t5/\~/changes/znfVdWWd68m3hYLaXGno/table-of-contents)[NextTable of Contents](https://app.gitbook.com/s/6hMLyCaDTEPpIOdM77t5/\~/changes/znfVdWWd68m3hYLaXGno/table-of-contents)[NextTable of Contents](https://app.gitbook.com/s/6hMLyCaDTEPpIOdM77t5/\~/changes/znfVdWWd68m3hYLaXGno/table-of-contents)
+Note: Some of the contents include a mixture of personal notes, projects and material that could be accredited to various authors.
