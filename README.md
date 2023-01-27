@@ -21,4 +21,4 @@ Ensure to review other projects and join our Discord community at [https://linkt
 
 
 
-Note: Some of the contents include a mixture of personal notes, projects and material that could be accredited to various authors.
+Note: Some of the contents include a mixture of personal notes and projects, along with material accredited to various authors.
