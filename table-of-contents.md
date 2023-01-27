@@ -13,7 +13,7 @@
   * [More Watching, Reading and Repos](broken-reference)
 * [Offensive-Cybersecurity](resources-and-tool-references/offensive-cybersecurity/)
   * [General Offensive Resources](resources-and-tool-references/offensive-cybersecurity/general-offensive-resources.md)
-  * [Useful Extensions](resources-and-tool-references/offensive-cybersecurity/useful-extensions.md)
+  * [Useful Extensions](resources-and-tool-references/web-application-security/useful-extensions.md)
   * [OSINT](resources-and-tool-references/offensive-cybersecurity/osint/)
     * [OSINT Tools](resources-and-tool-references/offensive-cybersecurity/osint/osint-tools.md)
   * [Wordlists and Passwords](resources-and-tool-references/offensive-cybersecurity/wordlists-and-passwords.md)

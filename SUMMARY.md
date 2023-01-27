@@ -7,6 +7,7 @@
 
 * [Training, Labs, and Challenges](resources-and-tool-references/training-labs-and-challenges/README.md)
 * [Application Security](resources-and-tool-references/web-application-security/README.md)
+  * [Extensions and Plugins](resources-and-tool-references/web-application-security/useful-extensions.md)
   * [Reconnaissance](resources-and-tool-references/web-application-security/reconnaissance.md)
   * [SubDomain/DNS Enumeration](resources-and-tool-references/web-application-security/subdomain-dns-enumeration.md)
   * [Web Application Firewall Detection and Evasions](resources-and-tool-references/web-application-security/web-application-firewall-detection-and-evasions.md)
@@ -23,7 +24,6 @@
   * [Threat Modeling](resources-and-tool-references/web-application-security/threat-modeling.md)
 * [Offensive-Cybersecurity](resources-and-tool-references/offensive-cybersecurity/README.md)
   * [General Offensive Resources](resources-and-tool-references/offensive-cybersecurity/general-offensive-resources.md)
-  * [Useful Extensions](resources-and-tool-references/offensive-cybersecurity/useful-extensions.md)
   * [OSINT](resources-and-tool-references/offensive-cybersecurity/osint/README.md)
     * [OSINT Tools](resources-and-tool-references/offensive-cybersecurity/osint/osint-tools.md)
   * [Wordlists and Passwords](resources-and-tool-references/offensive-cybersecurity/wordlists-and-passwords.md)
