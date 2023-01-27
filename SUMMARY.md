@@ -7,7 +7,7 @@
 
 * [Training, Labs, and Challenges](resources-and-tool-references/training-labs-and-challenges/README.md)
 * [Application Security](resources-and-tool-references/web-application-security/README.md)
-  * [Extensions and Plugins](resources-and-tool-references/web-application-security/useful-extensions.md)
+  * [Extensions and Plugins](resources-and-tool-references/offensive-cybersecurity/useful-extensions.md)
   * [Reconnaissance](resources-and-tool-references/web-application-security/reconnaissance.md)
   * [SubDomain/DNS Enumeration](resources-and-tool-references/web-application-security/subdomain-dns-enumeration.md)
   * [Web Application Firewall Detection and Evasions](resources-and-tool-references/web-application-security/web-application-firewall-detection-and-evasions.md)
@@ -54,10 +54,10 @@
 
 * [Basic Linux for CTFs](practical-notes/basic-linux-for-ctfs.md)
 * [Nmap](practical-notes/nmap.md)
-* [Bug Bounty](practical-notes/bug-bounty-checklist/README.md)
-  * [Recon One-Liners](practical-notes/bug-bounty-checklist/recon-one-liners.md)
-  * [Interesting Web Paths](practical-notes/bug-bounty-checklist/interesting-web-paths.md)
 * [Application Testing](practical-notes/application-testing/README.md)
+  * [Bug Bounty](practical-notes/application-testing/bug-bounty-checklist/README.md)
+    * [Recon One-Liners](practical-notes/application-testing/bug-bounty-checklist/recon-one-liners.md)
+    * [Interesting Web Paths](practical-notes/application-testing/bug-bounty-checklist/interesting-web-paths.md)
   * [ffuf](practical-notes/application-testing/ffuf.md)
   * [File Inclusion](practical-notes/application-testing/file-inclusion.md)
   * [XSS](practical-notes/application-testing/xss.md)

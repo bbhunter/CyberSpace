@@ -8,6 +8,7 @@
 [Censys](https://search.censys.io/) - best overall scanner but without vulnerability discovery
 
 [PrettyRecon](https://prettyrecon.com/) - Active Reconnaissance Tool\
+[Nuclei](https://github.com/projectdiscovery/nuclei#readme) - Security check scanner\
 [Nuclei Templates Directory](https://nuclei-templates.netlify.app/) - Visually navigate available nuclei templates\
 [Community edition nuclei templates (CENT)](https://github.com/xm1k3/cent) - collect and organize other custom templates
 
