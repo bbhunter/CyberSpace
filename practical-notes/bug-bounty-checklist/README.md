@@ -28,6 +28,10 @@ Mass security testing on subdomains:
 cat site subdomains.txt | nuclei -t /path/to/nuclei-templates/
 ```
 
+```
+nuclei -t /pat/to/nuclei-templates/ -l urls.txt
+```
+
 \
 Daily updated Text file of all domains within scope on active Bug Bounty Programs \
 [https://github.com/arkadiyt/bounty-targets-data/blob/main/data/domains.txt](https://github.com/arkadiyt/bounty-targets-data/blob/main/data/domains.txt)
