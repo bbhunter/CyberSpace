@@ -8,6 +8,9 @@
 [Censys](https://search.censys.io/) - best overall scanner but without vulnerability discovery
 
 [PrettyRecon](https://prettyrecon.com/) - Active Reconnaissance Tool\
+[Nuclei Templates Directory](https://nuclei-templates.netlify.app/) - Visually navigate available nuclei templates
+
+\
 \
 Daily updated Text file of all domains within scope on active Bug Bounty Programs \
 [https://github.com/arkadiyt/bounty-targets-data/blob/main/data/domains.txt](https://github.com/arkadiyt/bounty-targets-data/blob/main/data/domains.txt)
