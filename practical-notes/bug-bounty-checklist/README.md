@@ -18,10 +18,14 @@ Getting  started with some CVE scanning using Nuclei templates:
 nuclei -target "https://site.com" -t cves
 ```
 
-Mass Hunting on subdomains:
+```
+nuclei -target "https://site.com" -t /path/to/nuclei-templates/cves
+```
+
+Mass security testing on subdomains:
 
 ```
-cat site subdomains.txt | nuclei -t /path/to/templates/
+cat site subdomains.txt | nuclei -t /path/to/nuclei-templates/
 ```
 
 \
