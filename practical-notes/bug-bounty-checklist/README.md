@@ -39,6 +39,12 @@ Daily updated Text file of all domains within scope on active Bug Bounty Program
 
 
 
+#### Defense Evasion
+
+Attempt to bypass application protections such as Cloudflare, Akamai, etc.
+
+Worth a shot to use the tool by [Cloudflare Origin IP](https://github.com/gwen001/cloudflare-origin-ip) by @[gwen001](https://github.com/gwen001)
+
 #### **Authentication:**
 
 Registration
