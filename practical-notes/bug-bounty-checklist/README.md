@@ -29,7 +29,7 @@ cat site subdomains.txt | nuclei -t /path/to/nuclei-templates/
 ```
 
 ```
-nuclei -t /pat/to/nuclei-templates/ -l urls.txt
+nuclei -t /path/to/nuclei-templates/ -l urls.txt
 ```
 
 \

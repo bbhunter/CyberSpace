@@ -31,3 +31,25 @@
 | `MIN`         | Return min value of a column                        |
 | `MAX`         | Return max value of a column                        |
 
+{% tabs %}
+{% tab title="Basic SQL" %}
+|   |   |   |
+| - | - | - |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+{% endtab %}
+
+{% tab title="MySQL Basics" %}
+
+{% endtab %}
+
+{% tab title="NoSQL Basics" %}
+
+{% endtab %}
+
+{% tab title="SQLmap" %}
+
+{% endtab %}
+{% endtabs %}
+
