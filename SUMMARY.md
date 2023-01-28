@@ -3,15 +3,15 @@
 * [CyberSpace](README.md)
 * [Table of Contents](table-of-contents.md)
 
-## Resources and References
+## Resources
 
-* [Training, Labs, and Challenges](resources-and-tool-references/training-labs-and-challenges/README.md)
-* [Cybersecurity Media](resources-and-tool-references/cybersecurity-podcasts.md)
-* [Offensive-Cybersecurity](resources-and-tool-references/offensive-cybersecurity/README.md)
-  * [Application Security](resources-and-references/offensive-cybersecurity/web-application-security.md)
-* [Defensive-Cybersecurity](resources-and-references/defensive-cybersecurity.md)
-* [DevOps/DevSecOps](resources-and-tool-references/system-programming-coding.md)
-* [Additional Tools](resources-and-tool-references/general-tools.md)
+* [Training, Labs, and Challenges](resources/training-labs-and-challenges.md)
+* [Cybersecurity Media](resources/cybersecurity-podcasts.md)
+* [Offensive-Cybersecurity](resources/offensive-cybersecurity/README.md)
+  * [Application Security](resources/offensive-cybersecurity/web-application-security.md)
+* [Defensive-Cybersecurity](resources/defensive-cybersecurity.md)
+* [DevOps/DevSecOps](resources/system-programming-coding.md)
+* [Additional Tools](resources/general-tools.md)
 
 ## Practical Notes
 
