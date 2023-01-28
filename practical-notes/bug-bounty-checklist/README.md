@@ -8,30 +8,10 @@
 [Censys](https://search.censys.io/) - best overall scanner but without vulnerability discovery
 
 [PrettyRecon](https://prettyrecon.com/) - Active Reconnaissance Tool\
-[Nuclei](https://github.com/projectdiscovery/nuclei#readme) - Security check scanner\
 [Nuclei Templates Directory](https://nuclei-templates.netlify.app/) - Visually navigate available nuclei templates\
 [Community edition nuclei templates (CENT)](https://github.com/xm1k3/cent) - collect and organize other custom templates
 
-Getting  started with some CVE scanning using Nuclei templates:
-
-```
-nuclei -target "https://site.com" -t cves
-```
-
-```
-nuclei -target "https://site.com" -t /path/to/nuclei-templates/cves
-```
-
-Mass security testing on subdomains:
-
-```
-cat site subdomains.txt | nuclei -t /path/to/nuclei-templates/
-```
-
-```
-nuclei -t /path/to/nuclei-templates/ -l urls.txt
-```
-
+\
 \
 Daily updated Text file of all domains within scope on active Bug Bounty Programs \
 [https://github.com/arkadiyt/bounty-targets-data/blob/main/data/domains.txt](https://github.com/arkadiyt/bounty-targets-data/blob/main/data/domains.txt)
@@ -49,6 +29,8 @@ Daily updated Text file of all domains within scope on active Bug Bounty Program
 | Shodan Dork                             | Purpose                             |
 | --------------------------------------- | ----------------------------------- |
 | `hostname:".gov" product:"Jenkins" 200` | Searching Jenkins instances in .gov |
+|                                         |                                     |
+|                                         |                                     |
 
 
 
