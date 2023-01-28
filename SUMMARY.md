@@ -46,7 +46,6 @@
 
 ## Practical Notes
 
-* [Basic Linux for CTFs](practical-notes/basic-linux-for-ctfs.md)
 * [Nmap](practical-notes/nmap.md)
 * [Application Testing](practical-notes/application-testing/README.md)
   * [Bug Bounty](practical-notes/application-testing/bug-bounty-checklist.md)
@@ -72,9 +71,10 @@
 * [Splunk Queries](practical-notes/splunk-ir.md)
 * [Python](practical-notes/python.md)
 * [PowerShell](practical-notes/powershell/README.md)
-  * [PowerShell Enumeration](practical-notes/powershell/powershell-enumeration.md)
   * [Logging/Monitoring](practical-notes/powershell/logging-monitoring.md)
   * [Applications/Services](practical-notes/powershell/applications-services.md)
   * [Live Examination](practical-notes/powershell/live-examination.md)
+  * [PowerShell Enumeration](practical-notes/powershell/powershell-enumeration.md)
+* [Basic Linux for CTFs](practical-notes/basic-linux-for-ctfs.md)
 * [Golang](golang/README.md)
   * [Golang Reverse shell](golang/golang-reverse-shell.md)
