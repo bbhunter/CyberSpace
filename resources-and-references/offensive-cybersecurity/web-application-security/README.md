@@ -35,14 +35,53 @@ description: Reliable Resources for AppSec
 {% tab title="Extensions/Plugins" %}
 
 {% endtab %}
+
+{% tab title="Static Code Analysis" %}
+
+
+* [SonarQube](https://www.sonarsource.com/products/sonarqube/downloads/) website and [Git Repo](https://github.com/SonarSource/sonarqube)
+* [CodeCat](https://github.com/CoolerVoid/codecat) - open-source tool to help find/track user input sinks and other security bugs
+{% endtab %}
 {% endtabs %}
 
 {% tabs %}
-{% tab title="First Tab" %}
+{% tab title="Recon" %}
+#### Reconnaissance
 
+|                                                                                                     |                                                                |                                                                          |
+| --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| [Final Recon (Web Reconnaissance) from @thewhiteh4t](https://github.com/thewhiteh4t/FinalRecon)     | [Sublist3r](https://github.com/aboul3la/Sublist3r)             | [patator](https://github.com/lanjelot/patator)                           |
+| [ffuf](https://github.com/ffuf/ffuf)                                                                | [wfuzz](https://github.com/xmendez/wfuzz)                      | [xnLinkFinder](https://github.com/xnl-h4ck3r/xnLinkFinder)               |
+| [WebOSINT](https://github.com/C3n7ral051nt4g3ncy/webosint)                                          | [All in One Recon Tool (AORT)](https://github.com/D3Ext/AORT)  | [katana by ProjectDiscovery](https://github.com/projectdiscovery/katana) |
+| [Domain to IP converter (Python) by @YSSVirus](https://github.com/YSSVirus/domain-to-ip\_converter) | [Cariddi by @edoardott](https://github.com/edoardottt/cariddi) |                                                                          |
+
+#### SubDomain/DNS Enumeration
+
+|                                                            |                                                         |                                          |
+| ---------------------------------------------------------- | ------------------------------------------------------- | ---------------------------------------- |
+| [MayorSec DNS Scan](https://github.com/dievus/msdnsscan) ! | [PureDNS](https://github.com/d3mondev/puredns)          | [DNSrr](https://github.com/A3h1nt/Dnsrr) |
+| [AquaTone](https://github.com/michenriksen/aquatone)       | [DNSReaper](https://github.com/punk-security/dnsReaper) |                                          |
 {% endtab %}
 
-{% tab title="Second Tab" %}
+{% tab title="Add-ons" %}
+## Extensions and Plugins
 
+| Extensions                                                                                                                     |                                                                                    |                                                                 |
+| ------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| [HackTools Browser Extension Repo (Easier install from extension menu)](https://github.com/LasCC/Hack-Tools.git)               | [Penetration Testing Kit Browser Extension](https://pentestkit.co.uk/index.html) ! | [Wappalyzer Browser Extension](https://www.wappalyzer.com/apps) |
+| [Vulners Browser Extension](https://chrome.google.com/webstore/detail/vulners-web-scanner/dgdelbjijbkahooafjfnonijppnffhmd?hl) |                                                                                    |                                                                 |
+
+| Burp Suite                                                                                                                                                                                                            |                                                                                                                                                                                 |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Nuclei burp plugin](https://github.com/projectdiscovery/nuclei-burp-plugin) (also in [Bapp store](https://portswigger.net/bappstore/9c7f7ae2844c4828b28be2398c02b7f7)) - generate nuclei template from burp requests | [HackBar Extension](https://github.com/d3vilbug/HackBar) (also in [Bapp store](https://portswigger.net/bappstore/526f5564b7414bfe978e650d8ea6567b)) - Security testing Payloads |
+|                                                                                                                                                                                                                       |                                                                                                                                                                                 |
+{% endtab %}
+
+{% tab title="WAF" %}
+#### Detection and Evasions
+
+|                                                                           |     |     |
+| ------------------------------------------------------------------------- | --- | --- |
+| [wafw00f from @enableSecurity](https://github.com/EnableSecurity/wafw00f) | --- | --- |
 {% endtab %}
 {% endtabs %}
