@@ -7,11 +7,6 @@
 
 * [Training, Labs, and Challenges](resources-and-tool-references/training-labs-and-challenges/README.md)
 * [Offensive-Cybersecurity](resources-and-tool-references/offensive-cybersecurity/README.md)
-  * [General Offensive Resources](resources-and-tool-references/offensive-cybersecurity/general-offensive-resources.md)
-  * [OSINT](resources-and-tool-references/offensive-cybersecurity/osint.md)
-  * [Infrastructure Testing](resources-and-tool-references/offensive-cybersecurity/system-penetration-testing/README.md)
-  * [Wordlists and Passwords](resources-and-tool-references/offensive-cybersecurity/wordlists-and-passwords.md)
-  * [Social Engineering](resources-and-tool-references/offensive-cybersecurity/social-engineering.md)
   * [Application Security](resources-and-references/offensive-cybersecurity/web-application-security/README.md)
     * [Extensions and Plugins](resources-and-references/offensive-cybersecurity/web-application-security/useful-extensions.md)
     * [Reconnaissance](resources-and-references/offensive-cybersecurity/web-application-security/reconnaissance.md)
