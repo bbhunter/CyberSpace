@@ -47,6 +47,7 @@
 ## Practical Notes
 
 * [Application Testing](practical-notes/application-testing/README.md)
+  * [Bug Bounty](practical-notes/application-testing/bug-bounty.md)
   * [File Inclusion](practical-notes/application-testing/file-inclusion.md)
   * [XSS](practical-notes/application-testing/xss.md)
   * [SQLi Testing](practical-notes/application-testing/sql.md)
