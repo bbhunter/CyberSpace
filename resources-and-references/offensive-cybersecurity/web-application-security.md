@@ -4,7 +4,7 @@ description: Reliable Resources for AppSec
 
 # Application Security
 
-#### Getting Started
+### Getting Started
 
 | Component              |  Description                                                                                                                                                                                                   |
 | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -32,11 +32,7 @@ description: Reliable Resources for AppSec
 |                                                                                  |                                                                               |                                                                          |
 {% endtab %}
 
-{% tab title="Extensions/Plugins" %}
-
-{% endtab %}
-
-{% tab title="Static Code Analysis" %}
+{% tab title="Code Analysis" %}
 
 
 * [SonarQube](https://www.sonarsource.com/products/sonarqube/downloads/) website and [Git Repo](https://github.com/SonarSource/sonarqube)
@@ -60,6 +56,10 @@ description: Reliable Resources for AppSec
 | [Grapql-cop](https://github.com/dolevf/graphql-cop)                                     | [graphql voyager](https://github.com/IvanGoncharov/graphql-voyager) -converts a response of an introspection query into a visual graph that maps | [InQL](https://github.com/doyensec/inql) -can inspect the introspection query results and generate clean documentation in different formats |
 | Online [JSON Web Token (JWT) Tool/Reference](https://jwt.io/) !                         | [SOAPUI](https://www.soapui.org/)                                                                                                                | [Postman](https://www.postman.com/)                                                                                                         |
 | [Kubeshark - API Traffic Viewer for Kubernetes](https://github.com/kubeshark/kubeshark) | [Metlo - API security tool](https://github.com/metlo-labs/metlo)                                                                                 |                                                                                                                                             |
+{% endtab %}
+
+{% tab title="Threat Modeling" %}
+* [https://www.youtube.com/playlist?list=PLCVhBqLDKoOOZqKt74QI4pbDUnXSQo0nf](https://www.youtube.com/playlist?list=PLCVhBqLDKoOOZqKt74QI4pbDUnXSQo0nf)
 {% endtab %}
 {% endtabs %}
 
@@ -102,5 +102,74 @@ description: Reliable Resources for AppSec
 |                                                                           |     |     |
 | ------------------------------------------------------------------------- | --- | --- |
 | [wafw00f from @enableSecurity](https://github.com/EnableSecurity/wafw00f) | --- | --- |
+{% endtab %}
+
+{% tab title="Deobfuscation" %}
+
+
+| JS, PHP, HTML Deobfuscation                                                        |                                                                              |                                                                                     |
+| ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| [Online Javascript Obfuscator](https://obfuscator.io/)                             | [JavaScript Console](https://jsconsole.com/) (test javascript code excution) | [Toptal JavaScript-Minifier](https://www.toptal.com/developers/javascript-minifier) |
+| [Beautifier ](https://beautifier.io/)(obfuscator/code editor for CSS, HTML and JS) | [JSNice](http://www.jsnice.org/) (JS de-obfuscator)                          | [Prettier ](https://prettier.io/playground/)(obfuscator/code editor)                |
+{% endtab %}
+{% endtabs %}
+
+#### Common Attacks
+
+{% tabs %}
+{% tab title="XSS" %}
+
+
+|                                                                                                        |                                                                                |                                                  |
+| ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | ------------------------------------------------ |
+| [PortSwigger XSS Cheat Sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet) ! | [XSS Exploitatation Tool](https://github.com/Sharpforce/XSS-Exploitation-Tool) | [Tiny XSS Payloads](https://tinyxss.terjanq.me/) |
+{% endtab %}
+
+{% tab title="LFI/RFI" %}
+
+
+* [LFI Tester](https://github.com/kostas-pa/LFITester)
+{% endtab %}
+
+{% tab title="SSRF" %}
+
+
+[Blind SSRF Chains repo](https://github.com/assetnote/blind-ssrf-chains)
+{% endtab %}
+
+{% tab title="SSTI" %}
+
+
+* [TPLMap (Automated Template Injection) from @epinna](https://github.com/epinna/tplmap)
+{% endtab %}
+
+{% tab title="SQLi" %}
+
+
+| [SqlMap: An SQL injection and database takeover tool](https://github.com/sqlmapproject/sqlmap) ! | [SQL Injection Cheatsheet](https://github.com/kleiton0x00/Advanced-SQL-Injection-Cheatsheet) | [Advanced SQL Injection Cheatsheet](https://github.com/kleiton0x00/Advanced-SQL-Injection-Cheatsheet) ! |
+| ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| [Ghauri](https://github.com/r0oth3x49/ghauri)                                                    | [Userefuzz - SQLi Fuzzing tool](https://github.com/root-tanishq/userefuzz)                   |                                                                                                         |
+{% endtab %}
+
+{% tab title="Clickjacking" %}
+
+
+* [CSS Button Generator](https://cssbuttongenerator.com/)
+* [CSS Version 3 Button Generator](https://css3buttongenerator.com/)
+* [Clickjacker](https://clickjacker.io/) - Online tool
+* [Click-Jack](https://github.com/princep4/Click-Jack) - cli tool
+{% endtab %}
+{% endtabs %}
+
+#### Advanced Attacks
+
+{% tabs %}
+{% tab title="Deserialization" %}
+
+
+|                                                                                                     |                                                                                                |                                                                            |
+| --------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| [ysoerial for Java libraries](https://github.com/frohoff/ysoserial)                                 | [Java Deserialization CheatSheet](https://github.com/GrrrDog/Java-Deserialization-Cheat-Sheet) | [ysoserial for .NET libraries](https://github.com/pwntester/ysoserial.net) |
+| [PHP Generic Gadget chains (PHPGGC)](https://github.com/ambionics/phpggc) - AKA "ysoserial for PHP" |                                                                                                |                                                                            |
 {% endtab %}
 {% endtabs %}
