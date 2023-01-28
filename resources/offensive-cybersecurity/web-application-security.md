@@ -59,6 +59,7 @@ description: Reliable Resources for AppSec
 {% endtab %}
 
 {% tab title="Threat Modeling" %}
+* [NIST SP 800-30](https://csrc.nist.gov/publications/detail/sp/800-30/rev-1/final)
 * [https://www.youtube.com/playlist?list=PLCVhBqLDKoOOZqKt74QI4pbDUnXSQo0nf](https://www.youtube.com/playlist?list=PLCVhBqLDKoOOZqKt74QI4pbDUnXSQo0nf)
 {% endtab %}
 {% endtabs %}
