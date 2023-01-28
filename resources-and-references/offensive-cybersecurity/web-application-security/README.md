@@ -13,7 +13,7 @@ description: Reliable Resources for AppSec
 | Databases              | Databases (DBs) store and retrieve the web application data. Some examples of relational databases are MySQL, MSSQL, Oracle, PostgreSQL, while examples of non-relational databases include NoSQL and MongoDB. |
 | Development Frameworks | Development Frameworks are used to develop the core Web Application. Some well-known frameworks include PHP, C#, Java, Python, and NodeJS JavaScript                                                           |
 
-#### Resources
+#### Field References
 
 {% tabs %}
 {% tab title="General" %}
@@ -30,5 +30,19 @@ description: Reliable Resources for AppSec
 | -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | [All About Bug Bounty Note Repo](https://github.com/daffainfo/AllAboutBugBounty) | [BugHunter Handbook](https://gowthams.gitbook.io/bughunter-handbook/)         | [Bug Bounty Wiki](https://bug.bounty.wiki/)                              |
 |                                                                                  |                                                                               |                                                                          |
+{% endtab %}
+
+{% tab title="Extensions/Plugins" %}
+
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="First Tab" %}
+
+{% endtab %}
+
+{% tab title="Second Tab" %}
+
 {% endtab %}
 {% endtabs %}

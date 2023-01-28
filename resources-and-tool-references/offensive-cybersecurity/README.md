@@ -47,7 +47,7 @@
 {% endtabs %}
 {% endtab %}
 
-{% tab title="Infrastructure Testing" %}
+{% tab title="Infrastructure " %}
 
 
 * [Windows & AD Exploitation Cheatsheet](https://casvancooten.com/posts/2020/11/windows-active-directory-exploitation-cheat-sheet-and-command-reference/) by chvancooten
@@ -55,7 +55,7 @@
 * [Ciphey](https://github.com/Ciphey/Ciphey) - Encryption
 
 {% tabs %}
-{% tab title="Malware Development" %}
+{% tab title="Malware" %}
 | [Awesome Malware Development Repo](https://github.com/rootkit-io/awesome-malware-development) | [Maldev for Dummies](https://github.com/chvancooten/maldev-for-dummies) | [Sektor7 Institute](https://institute.sektor7.net/) - Malware Dev training |
 | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | -------------------------------------------------------------------------- |
 {% endtab %}
@@ -72,10 +72,9 @@
 | [AMSI Bypass Powershell](https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell) | [ProtectMyTooling](https://github.com/mgeeky/ProtectMyTooling) - Packer | [Garble](https://github.com/burrowers/garble) - Golang packer |
 | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------- |
 | [PatchThatAMSI](https://github.com/D1rkMtr/PatchThatAMSI)                          |                                                                         |                                                               |
-|                                                                                    |                                                                         |                                                               |
 {% endtab %}
 
-{% tab title="Post-Exploitation" %}
+{% tab title="C2's" %}
 | C2s                                                                                  |                                                                                                                                  |                                                      |
 | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
 | [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec/)                         | [DBC2](https://github.com/Arno0x/DBC2/)                                                                                          | [Empire](https://github.com/EmpireProject/Empire/)   |
@@ -87,11 +86,20 @@
 | [Low detection c2](https://github.com/polymaster3313/PolyMalware) by @polymaster3313 | [C2 Matrix](https://docs.google.com/spreadsheets/d/1b4mUxa6cDQuTV2BPC6aA-GR4zGZi0ooPYtBe4IgPsSc/edit#gid=0) !                    |                                                      |
 {% endtab %}
 
-{% tab title="Network Testing" %}
+{% tab title="Network" %}
 | [Wireshark: Network protocol analysis tool](https://www.wireshark.org/#download)                                | [NMap: The pre-eminent network mapping tool](https://nmap.org/download)                         | [JFScan](https://github.com/nullt3r/jfscan) |
 | --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------- |
 | [CrackMapExec A swiss army knife for pentesting networks](https://github.com/Porchetta-Industries/CrackMapExec) | [Legion](https://github.com/GoVanguard/legion)                                                  | [VLANPWN](https://github.com/in9uz/VLANPWN) |
 | [Responder](https://github.com/lgandx/Responder) !                                                              | <p><a href="https://github.com/k4yt3x/orbitaldump">OrbitalDump</a></p><p>(SSH Brute-forcer)</p> | <h3></h3>                                   |
+{% endtab %}
+
+{% tab title="Shells" %}
+
+
+|                                                                                                                                                                           |                                                                         |                                                                                                                      |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| [Reverse Shell Generator ](https://www.revshells.com/)by @0Day                                                                                                            | [PHP Reverse Shell](https://github.com/pentestmonkey/php-reverse-shell) | [Reverse Shell Cheat Sheet](https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet) by pentestmonkey |
+| [PayloadsAllTheThings RevShell cheatsheet](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md) |                                                                         |                                                                                                                      |
 {% endtab %}
 {% endtabs %}
 {% endtab %}
@@ -132,5 +140,47 @@
 |                                                                                   |                                                    |   |
 | --------------------------------------------------------------------------------- | -------------------------------------------------- | - |
 | [OnelistForall](https://github.com/six2dez/OneListForAll) - AKA Rockyou for web ! | [FuzzDB](https://github.com/fuzzdb-project/fuzzdb) |   |
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Mobile" %}
+## Mobile Testing
+
+| Android PenTesting                                                                                                                            |                                                    |                                                                                                                                                                                          |
+| --------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [HacktheBox Android guide for beginners](https://www.hackthebox.com/blog/intro-to-mobile-pentesting)                                          | [APKNuke](https://github.com/utkarsh24122/apknuke) | [Mobile Hacking Android cheatsheet (PDF) by @randorisec](https://raw.githubusercontent.com/randorisec/MobileHackingCheatSheet/master/pdf/Mobile\_Hacking\_Android\_cheatsheet\_v1.0.pdf) |
+| <p><a href="https://github.com/mzfr/slicer">Slicer - Automated</a></p><p><a href="https://github.com/mzfr/slicer">Recon Tool for APKs</a></p> |                                                    |                                                                                                                                                                                          |
+
+| IoS PenTesting                                                                                                    |                                                                                                                                                                                  |   |
+| ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | - |
+| [IoS Pentesting Guide by Carlos Polop (Hacktrickz)](https://book.hacktricks.xyz/mobile-pentesting/ios-pentesting) | [Mobile Hacking iOS cheatsheet (PDF) by @randorisec](https://raw.githubusercontent.com/randorisec/MobileHackingCheatSheet/master/pdf/Mobile\_Hacking\_iOS\_cheatsheet\_v1.0.pdf) |   |
+
+| Application Security                                                                                     |                                                                                                      |                                                                                               |
+| -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| [OWASP Mobile Application Security Standard for Baseline Security](https://github.com/OWASP/owasp-masvs) | [Android App Security Checklist](https://github.com/muellerberndt/android\_app\_security\_checklist) | [Mobile Security Framework (MobSF)](https://github.com/MobSF/Mobile-Security-Framework-MobSF) |
+| [Objection](https://github.com/sensepost/objection) - runtime mobile exploration toolkit                 | [Mobile App PenTesting Cheat Sheet](https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet)      | [OWASP Mobile Application Security Standards](https://mas.owasp.org/)                         |
+{% endtab %}
+
+{% tab title="Container Security" %}
+
+
+| Kubernetes                                                                        |   |
+| --------------------------------------------------------------------------------- | - |
+| [Kubeeye - misconfiguration scanning tool](https://github.com/kubesphere/kubeeye) |   |
+{% endtab %}
+
+{% tab title="Cloud" %}
+
+
+| [Cloud Pentest CheatSheets](https://github.com/dafthack/CloudPentestCheatsheets) | [AWSGoat Vulnerable AWS Instance](https://github.com/ine-labs/AWSGoat)                                                                                                  | [AzureGoat Vulnerable Azure Instance](https://github.com/ine-labs/AzureGoat) |
+| -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| [Azure Red Team Repo](https://github.com/rootsecdev/Azure-Red-Team)              | [Azure Pentest .md file from @swiskyrepo](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Cloud%20-%20Azure%20Pentest.md) | [PowerZure](https://github.com/hausec/PowerZure)                             |
+| [Awesome Azure Pentest](https://github.com/Kyuu-Ji/Awesome-Azure-Pentest)        | [StormSpotter for Azure AD](https://github.com/Azure/Stormspotter)                                                                                                      |                                                                              |
+{% endtab %}
+
+{% tab title="Blockchain" %}
+| [Awesome Smart Contract Security from @saeidshirazi](https://github.com/saeidshirazi/Awesome-Smart-Contract-Security) | [Damn Vulnerable DeFi practice](https://www.damnvulnerabledefi.xyz/) | --- |
+| --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | --- |
 {% endtab %}
 {% endtabs %}
