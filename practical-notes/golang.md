@@ -1,9 +1,7 @@
----
-description: Bypasses window defender
----
+# Golang
 
-# Golang Reverse shell
-
+{% tabs %}
+{% tab title="Golang Reverse shell" %}
 The code above creates a socket connection to a remote host at the specified IP address and port number. It then enters a loop where it waits for a command to be sent from the remote host. Once a command is received, it is executed using the `exec.Command()` method, and the output and error messages are sent back to the remote host.
 
 ```
@@ -61,3 +59,5 @@ func main() {
 }
 
 ```
+{% endtab %}
+{% endtabs %}
