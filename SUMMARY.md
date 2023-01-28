@@ -6,6 +6,7 @@
 ## Resources and References
 
 * [Training, Labs, and Challenges](resources-and-tool-references/training-labs-and-challenges/README.md)
+* [Cybersecurity Media](resources-and-tool-references/cybersecurity-podcasts.md)
 * [Offensive-Cybersecurity](resources-and-tool-references/offensive-cybersecurity/README.md)
   * [Application Security](resources-and-references/offensive-cybersecurity/web-application-security/README.md)
     * [Extensions and Plugins](resources-and-references/offensive-cybersecurity/web-application-security/useful-extensions.md)
@@ -30,7 +31,6 @@
   * [Reverse Shells](resources-and-tool-references/offensive-cybersecurity/reverse-shells.md)
 * [Defensive-Cybersecurity](resources-and-references/defensive-cybersecurity.md)
 * [DevOps/DevSecOps](resources-and-tool-references/system-programming-coding.md)
-* [Cybersecurity Media](resources-and-tool-references/cybersecurity-podcasts.md)
 * [Additional Tools](resources-and-tool-references/general-tools.md)
 
 ## Practical Notes
