@@ -42,6 +42,25 @@ description: Reliable Resources for AppSec
 * [SonarQube](https://www.sonarsource.com/products/sonarqube/downloads/) website and [Git Repo](https://github.com/SonarSource/sonarqube)
 * [CodeCat](https://github.com/CoolerVoid/codecat) - open-source tool to help find/track user input sinks and other security bugs
 {% endtab %}
+
+{% tab title="API" %}
+#### References
+
+| Resources                                                                                                 |                                                                                                                         |                                                                                                 |
+| --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| [OWASP API Security Top 10 Vulnerabilities](https://owasp.org/www-project-api-security/)                  | [API Security Checklist](https://github.com/Martian1337/API-Security-Checklist)                                         | [Keyhacks](https://github.com/streaak/keyhacks)                                                 |
+| [Vulnerable API Instance by @raj-kumar-j](https://github.com/raj-kumar-j/Vulnerable-API)                  | [Hacking APIs book by Corey Ball](https://www.amazon.com/Hacking-APIs-Application-Programming-Interfaces/dp/1718502443) | [DVWS: Vulnerable application with web service and API](https://github.com/snoopysecurity/dvws) |
+| [DVGA: Vulnerable GraphQL API application](https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application) | [API Workshop by Corey Ball](https://sway.office.com/HVrL2AXUlWGNDHqy)                                                  | [OWASP API Tool List](https://owasp.org/www-community/api\_security\_tools)                     |
+| [MindAPI](https://dsopas.github.io/MindAPI/play/) - interactive Mind Map                                  |                                                                                                                         |                                                                                                 |
+
+#### Tools
+
+| Tools                                                                                   |                                                                                                                                                  |                                                                                                                                             |
+| --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Grapql-cop](https://github.com/dolevf/graphql-cop)                                     | [graphql voyager](https://github.com/IvanGoncharov/graphql-voyager) -converts a response of an introspection query into a visual graph that maps | [InQL](https://github.com/doyensec/inql) -can inspect the introspection query results and generate clean documentation in different formats |
+| Online [JSON Web Token (JWT) Tool/Reference](https://jwt.io/) !                         | [SOAPUI](https://www.soapui.org/)                                                                                                                | [Postman](https://www.postman.com/)                                                                                                         |
+| [Kubeshark - API Traffic Viewer for Kubernetes](https://github.com/kubeshark/kubeshark) | [Metlo - API security tool](https://github.com/metlo-labs/metlo)                                                                                 |                                                                                                                                             |
+{% endtab %}
 {% endtabs %}
 
 {% tabs %}

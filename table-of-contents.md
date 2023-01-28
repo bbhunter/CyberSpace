@@ -22,7 +22,7 @@
     * [Reconnaissance](broken-reference)
     * [SubDomain/DNS Enumeration](broken-reference)
     * [Web Application Firewall Detection and Evasions](broken-reference)
-    * [API Security](resources-and-references/offensive-cybersecurity/web-application-security/api-security.md)
+    * [API Security](broken-reference)
     * [Cross-Site Scripting (XSS)](resources-and-references/offensive-cybersecurity/web-application-security/cross-site-scripting-xss.md)
     * [Deserialization](resources-and-references/offensive-cybersecurity/web-application-security/deserialization.md)
     * [File Inclusion](resources-and-references/offensive-cybersecurity/web-application-security/file-inclusion.md)

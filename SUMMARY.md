@@ -9,7 +9,6 @@
 * [Cybersecurity Media](resources-and-tool-references/cybersecurity-podcasts.md)
 * [Offensive-Cybersecurity](resources-and-tool-references/offensive-cybersecurity/README.md)
   * [Application Security](resources-and-references/offensive-cybersecurity/web-application-security/README.md)
-    * [API Security](resources-and-references/offensive-cybersecurity/web-application-security/api-security.md)
     * [Cross-Site Scripting (XSS)](resources-and-references/offensive-cybersecurity/web-application-security/cross-site-scripting-xss.md)
     * [Clickjacking](resources-and-references/offensive-cybersecurity/web-application-security/clickjacking.md)
     * [Deserialization](resources-and-references/offensive-cybersecurity/web-application-security/deserialization.md)
