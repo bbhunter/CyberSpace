@@ -47,7 +47,7 @@
 | `ffuf -w ids.txt:FUZZ -u http://admin.website.com:PORT/admin/admin.php -X POST -d 'id=FUZZ' -H 'Content-Type: application/x-www-form-urlencoded' -fs xxx`       | Value Fuzzing                                                                 |
 | `ffuf -w ./vhosts -u http:// -H "HOST: FUZZ.target.domain" -fs 612`                                                                                             | Bruteforcing for possible virtual hosts on the target domain using ffuf.      |
 | `ffuf -recursion -recursion-depth 1 -u http://192.168.10.10/FUZZ -w /opt/useful/SecLists/Discovery/Web-Content/raft-small-directories-lowercase.txt`            | Discovering files and folders that cannot be spotted by browsing the website. |
-| `ffuf -w ./folders.txt:FOLDERS,./wordlist.txt:WORDLIST,./extensions.txt:EXTENSIONS -u http://www.target.domain/FOLDERS/WORDLISTEXTENSIONS`                      | Mutated bruteforcing against the target web server.                           |
+| `ffuf -w ./folders.txt:FOLDERS,./wordlist.txt:WORDLIST,./extensions.txt:EXTENSIONS -u http://www.target.domain/FOLDERS/WORDLISTEXTENSIONS`                      | Mutated bruteforcing                                                          |
 {% endtab %}
 
 {% tab title="Nmap" %}
@@ -61,8 +61,6 @@ nmap --proxies http://127.0.0.1:8080 SERVER_IP -pPORT -Pn -sC
 {% endtab %}
 
 {% tab title="Git" %}
-## Git
-
 **How to commit changes from local machine**
 
 | Command                                                                                                                    | Description                                                                                                                       |
@@ -78,13 +76,19 @@ nmap --proxies http://127.0.0.1:8080 SERVER_IP -pPORT -Pn -sC
 | `git reset --hard origin/master`                                                                                           | Hard Reset after making local changes but the git commit is unwanted or has errors on the local machine                           |
 | <p><code>git clean -nxd</code><br><br><code>git clean -fxd</code></p>                                                      | Clean directories that were made during changes                                                                                   |
 {% endtab %}
+
+{% tab title="wfuzz" %}
+
+{% endtab %}
 {% endtabs %}
 
-## API Security/Testing
+
+
+### API Security/Testing
 
 {% tabs %}
 {% tab title="Training" %}
-#### **crAPI Lab Setup**
+**crAPI Lab Setup**
 
 * [ ] `mkdir /apilab`
 * [ ] `cd /apilab`
@@ -94,9 +98,9 @@ nmap --proxies http://127.0.0.1:8080 SERVER_IP -pPORT -Pn -sC
 
 crAPI Landing page will be located at http://127.0.0.1:8888 with the crAPI Mailhog Server at http://127.0.0.1:8025
 
-****
+***
 
-#### **vAPI lab setup**
+**vAPI lab setup**
 
 * [ ] `mkdir /apilab`
 * [ ] `cd /apilab`
@@ -106,7 +110,7 @@ crAPI Landing page will be located at http://127.0.0.1:8888 with the crAPI Mailh
 {% endtab %}
 
 {% tab title="Checklist" %}
-## API Testing Checklist
+### API Testing Checklist
 
 **Passive Reconnaissance**
 
@@ -193,4 +197,3 @@ If JSON is supported try to send unexpected data types
 If XML is supported, check for XXE
 {% endtab %}
 {% endtabs %}
-
