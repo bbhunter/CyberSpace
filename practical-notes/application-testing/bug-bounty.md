@@ -33,16 +33,6 @@ cat site subdomains.txt | nuclei -t /path/to/nuclei-templates/
 nuclei -t /path/to/nuclei-templates/ -l urls.txt
 ```
 
-Combining nuclei scanner with CENT sutome templates
-
-```
-nuclei -u https://example.com -t ./cent-nuclei-templates -tags cve
-```
-
-```
-nuclei -l urls.txt -t ./cent-nuclei-templates -tags cve
-```
-
 \
 Daily updated Text file of all domains within scope on active Bug Bounty Programs\
 [https://github.com/arkadiyt/bounty-targets-data/blob/main/data/domains.txt](https://github.com/arkadiyt/bounty-targets-data/blob/main/data/domains.txt)
