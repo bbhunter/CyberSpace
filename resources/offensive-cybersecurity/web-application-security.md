@@ -136,7 +136,8 @@ description: Reliable Resources for AppSec
 {% tab title="SSTI" %}
 
 
-* [TPLMap (Automated Template Injection) from @epinna](https://github.com/epinna/tplmap)
+* [TPLMap](https://github.com/epinna/tplmap) (Automated Template Injection) from @epinna
+* [SSTImap](https://github.com/vladko312/SSTImap) (Automated Template Injection) from @vladko312
 {% endtab %}
 
 {% tab title="SQLi" %}
