@@ -84,49 +84,15 @@ nmap --proxies http://127.0.0.1:8080 SERVER_IP -pPORT -Pn -sC
 
 
 
-{% tabs %}
-{% tab title="First Tab" %}
-
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
-{% endtabs %}
-
-### API Security/Testing
+### Application Security Assessments
 
 {% tabs %}
-{% tab title="Training" %}
-**crAPI Lab Setup**
-
-* [ ] `mkdir /apilab`
-* [ ] `cd /apilab`
-* [ ] `sudo curl -o docker-compose.yml https://raw.githubusercontent.com/OWASP/crAPI/main/deploy/docker/docker-compose.yml`
-* [ ] `sudo docker-compose pull`
-* [ ] `sudo docker-compose -f docker-compose.yml --compatibility up -d`
-
-crAPI Landing page will be located at http://127.0.0.1:8888 with the crAPI Mailhog Server at http://127.0.0.1:8025
-
-***
-
-**vAPI lab setup**
-
-* [ ] `mkdir /apilab`
-* [ ] `cd /apilab`
-* [ ] `sudo git clone https://github.com/roottusk/vapi.git`
-* [ ] `cd /vapi`
-* [ ] `sudo docker-compose up -d`
-{% endtab %}
-
 {% tab title="Web App Checklist" %}
 ## WEB APPLICATION PENTESTING CHECKLIST
 
 **OWASP Based Checklist by** [Hariprasaanth](https://github.com/Hari-prasaanth/Thick-Client-Pentest-Checklist)
 
-****
-
-Also available to follow on [Notion](https://hariprasaanth.notion.site/WEB-APPLICATION-PENTESTING-CHECKLIST-0f02d8074b9d4af7b12b8da2d46ac998)\
+Also available on [Notion](https://hariprasaanth.notion.site/WEB-APPLICATION-PENTESTING-CHECKLIST-0f02d8074b9d4af7b12b8da2d46ac998)\
 \
 
 
@@ -881,5 +847,27 @@ If JSON is supported try to send unexpected data types
 ```
 
 If XML is supported, check for XXE
+{% endtab %}
+
+{% tab title="Training Labs" %}
+**crAPI Lab Setup**
+
+* [ ] `mkdir /apilab`
+* [ ] `cd /apilab`
+* [ ] `sudo curl -o docker-compose.yml https://raw.githubusercontent.com/OWASP/crAPI/main/deploy/docker/docker-compose.yml`
+* [ ] `sudo docker-compose pull`
+* [ ] `sudo docker-compose -f docker-compose.yml --compatibility up -d`
+
+crAPI Landing page will be located at http://127.0.0.1:8888 with the crAPI Mailhog Server at http://127.0.0.1:8025
+
+***
+
+**vAPI lab setup**
+
+* [ ] `mkdir /apilab`
+* [ ] `cd /apilab`
+* [ ] `sudo git clone https://github.com/roottusk/vapi.git`
+* [ ] `cd /vapi`
+* [ ] `sudo docker-compose up -d`
 {% endtab %}
 {% endtabs %}
