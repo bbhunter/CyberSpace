@@ -1,4 +1,4 @@
-# Application Testing
+# Application Security Testing
 
 ## CLI tools
 
@@ -849,7 +849,7 @@ If JSON is supported try to send unexpected data types
 If XML is supported, check for XXE
 {% endtab %}
 
-{% tab title="Training Labs" %}
+{% tab title="Labs" %}
 **crAPI Lab Setup**
 
 * [ ] `mkdir /apilab`
