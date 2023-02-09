@@ -330,7 +330,9 @@ But after replacing character with ? you may receive a successful response (200)
 {% tab title="Additonal Payloads" %}
 #### Test for XSS and SQLi
 
-``--'`">kdskf${{7*7}}``
+```
+--'`"><img src=x>kdskf${{7*7}}
+```
 
 Enter in EVERY parameter
 
