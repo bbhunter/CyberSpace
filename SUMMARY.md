@@ -15,10 +15,10 @@
 
 ## Practical Notes
 
-* [Application Security Testing](practical-notes/application-security-testing/README.md)
-  * [Bug Bounty](practical-notes/application-security-testing/bug-bounty.md)
-  * [Targeted Test Cases](practical-notes/application-security-testing/targeted-test-cases.md)
-  * [Static Code Analysis](practical-notes/application-security-testing/static-code-analysis.md)
+* [Application Security Testing](practical-notes/application-testing/README.md)
+  * [Bug Bounty](practical-notes/application-testing/bug-bounty.md)
+  * [Targeted Test Cases](practical-notes/application-testing/targeted-test-cases.md)
+  * [Static Code Analysis](practical-notes/application-testing/static-code-analysis.md)
   * [Threat Modeling](practical-notes/application-security-testing/threat-modeling.md)
 * [Command Injection Testing](practical-notes/command-injection-testing.md)
 * [DNS](practical-notes/dns.md)
