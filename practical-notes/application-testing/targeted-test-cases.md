@@ -326,4 +326,8 @@ But after replacing character with ? you may receive a successful response (200)
 * Chain IDOR with XSS for Account Takeovers\
 
 {% endtab %}
+
+{% tab title="Additonal Payloads" %}
+#### Test for XSS and SQLi  ``--'`"><img src=x>kdskf${{7*7}}``  Enter in EVERY parameter  - '"\` Javascript injection test - '\`"> html tag attribute test - \<img src=x> HTML injection - $\{{7\*7\}} CSTI + SSTI - --'\`" SQLi
+{% endtab %}
 {% endtabs %}
