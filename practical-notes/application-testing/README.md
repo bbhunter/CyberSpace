@@ -1,5 +1,7 @@
 # Application Security Testing
 
+##
+
 ## CLI tools
 
 {% tabs %}
@@ -88,6 +90,12 @@ nmap --proxies http://127.0.0.1:8080 SERVER_IP -pPORT -Pn -sC
 
 {% tabs %}
 {% tab title="Web" %}
+Scope configuration:
+
+Nongreedy match `.*?website.com$`
+
+
+
 ## WEB APPLICATION PENTESTING CHECKLIST
 
 **OWASP Based Checklist by** [Hariprasaanth](https://github.com/Hari-prasaanth/Thick-Client-Pentest-Checklist)
