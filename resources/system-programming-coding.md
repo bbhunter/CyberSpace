@@ -6,10 +6,10 @@
 | ------------------------------------------------------- | ----------------------------- | ------------------------- | ---------------------------------- |
 | [Python](https://wiki.python.org/moin/BeginnersGuide) ! | [C](https://www.learn-c.org/) | [Go](https://www.go.dev/) | [Rust](https://www.rust-lang.org/) |
 
-| Web Language Docs                                         |                                                        |                                                    |
-| --------------------------------------------------------- | ------------------------------------------------------ | -------------------------------------------------- |
-| [SOAP](https://www.w3schools.com/XML/xml\_soap.asp) (XML) | [GraphQL](https://graphql.org/)                        | [HTML](https://www.w3schools.com/html/default.asp) |
-| [CSS](https://www.w3schools.com/Css/)                     | [JavaScript](https://www.w3schools.com/js/DEFAULT.asp) |                                                    |
+| Web Language Docs                                         |                                                        |                                                           |
+| --------------------------------------------------------- | ------------------------------------------------------ | --------------------------------------------------------- |
+| [SOAP](https://www.w3schools.com/XML/xml\_soap.asp) (XML) | [GraphQL](https://graphql.org/)                        | [HTML](https://www.w3schools.com/html/default.asp)        |
+| [CSS](https://www.w3schools.com/Css/)                     | [JavaScript](https://www.w3schools.com/js/DEFAULT.asp) | [Web.Dev (Web Language Learning)](https://web.dev/learn/) |
 
 ## Language learning resources
 
@@ -44,3 +44,13 @@
 | [HackerEarth](https://www.hackerearth.com/) | [Hackerrank](https://www.hackerrank.com/)                 | [CodeChef](https://www.codechef.com/) | [TopCoder](https://www.topcoder.com/)       |
 | [Exercism](https://exercism.io/)            | [Codewars](https://www.codewars.com/)                     | [LeetCode](https://leetcode.com/)     | [Sphere Online Judge](http://www.spoj.com/) |
 | [CodinGame](https://www.codingame.com/)     | [ROP emporium](https://ropemporium.com/) (ROP challenges) |                                       |                                             |
+
+{% tabs %}
+{% tab title="First Tab" %}
+
+{% endtab %}
+
+{% tab title="Second Tab" %}
+
+{% endtab %}
+{% endtabs %}
