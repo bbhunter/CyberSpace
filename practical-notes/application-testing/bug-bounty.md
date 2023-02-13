@@ -25,10 +25,6 @@ nuclei -target "https://site.com" -t cves
 nuclei -target "https://site.com" -t /path/to/nuclei-templates/cves
 ```
 
-```
-nuclei -target "https://site.com" -t cves -rl
-```
-
 Mass security testing on subdomains:
 
 ```
@@ -38,12 +34,6 @@ cat site subdomains.txt | nuclei -t /path/to/nuclei-templates/
 ```
 nuclei -t /path/to/nuclei-templates/ -l urls.txt
 ```
-
-`-rl`, -rate-limit int maximum number of requests to send per second (default 150)&#x20;
-
-`-rlm`, -rate-limit-minute int maximum number of requests to send per minute
-
-
 
 Combining nuclei scanner with CENT custom templates
 

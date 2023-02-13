@@ -31,3 +31,4 @@
 * [PowerShell](practical-notes/powershell/README.md)
 * [Basic Linux for CTFs](practical-notes/basic-linux-for-ctfs.md)
 * [Golang](golang/README.md)
+* [Page 1](practical-notes/page-1.md)
