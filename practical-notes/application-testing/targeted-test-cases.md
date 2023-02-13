@@ -358,6 +358,8 @@ Send this request to Burp sequencer> go to Sequencer tab
 
 In Live capture menu, select cookie value and Start live capture
 
+ENSURE THAT RESULTS ARE ABOIVE FIPS PASS LEVEL
+
 Note: This is very noisy
 {% endtab %}
 
