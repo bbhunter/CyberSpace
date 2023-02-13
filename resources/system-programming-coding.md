@@ -6,10 +6,11 @@
 | ------------------------------------------------------- | ----------------------------- | ------------------------- | ---------------------------------- |
 | [Python](https://wiki.python.org/moin/BeginnersGuide) ! | [C](https://www.learn-c.org/) | [Go](https://www.go.dev/) | [Rust](https://www.rust-lang.org/) |
 
-| Web Language Docs                                         |                                                        |                                                           |
+| Web                                                       |                                                        |                                                           |
 | --------------------------------------------------------- | ------------------------------------------------------ | --------------------------------------------------------- |
 | [SOAP](https://www.w3schools.com/XML/xml\_soap.asp) (XML) | [GraphQL](https://graphql.org/)                        | [HTML](https://www.w3schools.com/html/default.asp)        |
 | [CSS](https://www.w3schools.com/Css/)                     | [JavaScript](https://www.w3schools.com/js/DEFAULT.asp) | [Web.Dev (Web Language Learning)](https://web.dev/learn/) |
+| [Front-end Checklist](https://frontendchecklist.io/)      |                                                        |                                                           |
 
 ## Language learning resources
 
@@ -35,7 +36,6 @@
 | --------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [Visual Studio Download](https://visualstudio.microsoft.com/downloads/) (VS)                                                                  | [Snyk Vulnerability Scanner](https://docs.snyk.io/ide-tools/visual-studio-code-extension) - extension that does analysis while using VS Code | [AWS CodeWhisperer](https://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/codewhisperer.html) - ML-powered code suggestion VS extension |
 | [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) - VS extension that shows web projects while coding |                                                                                                                                              |                                                                                                                                                   |
-|                                                                                                                                               |                                                                                                                                              |                                                                                                                                                   |
 
 ## Challenges
 
