@@ -344,3 +344,24 @@ Enter in EVERY parameter
 {% endtab %}
 {% endtabs %}
 
+{% tabs %}
+{% tab title="Session Management" %}
+#### Utilizing Burp Sequencer
+
+
+
+Login to application to get a session id/cookie
+
+Find a request that is associated with session/cookie value in a server response
+
+Send this request to Burp sequencer> go to Sequencer tab
+
+In Live capture menu, select cookie value and Start live capture
+
+Note: This is very noisy
+{% endtab %}
+
+{% tab title="Second Tab" %}
+
+{% endtab %}
+{% endtabs %}

@@ -6,11 +6,10 @@
 | ------------------------------------------------------- | ----------------------------- | ------------------------- | ---------------------------------- |
 | [Python](https://wiki.python.org/moin/BeginnersGuide) ! | [C](https://www.learn-c.org/) | [Go](https://www.go.dev/) | [Rust](https://www.rust-lang.org/) |
 
-| Web                                                       |                                                        |                                                             |
-| --------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------------------------- |
-| [SOAP](https://www.w3schools.com/XML/xml\_soap.asp) (XML) | [GraphQL](https://graphql.org/)                        | [HTML](https://www.w3schools.com/html/default.asp)          |
-| [CSS](https://www.w3schools.com/Css/)                     | [JavaScript](https://www.w3schools.com/js/DEFAULT.asp) | [Web.Dev (Web Language Learning)](https://web.dev/learn/) ! |
-| [Front-end Checklist](https://frontendchecklist.io/)      |                                                        |                                                             |
+| Web Language Docs                                         |                                                        |                                                    |
+| --------------------------------------------------------- | ------------------------------------------------------ | -------------------------------------------------- |
+| [SOAP](https://www.w3schools.com/XML/xml\_soap.asp) (XML) | [GraphQL](https://graphql.org/)                        | [HTML](https://www.w3schools.com/html/default.asp) |
+| [CSS](https://www.w3schools.com/Css/)                     | [JavaScript](https://www.w3schools.com/js/DEFAULT.asp) |                                                    |
 
 ## Language learning resources
 
@@ -30,12 +29,13 @@
 | [Codepen](https://codepen.io/) - build, test, and discover front-end code | [The Odin Project](https://www.theodinproject.com/) - full-stack curriculum (free) | [Codeply](https://www.codeply.com/) - HTML/CSS/JS editor with frameworks and templates |
 |                                                                           |                                                                                    |                                                                                        |
 
-## System Coding
+## SECURE CODING
 
 | Coding References                                                                                                                             |                                                                                                                                              |                                                                                                                                                   |
 | --------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [Visual Studio Download](https://visualstudio.microsoft.com/downloads/) (VS)                                                                  | [Snyk Vulnerability Scanner](https://docs.snyk.io/ide-tools/visual-studio-code-extension) - extension that does analysis while using VS Code | [AWS CodeWhisperer](https://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/codewhisperer.html) - ML-powered code suggestion VS extension |
-| [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) - VS extension that shows web projects while coding | [Devhints](https://devhints.io/) - Code Samples/cheatsheets !                                                                                |                                                                                                                                                   |
+| [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) - VS extension that shows web projects while coding |                                                                                                                                              |                                                                                                                                                   |
+|                                                                                                                                               |                                                                                                                                              |                                                                                                                                                   |
 
 ## Challenges
 
@@ -44,13 +44,3 @@
 | [HackerEarth](https://www.hackerearth.com/) | [Hackerrank](https://www.hackerrank.com/)                 | [CodeChef](https://www.codechef.com/) | [TopCoder](https://www.topcoder.com/)       |
 | [Exercism](https://exercism.io/)            | [Codewars](https://www.codewars.com/)                     | [LeetCode](https://leetcode.com/)     | [Sphere Online Judge](http://www.spoj.com/) |
 | [CodinGame](https://www.codingame.com/)     | [ROP emporium](https://ropemporium.com/) (ROP challenges) |                                       |                                             |
-
-{% tabs %}
-{% tab title="First Tab" %}
-
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
-{% endtabs %}
