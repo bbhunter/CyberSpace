@@ -30,12 +30,12 @@
 | [Codepen](https://codepen.io/) - build, test, and discover front-end code | [The Odin Project](https://www.theodinproject.com/) - full-stack curriculum (free) | [Codeply](https://www.codeply.com/) - HTML/CSS/JS editor with frameworks and templates |
 |                                                                           |                                                                                    |                                                                                        |
 
-## SECURE CODING
+## System Coding
 
 | Coding References                                                                                                                             |                                                                                                                                              |                                                                                                                                                   |
 | --------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [Visual Studio Download](https://visualstudio.microsoft.com/downloads/) (VS)                                                                  | [Snyk Vulnerability Scanner](https://docs.snyk.io/ide-tools/visual-studio-code-extension) - extension that does analysis while using VS Code | [AWS CodeWhisperer](https://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/codewhisperer.html) - ML-powered code suggestion VS extension |
-| [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) - VS extension that shows web projects while coding |                                                                                                                                              |                                                                                                                                                   |
+| [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) - VS extension that shows web projects while coding | [Devhints](https://devhints.io/) - Code Samples/cheatsheets                                                                                  |                                                                                                                                                   |
 
 ## Challenges
 
