@@ -38,6 +38,7 @@ description: Reliable Resources for AppSec
 
 * [SonarQube](https://www.sonarsource.com/products/sonarqube/downloads/) website and [Git Repo](https://github.com/SonarSource/sonarqube)
 * [CodeCat](https://github.com/CoolerVoid/codecat) - open-source tool to help find/track user input sinks and other security bugs
+* [Betterscan](https://www.betterscan.io/)
 {% endtab %}
 
 {% tab title="API" %}
@@ -85,9 +86,9 @@ description: Reliable Resources for AppSec
 {% tab title="Add-ons" %}
 ## Extensions and Plugins
 
-| [HackTools Browser Extension Repo (Easier install from extension menu)](https://github.com/LasCC/Hack-Tools.git)               | [Penetration Testing Kit Browser Extension](https://pentestkit.co.uk/index.html) !   | [Wappalyzer Browser Extension](https://www.wappalyzer.com/apps) |
-| ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | --------------------------------------------------------------- |
-| [Vulners Browser Extension](https://chrome.google.com/webstore/detail/vulners-web-scanner/dgdelbjijbkahooafjfnonijppnffhmd?hl) | [Awesome Burp Extensions](https://github.com/snoopysecurity/awesome-burp-extensions) |                                                                 |
+| [HackTools Browser Extension Repo (Easier install from extension menu)](https://github.com/LasCC/Hack-Tools.git)               | [Penetration Testing Kit Browser Extension](https://pentestkit.co.uk/index.html) !   | [Wappalyzer Browser Extension](https://www.wappalyzer.com/apps)      |
+| ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------- |
+| [Vulners Browser Extension](https://chrome.google.com/webstore/detail/vulners-web-scanner/dgdelbjijbkahooafjfnonijppnffhmd?hl) | [Awesome Burp Extensions](https://github.com/snoopysecurity/awesome-burp-extensions) | [Burp Upload Scanner](https://github.com/PortSwigger/upload-scanner) |
 
 | Burp Suite                                                                                                                                                                                                            |                                                                                                                                                                                 |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
