@@ -19,7 +19,6 @@
   * [Threat Modeling](practical-notes/application-security-testing/threat-modeling.md)
 * [Command Injection Testing](practical-notes/command-injection-testing.md)
 * [DNS](practical-notes/dns.md)
-* [SQLmap](broken-reference)
 * [SSH & SSL](practical-notes/ssh-and-ssl.md)
 * [JSON](practical-notes/json.md)
 * [Shodan](practical-notes/shodan.md)
