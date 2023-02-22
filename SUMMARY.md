@@ -10,7 +10,7 @@
 * [Offensive-Cybersecurity](resources/offensive-cybersecurity/README.md)
   * [Application Security](resources/offensive-cybersecurity/web-application-security.md)
 * [Defensive-Cybersecurity](resources/defensive-cybersecurity.md)
-* [DevOps/DevSecOps](resources/coding.md)
+* [DevOps/DevSecOps](resources/system-programming-coding.md)
 * [Additional Tools](resources/general-tools.md)
 
 ## Practical Notes
