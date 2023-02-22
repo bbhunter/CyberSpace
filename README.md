@@ -1,8 +1,3 @@
----
-cover: .gitbook/assets/Gitbook (1).PNG
-coverY: -12
----
-
 # CyberSpace
 
 Welcome to the CyberSpace Notebook!!&#x20;
