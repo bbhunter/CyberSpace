@@ -8,7 +8,7 @@
 [Shodan](https://www.shodan.io/) - scans less frequently than LeakIX but whitelisted\
 [Censys](https://search.censys.io/) - best overall scanner but without vulnerability discovery
 
-[Chaos.projectdiscovery](https://chaos.projectdiscovery.io/#/) - Real-time Recon/DNS data for Public Bug Bounty Programs\
+[Chaos.ProjectDiscovery](https://chaos.projectdiscovery.io/#/) - Real-time Recon/DNS data for Public Bug Bounty Programs\
 [ReconFTW](https://github.com/six2dez/reconftw) - automated recon and vulnerability scanner
 
 [Uncover](https://github.com/projectdiscovery/uncover) - tool used to discover exposed hosts on the internet using multiple search engines
@@ -17,6 +17,8 @@
 [Nuclei](https://github.com/projectdiscovery/nuclei#readme) - Security check scanner that is based on templates; Get started with Nuclei [here](https://nuclei.projectdiscovery.io/nuclei/get-started/#running-nuclei)\
 [Nuclei Templates Directory](https://nuclei-templates.netlify.app/) - Visually navigate available nuclei templates\
 [Community edition nuclei templates (CENT)](https://github.com/xm1k3/cent) - collect and organize other custom templates
+
+[BountyStrike](https://github.com/BountyStrike/Bountystrike-sh) - collection of bash and python scripts that installs common tools for recon scans and asset discovery
 
 \
 Getting started with some CVE scanning using Nuclei templates:
