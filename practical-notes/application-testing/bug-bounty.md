@@ -6,8 +6,12 @@
 
 [LeakIX](https://leakix.net/) - often blocked by organizations for gray hat searches\
 [Shodan](https://www.shodan.io/) - scans less frequently than LeakIX but whitelisted\
-[Censys](https://search.censys.io/) - best overall scanner but without vulnerability discovery\
+[Censys](https://search.censys.io/) - best overall scanner but without vulnerability discovery
+
+[Chaos.projectdiscovery](https://chaos.projectdiscovery.io/#/) - Real-time Recon/DNS data for Public Bug Bounty Programs\
 [ReconFTW](https://github.com/six2dez/reconftw) - automated recon and vulnerability scanner
+
+[Uncover](https://github.com/projectdiscovery/uncover) - tool used to discover exposed hosts on the internet using multiple search engines
 
 [PrettyRecon](https://prettyrecon.com/) - Active Reconnaissance Tool\
 [Nuclei](https://github.com/projectdiscovery/nuclei#readme) - Security check scanner that is based on templates; Get started with Nuclei [here](https://nuclei.projectdiscovery.io/nuclei/get-started/#running-nuclei)\
