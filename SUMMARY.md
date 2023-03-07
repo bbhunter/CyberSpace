@@ -5,8 +5,8 @@
 
 ## Resources
 
-* [Training, Labs, and Challenges](resources/training-labs-and-challenges.md)
-* [Cybersecurity Media](resources/cybersecurity-podcasts.md)
+* [Training](resources/training.md)
+* [Media](resources/cybersecurity-podcasts.md)
 * [Offensive-Cybersecurity](resources/offensive-cybersecurity/README.md)
   * [Application Security](resources/offensive-cybersecurity/web-application-security.md)
 * [Defensive-Cybersecurity](resources/defensive-cybersecurity.md)

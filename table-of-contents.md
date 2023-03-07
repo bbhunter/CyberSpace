@@ -2,7 +2,7 @@
 
 ## Resources
 
-* [Training, Labs, and Challenges](resources/training-labs-and-challenges.md)
+* [Training, Labs, and Challenges](resources/training.md)
 * [Cybersecurity Media](resources/cybersecurity-podcasts.md)
 * [Offensive-Cybersecurity](resources/offensive-cybersecurity/)
   * [Application Security](resources/offensive-cybersecurity/web-application-security.md)
