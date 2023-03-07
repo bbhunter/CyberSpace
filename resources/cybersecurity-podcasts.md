@@ -1,7 +1,9 @@
 # Cybersecurity Media
 
-## Podcasts
+##
 
+{% tabs %}
+{% tab title="Podcasts" %}
 |                                                                                          |                                                                                                  |                                                                                                                |
 | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------- |
 | [Absolute AppSec](https://absoluteappsec.com/)                                           | [Adventures of Alice and Bob by BeyondTrust](https://www.beyondtrust.com/podcast)                | [Cyber Security Sauna](https://cybersecuritysauna.libsyn.com/)                                                 |
@@ -15,11 +17,9 @@
 |                                                                                          |                                                                                                  |                                                                                                                |
 |                                                                                          |                                                                                                  |                                                                                                                |
 |                                                                                          |                                                                                                  |                                                                                                                |
+{% endtab %}
 
-
-
-## Youtube Channels
-
+{% tab title="Youtube Channels" %}
 |                                                                                                                                     |                                                                                                      |                                                                                                        |
 | ----------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
 | [HackerOne videos](https://www.hacker101.com/videos)                                                                                | [InsiderPhD](https://www.youtube.com/c/InsiderPhD)                                                   | [Series for new bug hunters](https://www.youtube.com/playlist?list=PLbyncTkpno5FAC0DJYuJrEqHSMdudEffw) |
@@ -33,4 +33,6 @@
 | [Peter Yaworski](https://www.youtube.com/@yaworsk1)                                                                                 | [Security Weekly](https://www.youtube.com/@SecurityWeekly)                                           | [MalwareTechBlog](https://www.youtube.com/@MalwareTechBlog)                                            |
 | [Professor Messer](https://www.youtube.com/@professormesser)                                                                        | [Network Chuck](https://www.youtube.com/@NetworkChuck)                                               | [David Bombal](https://www.youtube.com/channel/UCP7WmQ\_U4GB3K51Od9QvM0w)                              |
 |                                                                                                                                     |                                                                                                      |                                                                                                        |
+{% endtab %}
+{% endtabs %}
 
