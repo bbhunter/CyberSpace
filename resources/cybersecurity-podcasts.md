@@ -1,7 +1,5 @@
 # Cybersecurity Media
 
-##
-
 {% tabs %}
 {% tab title="Podcasts" %}
 |                                                                                          |                                                                                                  |                                                                                                                |
