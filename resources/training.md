@@ -1,4 +1,4 @@
-# Training
+# Training, Labs, and Challenges
 
 ## Offensive Training
 
