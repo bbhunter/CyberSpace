@@ -6,7 +6,7 @@
 ## Resources
 
 * [Training](resources/training.md)
-* [Media](resources/cybersecurity-podcasts.md)
+* [Cybersecurity Media](resources/cybersecurity-podcasts.md)
 * [Offensive-Cybersecurity](resources/offensive-cybersecurity/README.md)
   * [Application Security](resources/offensive-cybersecurity/web-application-security.md)
 * [Defensive-Cybersecurity](resources/defensive-cybersecurity.md)
