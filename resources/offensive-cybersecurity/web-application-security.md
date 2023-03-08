@@ -27,10 +27,10 @@ description: Reliable Resources for AppSec
 {% endtab %}
 
 {% tab title="Bug Bounty" %}
-| [Bug Hunter Handbook](https://gowthams.gitbook.io/bughunter-handbook)            | [Awesome Bug Bounty Resources](https://github.com/djadmin/awesome-bug-bounty) | [Awesome Bug Bounty Hunting Tool](https://github.com/0xApt/awesome-bbht) |
-| -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| [All About Bug Bounty Note Repo](https://github.com/daffainfo/AllAboutBugBounty) | [BugHunter Handbook](https://gowthams.gitbook.io/bughunter-handbook/)         | [Bug Bounty Wiki](https://bug.bounty.wiki/)                              |
-|                                                                                  |                                                                               |                                                                          |
+| [Bug Hunter Handbook](https://gowthams.gitbook.io/bughunter-handbook)                  | [Awesome Bug Bounty Resources](https://github.com/djadmin/awesome-bug-bounty) | [Awesome Bug Bounty Hunting Tool](https://github.com/0xApt/awesome-bbht) |
+| -------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| [All About Bug Bounty Note Repo](https://github.com/daffainfo/AllAboutBugBounty)       | [BugHunter Handbook](https://gowthams.gitbook.io/bughunter-handbook/)         | [Bug Bounty Wiki](https://bug.bounty.wiki/)                              |
+| [VulnPlanet](https://github.com/yevh/VulnPlanet) - Vulnerable code snippets with fixes |                                                                               |                                                                          |
 {% endtab %}
 
 {% tab title="Code Analysis" %}
