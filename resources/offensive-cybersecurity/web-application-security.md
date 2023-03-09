@@ -13,7 +13,7 @@ description: Reliable Resources for AppSec
 | Databases              | Databases (DBs) store and retrieve the web application data. Some examples of relational databases are MySQL, MSSQL, Oracle, PostgreSQL, while examples of non-relational databases include NoSQL and MongoDB. |
 | Development Frameworks | Development Frameworks are used to develop the core Web Application. Some well-known frameworks include PHP, C#, Java, Python, and NodeJS JavaScript                                                           |
 
-#### Field References
+### Field References
 
 {% tabs %}
 {% tab title="General" %}
@@ -24,6 +24,25 @@ description: Reliable Resources for AppSec
 | [Awesome Hacking Resources](https://github.com/vitalysim/Awesome-Hacking-Resources)                                  | [Damn Vulnerable PHP App](https://github.com/c0brabaghdad1/DVPA)                                                                        | [Vulnerable Java Application](https://github.com/CSPF-Founder/JavaVulnerableLab)                                 |
 | [OWASP Secrets Management focused vulnerable app](https://github.com/commjoen/wrongsecrets)                          | [403 byebye](https://github.com/nxenon/403-byebye)                                                                                      | [TCM Security PWST Lab Environment](https://github.com/mttaggart/pwst-resources) !                               |
 |                                                                                                                      |                                                                                                                                         |                                                                                                                  |
+{% endtab %}
+
+{% tab title="Mobile" %}
+#### Mobile Application Testing Guides
+
+| [OWASP MASVS](https://mas.owasp.org/MASVS/)  -Mobile Application Security Verification Standard | [OWASP MSTG](https://mas.owasp.org/MASTG/) - Mobile Application Security Testing Guide | [OWASP MAS Checklist ](https://mas.owasp.org/MAS\_checklist/) |
+| ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+
+#### iOS
+
+| [iOS Testing Guide](https://web.securityinnovation.com/hubfs/iOS%20Hacking%20Guide.pdf) by Security Innovation |   |   |
+| -------------------------------------------------------------------------------------------------------------- | - | - |
+
+#### Android
+
+| [Secure Coding guide](https://www.jssec.org/dl/android\_securecoding\_en.pdf) by JSSEC |   |   |
+| -------------------------------------------------------------------------------------- | - | - |
+|                                                                                        |   |   |
+|                                                                                        |   |   |
 {% endtab %}
 
 {% tab title="Bug Bounty" %}
