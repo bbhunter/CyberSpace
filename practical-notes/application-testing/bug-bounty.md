@@ -347,6 +347,8 @@ Resources\
 [AEM Hacker Tool](https://github.com/0ang3el/aem-hacker)\
 [SlideShare presentation on AEM by 0ang3el](https://www.slideshare.net/0ang3el/aem-hacker-approaching-adobe-experience-manager-webapps-in-bug-bounty-programs)
 
+### Reporting
+
 [CVSS 3.1 Calculator](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator)
 {% endtab %}
 
