@@ -353,7 +353,7 @@ Resources\
 {% endtab %}
 
 {% tab title="One-Liners" %}
-#### Recon
+## Recon
 
 **Dump In-scope Assets from BBPs using repo from** [**@arkadiyt**](https://github.com/arkadiyt/bounty-targets-data)
 
@@ -469,7 +469,7 @@ for HOST in $(cat HOSTS.txt);do echo $(for ip in $(dig a $HOST +short); do whois
 one | uniq); done
 ```
 
-**Finding Submomains**
+## **Finding Subdomains**
 
 **Get Subdomains from RapidDNS.io**
 
@@ -587,6 +587,22 @@ grep -E -o '(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0
 
 ```
 cat sophos_servers | while read host do; do curl --connect-timeout 10 -ks -H "X-Requested-With: XMLHttpRequest" -X POST "https://$host/userportal/Controller?mode=8700&operation=1&datagrid=179&json=\{"👽":"TEST"\}" | grep -q 'Session Expired' && printf "$host \033[1;41mVulnerable [ Sophos RCE ]\e[0m\n"; done;
+```
+
+## General
+
+**Use grep 𝐭𝐨 𝗘𝘅𝘁𝗿𝗮𝗰𝘁 𝗨𝗥𝗟'𝘀 𝗳𝗿𝗼𝗺 𝗷𝘂𝗻𝗸 𝗱𝗮𝘁𝗮**
+
+* From a local file
+
+```
+cat file | grep -Eo "(http|https)://[a-zA-Z0-9./?=_-]*"*
+```
+
+* From an online resource
+
+```
+curl http://site.xxx/file.js | grep -Eo "(http|https)://[a-zA-Z0-9./?=_-]*"*
 ```
 {% endtab %}
 
