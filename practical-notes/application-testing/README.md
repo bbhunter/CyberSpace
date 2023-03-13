@@ -146,6 +146,7 @@ Also available on [Notion](https://hariprasaanth.notion.site/WEB-APPLICATION-PEN
 
 * [ ] Find the type of Web Server
 * [ ] Find the version details of the Web Server
+  * [ ] View Wappylyzer, Whatruns, Server Reponses
 
 **Looking For Metafiles**
 
@@ -1305,8 +1306,4 @@ Source: [https://mobile-security.gitbook.io/mobile-security-testing-guide/ios-te
 
 {% endtab %}
 {% endtabs %}
-
-
-
-
 
