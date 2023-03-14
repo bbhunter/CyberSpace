@@ -430,10 +430,18 @@ Also available on [Notion](https://hariprasaanth.notion.site/WEB-APPLICATION-PEN
 
 **Test For Privilege Escalation**
 
+
+
 * [ ] Identify the injection point
 * [ ] Test for bypassing the security measures
 * [ ] Test for forced browsing
-* [ ] Test for IDOR
+*   [ ] Test for IDOR
+
+    IDOR testing Automation Steps for Burp Pro Users
+
+    * [ ] Download Standalone Jython Jar file from [https://www.jython.org/](https://www.jython.org/) and store
+    * [ ] Start Burp Pro
+    * [ ] Install Autorize from the Burp App (BApp) Store
 * [ ] Test for parameter tampering to high privileged user
 
 **Test For Insecure Direct Object Reference**
