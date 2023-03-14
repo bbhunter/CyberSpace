@@ -442,6 +442,11 @@ Also available on [Notion](https://hariprasaanth.notion.site/WEB-APPLICATION-PEN
     * [ ] Download Standalone Jython Jar file from [https://www.jython.org/](https://www.jython.org/) and store
     * [ ] Start Burp Pro
     * [ ] Install Autorize from the Burp App (BApp) Store
+    * [ ] Capture login request and copy cookie
+    * [ ] Paste cookie into Autorize Configuration
+      * [ ] Note: Instead of pasting you can also select "Copy cookie from last request"
+    * [ ] Turn Autorize on and refresh page or walk the application for auth testing
+    * [ ] Monitor and verify findings (subject to false positives)
 * [ ] Test for parameter tampering to high privileged user
 
 **Test For Insecure Direct Object Reference**
