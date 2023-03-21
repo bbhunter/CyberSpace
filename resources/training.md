@@ -50,12 +50,14 @@
 {% tab title="Web" %}
 | [FreeCodeCamp Javascript Course](https://www.youtube.com/watch?v=jS4aFq5-91M) |   |   |
 | ----------------------------------------------------------------------------- | - | - |
-|                                                                               |   |   |
-|                                                                               |   |   |
 {% endtab %}
 
-{% tab title="Second Tab" %}
-
+{% tab title="Untitled" %}
+|                                             |   |   |
+| ------------------------------------------- | - | - |
+| [Bash Academy](https://guide.bash.academy/) |   |   |
+|                                             |   |   |
+|                                             |   |   |
 {% endtab %}
 {% endtabs %}
 
@@ -64,5 +66,3 @@
 | Vendor-Specific                                                              |   |   |
 | ---------------------------------------------------------------------------- | - | - |
 | [Qualys Vulnerability Management training](https://www.qualys.com/training/) |   |   |
-|                                                                              |   |   |
-|                                                                              |   |   |
