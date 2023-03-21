@@ -20,6 +20,14 @@
 | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | [Codepen](https://codepen.io/) - build, test, and discover front-end code | [The Odin Project](https://www.theodinproject.com/) - full-stack curriculum (free) | [Codeply](https://www.codeply.com/) - HTML/CSS/JS editor with frameworks and templates |
 {% endtab %}
+
+{% tab title="Guides" %}
+|                                                                                                              |                                                                                                  |   |
+| ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | - |
+| [JavaScript for Pentesters (PTA Walkthrough)](https://sp1icer.dev/writeups/javascript-for-pentesters-intro/) | [JavaScript for Pentesters Part 2](https://sp1icer.dev/writeups/javascript-for-pentesters-pt-2/) |   |
+|                                                                                                              |                                                                                                  |   |
+|                                                                                                              |                                                                                                  |   |
+{% endtab %}
 {% endtabs %}
 
 ## System Coding
