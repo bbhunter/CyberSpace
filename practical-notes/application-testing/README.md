@@ -770,6 +770,10 @@ Nongreedy match `.*?website.com$`
 
 #### **OTHER COMMON ISSUES**
 
+#### Card Payment Functionality
+
+*
+
 **Test For No-Rate Limiting**
 
 * [ ] Ensure rate limiting is enabled
