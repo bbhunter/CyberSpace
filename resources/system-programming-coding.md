@@ -2,9 +2,7 @@
 
 
 
-| Scripting/Programming Docs                              |                               |                           |                                    |
-| ------------------------------------------------------- | ----------------------------- | ------------------------- | ---------------------------------- |
-| [Python](https://wiki.python.org/moin/BeginnersGuide) ! | [C](https://www.learn-c.org/) | [Go](https://www.go.dev/) | [Rust](https://www.rust-lang.org/) |
+#### Web
 
 {% tabs %}
 {% tab title="Web Language  Docs" %}
@@ -17,16 +15,24 @@
 
 {% endtab %}
 
-{% tab title="Online Practice" %}
+{% tab title="Online Web Coding Environments" %}
 | Web Languages Practice                                                    |                                                                                    |                                                                                        |
 | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | [Codepen](https://codepen.io/) - build, test, and discover front-end code | [The Odin Project](https://www.theodinproject.com/) - full-stack curriculum (free) | [Codeply](https://www.codeply.com/) - HTML/CSS/JS editor with frameworks and templates |
 {% endtab %}
 {% endtabs %}
 
-## Language learning resources
+## System Coding
 
 {% tabs %}
+{% tab title="Docs" %}
+| Scripting/Programming Docs                              |                               |                           |                                    |
+| ------------------------------------------------------- | ----------------------------- | ------------------------- | ---------------------------------- |
+| [Python](https://wiki.python.org/moin/BeginnersGuide) ! | [C](https://www.learn-c.org/) | [Go](https://www.go.dev/) | [Rust](https://www.rust-lang.org/) |
+
+
+{% endtab %}
+
 {% tab title="General" %}
 | [Interactive language learning Repo from @ronreiter](https://github.com/ronreiter/interactive-tutorials) | [Roadmap.sh](https://roadmap.sh/roadmaps) - Collection of free language learning resources by developer job role ! |
 | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
@@ -44,18 +50,16 @@
 
 
 {% endtab %}
-{% endtabs %}
 
-## System Coding
-
+{% tab title="Tools/Helpers" %}
 | Coding References                                                                                                                             |                                                                                                                                              |                                                                                                                                                   |
 | --------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [Visual Studio Download](https://visualstudio.microsoft.com/downloads/) (VS)                                                                  | [Snyk Vulnerability Scanner](https://docs.snyk.io/ide-tools/visual-studio-code-extension) - extension that does analysis while using VS Code | [AWS CodeWhisperer](https://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/codewhisperer.html) - ML-powered code suggestion VS extension |
 | [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) - VS extension that shows web projects while coding | [Devhints](https://devhints.io/) - Code Samples/cheatsheets !                                                                                |                                                                                                                                                   |
 
 
+{% endtab %}
 
-{% tabs %}
 {% tab title="Challenges" %}
 
 
@@ -64,9 +68,5 @@
 | [HackerEarth](https://www.hackerearth.com/) | [Hackerrank](https://www.hackerrank.com/)                 | [CodeChef](https://www.codechef.com/)                            | [TopCoder](https://www.topcoder.com/)       |
 | [Exercism](https://exercism.io/)            | [Codewars](https://www.codewars.com/)                     | [LeetCode](https://leetcode.com/)                                | [Sphere Online Judge](http://www.spoj.com/) |
 | [CodinGame](https://www.codingame.com/)     | [ROP emporium](https://ropemporium.com/) (ROP challenges) | [CheckIO Python/TypeScript Challenges ](https://py.checkio.org/) |                                             |
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
 {% endtab %}
 {% endtabs %}
