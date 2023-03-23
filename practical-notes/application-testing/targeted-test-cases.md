@@ -335,6 +335,18 @@ Send Post request with path to xml file for exploitation
 curl -d@/home/researcher/Desktop/payloads/poc.xml http://vulnerablesite.com/home/vulnerable.php
 ```
 
+OR\
+Use a script to send payload:\
+\
+curl.sh
+
+```
+#!/bin/bash
+curl -d@/home/researcher/Desktop/payloads/poc.xml http://vulnerablesite.com/home/vulnerable.php
+```
+
+
+
 ID.xml
 
 ```
