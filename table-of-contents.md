@@ -21,7 +21,6 @@
 * [DNS](practical-notes/dns.md)
 * [SSH & SSL](practical-notes/ssh-and-ssl.md)
 * [JSON](practical-notes/json.md)
-* [Shodan](broken-reference)
 * [WireShark filters](practical-notes/wireshark-filters.md)
 * [Splunk Queries](practical-notes/splunk-ir.md)
 * [Python](practical-notes/python.md)
