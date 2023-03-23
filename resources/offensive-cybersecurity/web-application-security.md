@@ -95,11 +95,20 @@ description: Reliable Resources for AppSec
 | [WebOSINT](https://github.com/C3n7ral051nt4g3ncy/webosint)                                          | [All in One Recon Tool (AORT)](https://github.com/D3Ext/AORT)  | [katana by ProjectDiscovery](https://github.com/projectdiscovery/katana) |
 | [Domain to IP converter (Python) by @YSSVirus](https://github.com/YSSVirus/domain-to-ip\_converter) | [Cariddi by @edoardott](https://github.com/edoardottt/cariddi) |                                                                          |
 
+#### Directory Fuzzing
+
+| [CeWL](https://github.com/digininja/CeWL) | [fzf](https://github.com/junegunn/fzf) - Use alias in CLI to easily discover installed wordlists | [SecLists](https://github.com/danielmiessler/SecLists) - various lists |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------- |
+
 #### SubDomain/DNS Enumeration
 
 | [MayorSec DNS Scan](https://github.com/dievus/msdnsscan) ! | [PureDNS](https://github.com/d3mondev/puredns)          | [DNSrr](https://github.com/A3h1nt/Dnsrr) |
 | ---------------------------------------------------------- | ------------------------------------------------------- | ---------------------------------------- |
 | [AquaTone](https://github.com/michenriksen/aquatone)       | [DNSReaper](https://github.com/punk-security/dnsReaper) |                                          |
+{% endtab %}
+
+{% tab title="Untitled" %}
+
 {% endtab %}
 
 {% tab title="Add-ons" %}

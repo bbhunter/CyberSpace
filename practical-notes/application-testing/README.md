@@ -185,6 +185,8 @@ Nongreedy match `.*?website.com$`
 * [ ] Use Burp Suite
 * [ ] Use Dirsearch
 * [ ] Use Gobuster
+* [ ] Use Feroxbuster
+  * [ ] `feroxbuster -H "User-Agent: PENTEST" -w fzf-wordlists -u http://site/`
 
 **Fingerprint Web Application Framework**
 
