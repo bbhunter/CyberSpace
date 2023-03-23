@@ -115,8 +115,6 @@ nmap --proxies http://127.0.0.1:8080 SERVER_IP -pPORT -Pn -sC
 {% endtab %}
 {% endtabs %}
 
-
-
 ### Application Security Assessments
 
 {% tabs %}
@@ -187,6 +185,7 @@ Nongreedy match `.*?website.com$`
 * [ ] Use Gobuster
 * [ ] Use Feroxbuster
   * [ ] `feroxbuster -H "User-Agent: PENTEST" -w fzf-wordlists -u http://site/`
+  * [ ] `feroxbuster -H "User-Agent: PENTEST" -w $WORDLIST -u SITE -t $THREADS`
 
 **Fingerprint Web Application Framework**
 

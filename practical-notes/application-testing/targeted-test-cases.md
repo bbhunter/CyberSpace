@@ -2,7 +2,7 @@
 
 {% tabs %}
 {% tab title="XSS" %}
-
+Tools like smuggler.py (Python) can be used to identify potential HTTP request smuggling vulnerabilities.
 
 | Code                                                                                                                                                                                                                                                                                                                                                                                                  | Description                                |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
@@ -416,7 +416,15 @@ ENSURE THAT RESULTS ARE ABOIVE FIPS PASS LEVEL
 Note: This is very noisy
 {% endtab %}
 
-{% tab title="Second Tab" %}
+{% tab title="HTTP Request Smuggling" %}
+[smuggler.py](https://github.com/defparam/smuggler) usage:
 
+```
+# single host
+smuggler.py -u $URL
+
+# from a list
+cat list_of_hosts.txt | python3 smuggler.py
+```
 {% endtab %}
 {% endtabs %}
