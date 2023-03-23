@@ -89,9 +89,11 @@ Daily updated Text file of all domains within scope on active Bug Bounty Program
 | `intitle:"Index of /" .htaccess site:http://site.com`                                                                                               | Searching for exposed Apache configuration file |
 | `site:website.com inurl:"contact" \| inurl:"contact-us" \| inurl:"contactus" \| inurl:"contcat_us" \| inurl:"contact_form" \| inurl:"contact-form"` | Searching for possible contact form             |
 
-| Shodan Dork                             | Purpose                             |
-| --------------------------------------- | ----------------------------------- |
-| `hostname:".gov" product:"Jenkins" 200` | Searching Jenkins instances in .gov |
+| Shodan Dork                              | Purpose                                                                                                     |
+| ---------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| `hostname:".gov" product:"Jenkins" 200`  | Searching Jenkins instances in .gov                                                                         |
+| `ssl.cert.subject.CN:"*.google.com"+200` | Returns all SSL services that has issued a certificate for \*.google.com with an HTTP response code of 200. |
+| ssl.cert.issuer.cn:"DOD SW CA-60" 200    | Returns all SSL certificates that have been issued by the DoD with reponse code of 200                      |
 
 **Sensitive Information Exposure methods Use** [**GitTools**](https://github.com/internetwache/GitTools) **gitdumper.sh**
 

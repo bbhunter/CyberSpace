@@ -3,7 +3,7 @@
 ## Resources
 
 * [Training, Labs, and Challenges](resources/training.md)
-* [Cybersecurity Media](resources/cybersecurity-podcasts.md)
+* [Cybersecurity Media](broken-reference)
 * [Offensive-Cybersecurity](resources/offensive-cybersecurity/)
   * [Application Security](resources/offensive-cybersecurity/web-application-security.md)
 * [Defensive-Cybersecurity](resources/defensive-cybersecurity.md)
@@ -21,7 +21,7 @@
 * [DNS](practical-notes/dns.md)
 * [SSH & SSL](practical-notes/ssh-and-ssl.md)
 * [JSON](practical-notes/json.md)
-* [Shodan](practical-notes/shodan.md)
+* [Shodan](broken-reference)
 * [WireShark filters](practical-notes/wireshark-filters.md)
 * [Splunk Queries](practical-notes/splunk-ir.md)
 * [Python](practical-notes/python.md)
