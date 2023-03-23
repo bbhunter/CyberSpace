@@ -105,6 +105,16 @@ Attempt to bypass application protections such as Cloudflare, Akamai, etc.
 
 Worth a shot to use the tool by [Cloudflare Origin IP](https://github.com/gwen001/cloudflare-origin-ip) by @[gwen001](https://github.com/gwen001)
 
+Check to see if application is behind a WAF
+
+```
+wafw00f $URL
+whatwaf -u $URL
+nmap -p $PORT --script=http-waf-fingerprint,http-waf-detect $URL
+```
+
+
+
 **Authentication:**
 
 Registration
