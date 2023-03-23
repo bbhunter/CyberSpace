@@ -2,6 +2,20 @@
 
 {% tabs %}
 {% tab title="Master Checklist" %}
+#### Custom Header Setup
+
+Steps to Add Custom Header in Burp Requests
+
+* Select Proxy -> Options
+* Go to Match and Replace and select add
+* Specify the details of the match and replace as shown below
+  1. Type: Request Header
+  2. Match: Leave blank to add a new header
+  3. Replace: hacker@bugbounty.site
+  4. Comment: Manually BBP header
+
+****
+
 **Information Gathering**
 
 [LeakIX](https://leakix.net/) - often blocked by organizations for gray hat searches\
