@@ -1,7 +1,5 @@
 # Offensive-Cybersecurity
 
-<figure><img src="../../.gitbook/assets/red team shield.png" alt=""><figcaption></figcaption></figure>
-
 {% tabs %}
 {% tab title="General" %}
 | [AthenaOS - Arch-linux Cybersecurity OS](https://github.com/Athena-OS/athena-iso#install) !       | [HackTricks](https://book.hacktricks.xyz/) !                                                           | [Exploit Notes](https://exploit-notes.hdks.org/) !                        |
