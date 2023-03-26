@@ -15,9 +15,9 @@ Ensure to review other projects and join our Discord community at [https://linkt
 ## License
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-nd/4.0/88x31.png)](http://creativecommons.org/licenses/by-nd/4.0/)\
-Copyright © Martian Defense, LLC 2023. Except where otherwise specified (the external information copied into this book belongs to the original authors), the tinformation within [CyberSpace](https://github.com/CyberSpace) by Martian Defense is licensed under a [Creative Commons Attribution-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nd/4.0/).\
+Copyright © Martian Defense, LLC 2023. Except where otherwise specified (the external information copied into this book belongs to the original authors), the information within [CyberSpace](https://github.com/CyberSpace) by Martian Defense is licensed under a [Creative Commons Attribution-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nd/4.0/).\
 \
-Contact Martian Defense, LLC for any reuse of this material.
+Contact Martian Defense, LLC before any reuse of this material.
 
 ## Disclaimer
 
@@ -29,6 +29,4 @@ The authors and publishers shall in no event be liable for any loss or damage, i
 Furthermore, the techniques and tips described in this book are provided for educational and informational purposes only, and should not be used for any illegal or malicious activities. The authors and publishers do not condone or support any illegal or unethical activities, and any use of the information contained within this book is at the user's own risk and discretion.
 
 The user is solely responsible for any actions taken based on the information contained within this book, and should always seek professional advice and assistance when attempting to implement any of the techniques or tips described herein.
-
-By using this book, the user agrees to release the authors and publishers from any and all liability and responsibility for any damages, losses, or harm that may result from the use of this book or any of the information contained within it.
 {% endhint %}
