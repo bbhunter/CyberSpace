@@ -37,25 +37,25 @@ Steps to Add Custom Header in Burp Requests
 \
 Getting started with some CVE scanning using Nuclei templates:
 
-```
+```bash
 nuclei -target "https://site.com" -t cves
 ```
 
-```
+```bash
 nuclei -target "https://site.com" -t /path/to/nuclei-templates/cves
 ```
 
-```
+```bash
 nuclei -target "https://site.com" -t cves -rl
 ```
 
 Mass security testing on subdomains:
 
-```
+```bash
 cat site subdomains.txt | nuclei -t /path/to/nuclei-templates/
 ```
 
-```
+```bash
 nuclei -t /path/to/nuclei-templates/ -l urls.txt
 ```
 
@@ -67,11 +67,11 @@ nuclei -t /path/to/nuclei-templates/ -l urls.txt
 
 Combining nuclei scanner with CENT custom templates
 
-```
+```bash
 nuclei -u https://example.com -t ./cent-nuclei-templates -tags cve
 ```
 
-```
+```bash
 nuclei -l urls.txt -t ./cent-nuclei-templates -tags cve
 ```
 
@@ -107,7 +107,7 @@ Worth a shot to use the tool by [Cloudflare Origin IP](https://github.com/gwen00
 
 Check to see if application is behind a WAF
 
-```
+```bash
 wafw00f $URL
 whatwaf -u $URL
 nmap -p $PORT --script=http-waf-fingerprint,http-waf-detect $URL

