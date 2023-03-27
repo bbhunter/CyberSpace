@@ -61,10 +61,10 @@ A single-line comment starts with `//`
 
 Multi-line comments start with `/*` and end with `*/` making everything in between a comment
 
-<pre><code><strong>//I wonder if I can display two messages in the same script tag
+<pre class="language-javascript"><code class="lang-javascript"><strong>//I wonder if I can display two messages in the same script tag
 </strong><strong>
 </strong><strong>/* The code below
-</strong>should uffice for
+</strong>should suffice
 <strong>for testing */
 </strong><strong>
 </strong><strong>&#x3C;body>
