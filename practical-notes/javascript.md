@@ -74,3 +74,16 @@ Multi-line comments start with `/*` and end with `*/` making everything in betwe
 &#x3C;/body>
 </code></pre>
 
+#### Logic
+
+JavaScript uses the basic programming operators for math such as `+`. `-`, `/`,  `*`, including `(`, and `)`, for order of operations.
+
+```javascript
+/* 30 days
+1 day = 24 hours
+1 hour = 60 minutes
+1 minute = 60 seconds */
+
+//Aproximately how many seconds are in a year?
+console.log(60*60*24*30);
+```
