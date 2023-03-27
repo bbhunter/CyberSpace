@@ -47,8 +47,7 @@ Alert Box display messages with the alert() function
 ```html
 <body>
     <script>
-      console.log("JavaScript in HTML");
-      alert("I may be testing XSS now");
+      alert("I think I can learn XSS now");
     </script>
 </body>
 ```
@@ -70,7 +69,7 @@ Multi-line comments start with `/*` and end with `*/` making everything in betwe
 </strong><strong>&#x3C;body>
 </strong>    &#x3C;script>
       console.log("JavaScript in HTML");
-      alert("I may be testing XSS now");
+      alert("I think I can learn XSS now");
     &#x3C;/script>
 &#x3C;/body>
 </code></pre>
