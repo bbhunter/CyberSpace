@@ -87,3 +87,44 @@ JavaScript uses the basic programming operators for math such as `+`. `-`, `/`, 
 //Aproximately how many seconds are in a year?
 console.log(60*60*24*30);
 ```
+
+#### Variables
+
+* variable names must begin with a letter, an underscore `_` or a dollar sign `$`
+* variable names cannot contain spaces
+* variable names can only contain letters, numbers, underscores, or dollar signs.
+* variable names are case-sensitive, which means that, for example, Name and name variables are different
+
+Create a variable (initialize) in JS with `let` or `var`:
+
+```javascript
+let name;
+name = "Martian";
+```
+
+OR
+
+```javascript
+let name = "Martian";
+let number = 1337
+```
+
+Note: the use of let is recommended instead of var when decalring variables
+
+Remembering the definition of variable, remember that they can change on they fly:
+
+```javascript
+let num = 7331;
+num = 1337;
+//num = 7;
+console.log(num);
+```
+
+#### Constants
+
+Constants must have a value when declared and they cannot change their value.
+
+```javascript
+const cyberpsace = 'green';
+console.log(color); color = 'blue'; //this will result in error
+```

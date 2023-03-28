@@ -20,7 +20,7 @@
 * [Command Injection Testing](practical-notes/command-injection-testing.md)
 * [DNS](practical-notes/dns.md)
 * [SSH & SSL](practical-notes/ssh-and-ssl.md)
-* [JSON](practical-notes/json.md)
+* [JSON](practical-notes/javascript/json.md)
 * [WireShark filters](practical-notes/wireshark-filters.md)
 * [Splunk Queries](practical-notes/splunk-ir.md)
 * [Python](practical-notes/python.md)
