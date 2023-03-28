@@ -126,5 +126,5 @@ Constants must have a value when declared and they cannot change their value.
 
 ```javascript
 const cyberpsace = 'green';
-console.log(color); color = 'blue'; //this will result in error
+console.log(color); color = 'blue'; //confirm this will not work
 ```
