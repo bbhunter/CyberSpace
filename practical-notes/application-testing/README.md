@@ -6,6 +6,39 @@
 
 {% tabs %}
 {% tab title="cURL" %}
+#### sqlmap and ZAP auth/cookie integration
+
+
+
+1. Open ZAP and login in to target application
+2. Visit request that contains authenticated cookie
+3. Copy the cookie value in the request tab
+4. Run sqlmap command with cookie and proxy included
+
+
+
+Example uses for the field:
+
+Proxy sqlmap through ZAP with custom user agent "bughunter"
+
+{% code overflow="wrap" %}
+```bash
+sqlmap -u "https://website.com/vulnerablepage/?id=1&Submit=Submit" --cookie="currentZAPcookie" --proxy http://127.0.0.1:8081 --batch --user-agent bughunter
+```
+{% endcode %}
+
+
+
+Searching for the word "pass"
+
+{% code overflow="wrap" %}
+```bash
+sqlmap -u "https://website.com/vulnerablepage/?id=1&Submit=Submit" --cookie="currentZAPcookie" --proxy http://127.0.0.1:8081 -D db_name --search -C pass --batch 
+```
+{% endcode %}
+
+
+
 | Command                                                                                                            | Description                                          |
 | ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------- |
 | `curl -h`                                                                                                          | curl help menu                                       |
@@ -29,7 +62,6 @@
 | `curl -s https://sonar.omnisint.io/reverse/{ip} \| jq -r '.[]' \| sort -u`                                         | Reverse DNS lookup on IP address.                    |
 | `curl -s https://sonar.omnisint.io/reverse/{ip}/{mask} \| jq -r '.[]' \| sort -u`                                  | Reverse DNS lookup of a CIDR range.                  |
 | `curl -s "https://crt.sh/?q=${TARGET}&output=json" \| jq -r '.[] \| "\(.name_value)\n\(.common_name)"' \| sort -u` | Certificate Transparency.                            |
-|                                                                                                                    |                                                      |
 {% endtab %}
 
 {% tab title="ffuf" %}
