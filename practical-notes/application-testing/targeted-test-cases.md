@@ -427,4 +427,22 @@ smuggler.py -u $URL
 cat list_of_hosts.txt | python3 smuggler.py
 ```
 {% endtab %}
+
+{% tab title="CSRF" %}
+* [ ] Is SameSite set on cookies?
+  * [ ] Test GET request
+  * [ ] Does '`X-Http-Method-Override: GET`' work for override?
+  * [ ] Does '`_method=POST`' work for override?
+* [ ] Does every form have anti-CSRF token present
+* [ ] Referer header used for origin validation?
+* [ ] Token Testing
+  * [ ] Conduct test with token of the same length
+  * [ ] Conduct test for static/known values
+  * [ ] Conduct test with token from a separate session
+  * [ ] Test previous valid token
+  * [ ] Test with no token
+  * [ ] Predictable?
+  * [ ] Will XSS steal the token?
+* [ ] Able to swap HTTP request methods? (Get to POST)
+{% endtab %}
 {% endtabs %}
