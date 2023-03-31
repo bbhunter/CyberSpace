@@ -70,13 +70,14 @@ description: Reliable Resources for AppSec
 | [DVGA: Vulnerable GraphQL API application](https://github.com/dolevf/Damn-Vulnerable-GraphQL-Application) | [API Workshop by Corey Ball](https://sway.office.com/HVrL2AXUlWGNDHqy)                                                  | [OWASP API Tool List](https://owasp.org/www-community/api\_security\_tools)                     |
 | [MindAPI](https://dsopas.github.io/MindAPI/play/) - interactive Mind Map                                  |                                                                                                                         |                                                                                                 |
 
-#### Tools
+#### Testing Tools
 
-| Tools                                                                                   |                                                                                                                                                  |                                                                                                                                             |
-| --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Grapql-cop](https://github.com/dolevf/graphql-cop)                                     | [graphql voyager](https://github.com/IvanGoncharov/graphql-voyager) -converts a response of an introspection query into a visual graph that maps | [InQL](https://github.com/doyensec/inql) -can inspect the introspection query results and generate clean documentation in different formats |
-| Online [JSON Web Token (JWT) Tool/Reference](https://jwt.io/) !                         | [SOAPUI](https://www.soapui.org/)                                                                                                                | [Postman](https://www.postman.com/)                                                                                                         |
-| [Kubeshark - API Traffic Viewer for Kubernetes](https://github.com/kubeshark/kubeshark) | [Metlo - API security tool](https://github.com/metlo-labs/metlo)                                                                                 | [KiteRunner](https://github.com/assetnote/kiterunner)                                                                                       |
+| Tools                                                                                   |                                                                                                                                                  |                                                                                                                                                              |
+| --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [Grapql-cop](https://github.com/dolevf/graphql-cop)                                     | [graphql voyager](https://github.com/IvanGoncharov/graphql-voyager) -converts a response of an introspection query into a visual graph that maps | [InQL](https://github.com/doyensec/inql) -can inspect the introspection query results and generate clean documentation in different formats (Burp Extension) |
+| Online [JSON Web Token (JWT) Tool/Reference](https://jwt.io/) !                         | [SOAPUI](https://www.soapui.org/)                                                                                                                | [Postman](https://www.postman.com/)                                                                                                                          |
+| [Kubeshark - API Traffic Viewer for Kubernetes](https://github.com/kubeshark/kubeshark) | [Metlo - API security tool](https://github.com/metlo-labs/metlo)                                                                                 | [KiteRunner](https://github.com/assetnote/kiterunner)                                                                                                        |
+|                                                                                         |                                                                                                                                                  |                                                                                                                                                              |
 {% endtab %}
 
 {% tab title="Threat Modeling" %}
@@ -107,21 +108,21 @@ description: Reliable Resources for AppSec
 | [AquaTone](https://github.com/michenriksen/aquatone)       | [DNSReaper](https://github.com/punk-security/dnsReaper) |                                          |
 {% endtab %}
 
-{% tab title="Untitled" %}
-
-{% endtab %}
-
-{% tab title="Add-ons" %}
+{% tab title="Browser Add-ons" %}
 ## Extensions and Plugins
 
 | [HackTools Browser Extension Repo (Easier install from extension menu)](https://github.com/LasCC/Hack-Tools.git)               | [Penetration Testing Kit Browser Extension](https://pentestkit.co.uk/index.html) !   | [Wappalyzer Browser Extension](https://www.wappalyzer.com/apps)      |
 | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------- |
 | [Vulners Browser Extension](https://chrome.google.com/webstore/detail/vulners-web-scanner/dgdelbjijbkahooafjfnonijppnffhmd?hl) | [Awesome Burp Extensions](https://github.com/snoopysecurity/awesome-burp-extensions) | [Burp Upload Scanner](https://github.com/PortSwigger/upload-scanner) |
+{% endtab %}
 
-| Burp Suite                                                                                                                                                                                                            |                                                                                                                                                                                 |
+{% tab title="Burp Add-ons" %}
+
+
+| General                                                                                                                                                                                                               |                                                                                                                                                                                 |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [Nuclei burp plugin](https://github.com/projectdiscovery/nuclei-burp-plugin) (also in [Bapp store](https://portswigger.net/bappstore/9c7f7ae2844c4828b28be2398c02b7f7)) - generate nuclei template from burp requests | [HackBar Extension](https://github.com/d3vilbug/HackBar) (also in [Bapp store](https://portswigger.net/bappstore/526f5564b7414bfe978e650d8ea6567b)) - Security testing Payloads |
-|                                                                                                                                                                                                                       |                                                                                                                                                                                 |
+| [IP Rotate](https://github.com/PortSwigger/ip-rotate) Burp Extension ( [BApp store](https://portswigger.net/bappstore/2eb2b1cb1cf34cc79cda36f0f9019874))                                                              |                                                                                                                                                                                 |
 {% endtab %}
 
 {% tab title="WAF" %}
