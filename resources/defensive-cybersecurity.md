@@ -7,6 +7,17 @@
 | [EyeHateMalwares](https://eyehatemalwares.com/) !                                                          | [Pylirt](https://github.com/anil-yelken/pylirt) - Python IR toolkit for linux |                                                                                             |                                                                                                |
 {% endtab %}
 
+{% tab title="Intel" %}
+## Feeds, Trends, and Intel
+
+* [Cyber Threat Intelligence Dashboard by infosecn1nja](https://start.me/p/wMrA5z/cyber-threat-intelligence) !
+* [CVE Trends Crowdsourced CVE Intel](https://cvetrends.com/)
+* [Abuse.ch Malware URL Exchange](https://urlhaus.abuse.ch/)
+* [Phishing Army: Phishing URL Blocklist](https://phishing.army/)
+* [Unified Hosts Blacklist: Host file for malicious URL Blocking, updated daily](https://github.com/Ultimate-Hosts-Blacklist/Ultimate.Hosts.Blacklist)
+* [APT Index (National Security Cyber War Map)](https://embed.kumu.io/0b023bf1a971ba32510e86e8f1a38c38#apt-index)
+{% endtab %}
+
 {% tab title="DFIR" %}
 
 
@@ -38,17 +49,6 @@
 | [Azure AD Investigator PowerShell module](https://github.com/AzureAD/Azure-AD-Incident-Response-PowerShell-Module) | [AzureAD Security Assessment](https://github.com/AzureAD/AzureADAssessment)      | [Mandiant Azure AD Investigator](https://github.com/mandiant/Mandiant-Azure-AD-Investigator) |
 | [CISA Sparrow](https://github.com/cisagov/Sparrow)                                                                 | [CrowdStrike Reporting Tool for Azure (CRT)](https://github.com/CrowdStrike/CRT) | [Hawk](https://github.com/T0pCyber/hawk)                                                     |
 | [AzureHound](https://github.com/BloodHoundAD/AzureHound)                                                           | [Office 365 Extractor](https://github.com/PwC-IR/Office-365-Extractor)           | [Azure Sentinel Detections](https://github.com/Azure/Azure-Sentinel/tree/master/Detections)  |
-{% endtab %}
-
-{% tab title="Intel" %}
-## Feeds, Trends, and Intel
-
-* [Cyber Threat Intelligence Dashboard by infosecn1nja](https://start.me/p/wMrA5z/cyber-threat-intelligence) !
-* [CVE Trends Crowdsourced CVE Intel](https://cvetrends.com/)
-* [Abuse.ch Malware URL Exchange](https://urlhaus.abuse.ch/)
-* [Phishing Army: Phishing URL Blocklist](https://phishing.army/)
-* [Unified Hosts Blacklist: Host file for malicious URL Blocking, updated daily](https://github.com/Ultimate-Hosts-Blacklist/Ultimate.Hosts.Blacklist)
-* [APT Index (National Security Cyber War Map)](https://embed.kumu.io/0b023bf1a971ba32510e86e8f1a38c38#apt-index)
 {% endtab %}
 
 {% tab title="Malware" %}
