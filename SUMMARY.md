@@ -20,7 +20,7 @@
   * [Targeted Test Cases](practical-notes/application-testing/targeted-test-cases.md)
   * [Static Code Analysis](practical-notes/application-testing/static-code-analysis.md)
   * [Threat Modeling](practical-notes/application-security-testing/threat-modeling.md)
-  * [DNS](practical-notes/application-testing/dns.md)
+  * [DNS](practical-notes/dns.md)
   * [Reporting](practical-notes/application-testing/reporting.md)
 * [Command Injection Testing](practical-notes/command-injection-testing.md)
 * [SSH & SSL](practical-notes/ssh-and-ssl.md)
