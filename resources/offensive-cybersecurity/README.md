@@ -45,6 +45,22 @@
 {% endtabs %}
 {% endtab %}
 
+{% tab title="Wordlists" %}
+## Wordlists and Passwords
+
+| Password Databases/Lists                                                    |                                                                                     |                                                                                               |
+| --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| [Seclists from @danielmiessler](https://github.com/danielmiessler/SecLists) | [Default Creds Cheat Sheet](https://github.com/ihebski/DefaultCreds-cheat-sheet)    | [CIRT.net (default passwords)](https://cirt.net/passwords)                                    |
+| [Default-password.info](https://default-password.info/)                     | [Data Recovery (default passwords)](https://datarecovery.com/rd/default-passwords/) | [Skullsecurity Password collection](https://wiki.skullsecurity.org/index.php?title=Passwords) |
+| [Trickest Wordlists](https://github.com/trickest/wordlists)                 |                                                                                     |                                                                                               |
+
+### Web Fuzzing
+
+|                                                                                   |                                                    |                                               |
+| --------------------------------------------------------------------------------- | -------------------------------------------------- | --------------------------------------------- |
+| [OnelistForall](https://github.com/six2dez/OneListForAll) - AKA Rockyou for web ! | [FuzzDB](https://github.com/fuzzdb-project/fuzzdb) | [Asset Note](https://wordlists.assetnote.io/) |
+{% endtab %}
+
 {% tab title="Infrastructure " %}
 
 
@@ -122,22 +138,6 @@
 | [SMS Get](https://smsget.net/)                                                                                                                                                                  | [GetfreeSMSnumber](https://getfreesmsnumber.com)                                                                                                                                      | [ReceivefreeSMS](http://receivefreesms.com/)                                                                                                                                            |
 | [ReceivefreeSMS](http://receivefreesms.com/)                                                                                                                                                    | [7sim](https://7sim.org/)                                                                                                                                                             | [1S2U](https://1s2u.com/)                                                                                                                                                               |
 | [Text anywhere](http://www.textanywhere.net/)                                                                                                                                                   | [Proovl](https://www.proovl.com/numbers)                                                                                                                                              | [Groovl](https://www.groovl.com/)                                                                                                                                                       |
-{% endtab %}
-
-{% tab title="Wordlists" %}
-## Wordlists and Passwords
-
-| Password Databases/Lists                                                    |                                                                                     |                                                                                               |
-| --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| [Seclists from @danielmiessler](https://github.com/danielmiessler/SecLists) | [Default Creds Cheat Sheet](https://github.com/ihebski/DefaultCreds-cheat-sheet)    | [CIRT.net (default passwords)](https://cirt.net/passwords)                                    |
-| [Default-password.info](https://default-password.info/)                     | [Data Recovery (default passwords)](https://datarecovery.com/rd/default-passwords/) | [Skullsecurity Password collection](https://wiki.skullsecurity.org/index.php?title=Passwords) |
-| [Trickest Wordlists](https://github.com/trickest/wordlists)                 |                                                                                     |                                                                                               |
-
-### Web Fuzzing
-
-|                                                                                   |                                                    |   |
-| --------------------------------------------------------------------------------- | -------------------------------------------------- | - |
-| [OnelistForall](https://github.com/six2dez/OneListForAll) - AKA Rockyou for web ! | [FuzzDB](https://github.com/fuzzdb-project/fuzzdb) |   |
 {% endtab %}
 {% endtabs %}
 
