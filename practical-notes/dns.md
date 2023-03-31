@@ -1,7 +1,7 @@
 # DNS
 
-#### DNS Records
-
+{% tabs %}
+{% tab title="DNS Records" %}
 | Record                       | Description                                                                                                                                                                                                                                                            |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `Resource Record`            | A domain name, usually a fully qualified domain name, is the first part of a Resource Record. If you don't use a fully qualified domain name, the zone's name where the record is located will be appended to the end of the name.                                     |
@@ -14,8 +14,10 @@
 | `Canonical Name` (`CNAME`)   | An alias hostname is mapped to an `A` record hostname using the `CNAME` record.                                                                                                                                                                                        |
 | `Mail Exchange` (`MX`)       | The `MX` record identifies a host that will accept emails for a specific host. A priority value has been assigned to the specified host. Multiple MX records can exist on the same host, and a prioritized list is made consisting of the records for a specific host. |
 
-#### nslookup/dig
 
+{% endtab %}
+
+{% tab title="nslookup/dig" %}
 | Command                            | Description                                          |
 | ---------------------------------- | ---------------------------------------------------- |
 | `nslookup $TARGET`                 | Identify the `A` record for the target domain.       |
@@ -30,3 +32,7 @@
 | `dig txt $TARGET @<nameserver/IP>` | Identify the `TXT` records for the target domain.    |
 | `nslookup -query=MX $TARGET`       | Identify the `MX` records for the target domain.     |
 | `dig mx $TARGET @<nameserver/IP>`  | Identify the `MX` records for the target domain.     |
+
+
+{% endtab %}
+{% endtabs %}
