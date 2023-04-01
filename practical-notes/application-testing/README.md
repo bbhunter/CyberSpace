@@ -804,11 +804,13 @@ If XML is supported, check for XXE
 {% tab title="Labs" %}
 **crAPI Lab Setup**
 
-* [ ] `mkdir /apilab`
-* [ ] `cd /apilab`
-* [ ] `sudo curl -o docker-compose.yml https://raw.githubusercontent.com/OWASP/crAPI/main/deploy/docker/docker-compose.yml`
-* [ ] `sudo docker-compose pull`
-* [ ] `sudo docker-compose -f docker-compose.yml --compatibility up -d`
+```bash
+mkdir /apilab
+cd /apilab
+sudo curl -o docker-compose.yml https://raw.githubusercontent.com/OWASP/crAPI/main/deploy/docker/docker-compose.yml
+sudo docker-compose pull
+sudo docker-compose -f docker-compose.yml --compatibility up -d
+```
 
 crAPI Landing page will be located at http://127.0.0.1:8888 with the crAPI Mailhog Server at http://127.0.0.1:8025
 
@@ -816,11 +818,31 @@ crAPI Landing page will be located at http://127.0.0.1:8888 with the crAPI Mailh
 
 **vAPI lab setup**
 
-* [ ] `mkdir /apilab`
-* [ ] `cd /apilab`
-* [ ] `sudo git clone https://github.com/roottusk/vapi.git`
-* [ ] `cd /vapi`
-* [ ] `sudo docker-compose up -d`
+```bash
+mkdir /apilab
+cd /apilab
+sudo git clone https://github.com/roottusk/vapi.git
+cd /vapi
+sudo docker-compose up -d
+```
+
+
+
+#### OWASP DevSlop's Pixi
+
+<pre class="language-bash"><code class="lang-bash"><strong>git clone https://github.com/DevSlop/Pixi.git
+</strong>cd Pixi
+sudo docker-compose up
+</code></pre>
+
+
+
+#### Damn Vulnerable GraphQL Application (DVGA)
+
+```bash
+sudo docker pull dolevf/dvga
+sudo docker run -t -p 5000:5000 -e WEB_HOST=0.0.0.0 dolevf/dvga
+```
 {% endtab %}
 
 {% tab title="Thick Clients" %}
@@ -1218,6 +1240,8 @@ Source: [https://mobile-security.gitbook.io/mobile-security-testing-guide/ios-te
 
 {% endtab %}
 {% endtabs %}
+
+
 
 #### Tools
 
