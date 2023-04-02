@@ -749,6 +749,7 @@ API Documentation Conventions
 | : or {}    | <p>/user/:id</p><p>/user/{id}</p><p>/user/1337</p><p>/account/:username</p><p>/account/{username}</p><p>/account/mart1an</p> | The colon or curly brackets are used by some APIs to indicate a path variable. In other words, “:id” represents the variable for an ID number and “{username}” represents the account username you are trying to access. |
 | \[]        | /api/v1/user?find=\[name]                                                                                                    | Square brackets indicate that the input is optional.                                                                                                                                                                     |
 | \|\|       | “blue” \|\| “green” \|\| “red”                                                                                               | Double bars represent different possible values that can be used.                                                                                                                                                        |
+| < >        | \<find-function>                                                                                                             | Angle Brackets represent a DomString, which is a 16-bit                                                                                                                                                                  |
 
 * [ ] Set parameters to variable in Postman
 
