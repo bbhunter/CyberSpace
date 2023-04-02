@@ -1,5 +1,7 @@
 # Reporting
 
+This a guide for drafting an application assessment report
+
 #### Introduction
 
 * [ ] Objective
