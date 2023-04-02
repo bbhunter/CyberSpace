@@ -6,10 +6,6 @@
 
 {% tabs %}
 {% tab title="Web" %}
-
-
-
-
 ## WEB APPLICATION PENTESTING CHECKLIST
 
 **Inspired by OWASP Based Checklist from** [Hariprasaanth](https://github.com/Hari-prasaanth/Web-App-Pentest-Checklist) whom also has one on [Notion](https://hariprasaanth.notion.site/WEB-APPLICATION-PENTESTING-CHECKLIST-0f02d8074b9d4af7b12b8da2d46ac998)
@@ -712,9 +708,9 @@ Nongreedy match `.*?website.com$`
 {% endtab %}
 
 {% tab title="API" %}
-MindAPI - [API Testing Mindmap ](https://dsopas.github.io/MindAPI/play/)
-
 ### API Testing Checklist
+
+MindAPI - [API Testing Mindmap ](https://dsopas.github.io/MindAPI/play/)
 
 **Passive Reconnaissance**
 
@@ -1243,8 +1239,4 @@ Source: [https://mobile-security.gitbook.io/mobile-security-testing-guide/ios-te
 
 {% endtab %}
 {% endtabs %}
-
-
-
-###
 
