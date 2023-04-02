@@ -22,6 +22,7 @@
   * [Threat Modeling](practical-notes/application-security-testing/threat-modeling.md)
   * [DNS](practical-notes/dns.md)
   * [Reporting](practical-notes/application-testing/reporting.md)
+* [Tools](practical-notes/tools.md)
 * [Command Injection Testing](practical-notes/command-injection-testing.md)
 * [SSH & SSL](practical-notes/ssh-and-ssl.md)
 * [JavaScript](practical-notes/javascript/README.md)
