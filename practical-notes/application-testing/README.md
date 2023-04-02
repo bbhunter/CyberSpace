@@ -733,8 +733,8 @@ MindAPI - [API Testing Mindmap ](https://dsopas.github.io/MindAPI/play/)
 
 **Endpoint Analysis**
 
-* [ ] Search for API documentation, if not provided, try to hunt for via fuzzing
-  * [ ] Example Wordlist [here](https://github.com/hAPI-hacker/Hacking-APIs/blob/main/api\_docs\_path)
+* [ ] Search for API documentation, if not provided, tsee if it can be discovered
+  * [ ] Example API doc Wordlist [here](https://github.com/hAPI-hacker/Hacking-APIs/blob/main/api\_docs\_path)
 * [ ] Proxy all traffic to Postman/Burp and capture requests for history
 * [ ] Perform the actions that can be performed within application; this can be filtered in Postman
 
