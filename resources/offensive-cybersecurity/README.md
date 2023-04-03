@@ -11,7 +11,7 @@
 | [Lockdoor Framework Pentesting Tool](https://github.com/SofianeHamlaoui/Lockdoor-Framework)       | [Penetration Testing Execution Standard Guide](http://www.pentest-standard.org/index.php/Main\_Page) ! | [CyberChef Recipes Repo](https://github.com/mattnotmax/cyberchef-recipes) |
 | [Red Teaming Cheat Sheet Repo from @0xjs](https://github.com/0xJs/RedTeaming\_CheatSheet)         | [Cobra All-in-one Tool](https://github.com/ManasHarsh/Cobra)                                           | [SANS SLingshot Tool](https://www.sans.org/tools/slingshot/)              |
 | [Pentest Reporting Tool from @micro-joan](https://github.com/micro-joan/BlackStone)               | [s0cm0nkey's guide](https://s0cm0nkey.gitbook.io/s0cm0nkeys-security-reference-guide/) !               | [Six2dez's Pentest Book](https://pentestbook.six2dez.com/)                |
-| [sl4xo's Blog](https://sl4x0.github.io/)                                                          |                                                                                                        |                                                                           |
+| [sl4xo's Blog](https://sl4x0.github.io/)                                                          | [thehacker.recipes](https://www.thehacker.recipes/)                                                    |                                                                           |
 {% endtab %}
 
 {% tab title="OSINT" %}
