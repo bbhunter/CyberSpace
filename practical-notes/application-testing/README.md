@@ -26,7 +26,9 @@ Nongreedy match `.*?website.com$`
 **Open Source Reconnaissance**
 
 * [ ] Perform Google Dorks search
-* [ ] Perform OSINT
+  * [ ] Effective dorks in the [GHDB](https://www.exploit-db.com/google-hacking-database)
+* [ ] Perform OSINT for as  much public information as possible from online resources
+  * [ ] [Investigator](https://abhijithb200.github.io/investigator/)
 
 **Fingerprinting Web Server**
 
