@@ -14,7 +14,7 @@ Steps to Add Custom Header in Burp Requests
   3. Replace: hacker@bugbounty.site
   4. Comment: Manually BBP header
 
-****
+
 
 **Information Gathering**
 
@@ -88,6 +88,8 @@ Daily updated Text file of all domains within scope on active Bug Bounty Program
 | `Intitle: "login" "admin" site:http://site.com`                                                                                                     | Searching for admin login pages                 |
 | `intitle:"Index of /" .htaccess site:http://site.com`                                                                                               | Searching for exposed Apache configuration file |
 | `site:website.com inurl:"contact" \| inurl:"contact-us" \| inurl:"contactus" \| inurl:"contcat_us" \| inurl:"contact_form" \| inurl:"contact-form"` | Searching for possible contact form             |
+| `inurl:http \| inurl:url= \| inurl:path= \| inurl:dest= \| inurl:html= \| inurl:data= \| inurl:domain= \| inurl:page= inurl:& site:example[.]com`   | SSRF Prone Parameters                           |
+|                                                                                                                                                     |                                                 |
 
 | Shodan Dork                              | Purpose                                                                                                     |
 | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
