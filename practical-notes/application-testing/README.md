@@ -8,11 +8,7 @@
 {% tab title="Web" %}
 ## WEB APPLICATION PENTESTING CHECKLIST
 
-**Inspired by OWASP Based Checklist from** [Hariprasaanth](https://github.com/Hari-prasaanth/Web-App-Pentest-Checklist) whom also has one on [Notion](https://hariprasaanth.notion.site/WEB-APPLICATION-PENTESTING-CHECKLIST-0f02d8074b9d4af7b12b8da2d46ac998)
-
-
-
-This list was developed to include additional useful details and techniques for modern application assessments (Always in-progress)\
+This OWASP based checklist was developed to include additional useful details and techniques for modern application assessments (Always in-progress)\
 &#x20;
 
 Scope configuration:
@@ -45,7 +41,6 @@ Nongreedy match `.*?website.com$`
 
 **Enumerating Web Server’s Applications -** [**WSTG-INFO-04**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/01-Information\_Gathering/04-Enumerate\_Applications\_on\_Webserver)
 
-*
 * [ ] Enumerating with Nmap
 * [ ] Enumerating with Netcat
 * [ ] Perform a DNS lookup
@@ -88,13 +83,13 @@ Nongreedy match `.*?website.com$`
 
 **CONFIGURATION & DEPLOYMENT MANAGEMENT TESTING**
 
-**Test Network Configuration**
+**Test Network Configuration -** [**WSTG-CONF-01**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/02-Configuration\_and\_Deployment\_Management\_Testing/01-Test\_Network\_Infrastructure\_Configuration)
 
 * [ ] Check the network configuration
 * [ ] Check for default settings
 * [ ] Check for default credentials
 
-**Test Application Configuration**
+**Test Application Configuration -** [**WSTG- CONF-02**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/02-Configuration\_and\_Deployment\_Management\_Testing/02-Test\_Application\_Platform\_Configuration)
 
 * [ ] Ensure only required modules are used
 * [ ] Ensure unwanted modules are disabled
@@ -103,25 +98,25 @@ Nongreedy match `.*?website.com$`
 * [ ] Check for the privilege required to run
 * [ ] Check logs for sensitive info
 
-**Test File Extension Handling**
+**Test File Extension Handling -** [**WSTG-CONF-03**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/02-Configuration\_and\_Deployment\_Management\_Testing/03-Test\_File\_Extensions\_Handling\_for\_Sensitive\_Information)
 
 * [ ] Ensure the server won’t return sensitive extensions
 * [ ] Ensure the server won’t accept malicious extensions
 * [ ] Test for file upload vulnerabilities
 
-**Review Backup & Unreferenced Files**
+**Review Backup & Unreferenced Files -** [**WSTG-CONF-04**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/02-Configuration\_and\_Deployment\_Management\_Testing/04-Review\_Old\_Backup\_and\_Unreferenced\_Files\_for\_Sensitive\_Information)
 
 * [ ] Ensure unreferenced files don’t contain any sensitive info
 * [ ] Ensure the namings of old and new backup files
 * [ ] Check the functionality of unreferenced pages
 
-**Enumerate Infrastructure & Admin Interfaces**
+**Enumerate Infrastructure & Admin Interfaces -** [**WSTG-CONF-05**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/02-Configuration\_and\_Deployment\_Management\_Testing/05-Enumerate\_Infrastructure\_and\_Application\_Admin\_Interfaces)
 
 * [ ] Try to find the Infrastructure Interface
 * [ ] Try to find the Admin Interface
 * [ ] Identify the hidden admin functionalities
 
-**Testing HTTP Methods**
+**Testing HTTP Methods -** [**WSTG-CONF-06**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/02-Configuration\_and\_Deployment\_Management\_Testing/06-Test\_HTTP\_Methods)
 
 * [ ] Discover the supported methods
 * [ ] Ensure the PUT method is disabled
@@ -130,27 +125,28 @@ Nongreedy match `.*?website.com$`
 * [ ] Test for XST attacks
 * [ ] Test for HTTP method overriding
 
-**Test HSTS**
+**Test HSTS -** [**WSTG-CONF-07**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/02-Configuration\_and\_Deployment\_Management\_Testing/07-Test\_HTTP\_Strict\_Transport\_Security)
 
 * [ ] Ensure HSTS is enabled
+  * [ ] This can also be detected pretty well with the Wappalyzer browser extension
 
-**Test RIA Cross Domain Policy**
+**Test RIA Cross Domain Policy -** [**WSTG-CONF-08**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/02-Configuration\_and\_Deployment\_Management\_Testing/08-Test\_RIA\_Cross\_Domain\_Policy)
 
 * [ ] Check for Adobe’s Cross Domain Policy
 * [ ] Ensure it has the least privilege
 
-**Test File Permission**
+**Test File Permission -** [**WSTG-CONF-09**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/02-Configuration\_and\_Deployment\_Management\_Testing/09-Test\_File\_Permission)
 
 * [ ] Ensure the permissions for sensitive files
 * [ ] Test for directory enumeration
 
-**Test For Subdomain Takeover**
+**Test For Subdomain Takeover -** [**WSTG-CONF-10**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/02-Configuration\_and\_Deployment\_Management\_Testing/10-Test\_for\_Subdomain\_Takeover)
 
 * [ ] Test DNS, A, and CNAME records for subdomain takeover
 * [ ] Test NS records for subdomain takeover
 * [ ] Test 404 response for subdomain takeover
 
-**Test Cloud Storage**
+**Test Cloud Storage -** [**WSTG-CONF-11**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/02-Configuration\_and\_Deployment\_Management\_Testing/11-Test\_Cloud\_Storage)
 
 * [ ] Check the sensitive paths of AWS
 * [ ] Check the sensitive paths of Google Cloud
@@ -562,6 +558,7 @@ Nongreedy match `.*?website.com$`
 * [ ] Search for SSRF keywords only under the request header and body
 * [ ] Identify the Injection points
 * [ ] Test if the Injection points are exploitable
+  * [ ] Use an [Online IP encoder](https://dominicbreuker.com/encoders/) to test using various ways that IPv4 can be encoded
 * [ ] Assess the injection impact
 
 **Test For Server Side Template Injection**
