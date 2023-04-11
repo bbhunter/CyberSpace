@@ -18,7 +18,7 @@
 | [Ringzer0 CTF](https://ringzer0ctf.com/challenges)                                                    | [Root-Me](https://www.root-me.org/)                                                                   | [Root in Jail](http://rootinjail.com/)                           | [SANS Challenger](https://www.holidayhackchallenge.com/)    |
 | [Security Knowledge Framework](https://demo.securityknowledgeframework.org/dashboard)                 | [SmashTheStack](https://www.smashthestack.org/wargames.html)                                          | [TCM Security Academy](https://academy.tcm-sec.com/) !           | [The Cryptopals Crypto Challenges](https://cryptopals.com/) |
 | [Tryhackme](https://tryhackme.com/)                                                                   | [Vulnhub](https://www.vulnhub.com/) !                                                                 | [W3Challs](https://w3challs.com/)                                | [WeChall](http://www.wechall.net/)                          |
-| [XSS Challenges from @moeinfatehi](https://github.com/moeinfatehi/xss\_vulnerability\_challenges)     | [Zenk-Security](https://www.zenk-security.com/)                                                       | [Zero-Point Security](https://training.zeropointsecurity.co.uk/) |                                                             |
+| [XSS Challenges from @moeinfatehi](https://github.com/moeinfatehi/xss\_vulnerability\_challenges)     | [Zenk-Security](https://www.zenk-security.com/)                                                       | [Zero-Point Security](https://training.zeropointsecurity.co.uk/) | [Vulnlab](https://vulndev.io/lab/)                          |
 
 #### CTF Platforms
 

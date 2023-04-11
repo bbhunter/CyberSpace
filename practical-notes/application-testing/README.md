@@ -23,47 +23,48 @@ Nongreedy match `.*?website.com$`
 
 #### **INFORMATION GATHERING**
 
-**Open Source Reconnaissance**
+**Open Source Reconnaissance -** [**WSTG-INFO-01**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/01-Information\_Gathering/01-Conduct\_Search\_Engine\_Discovery\_Reconnaissance\_for\_Information\_Leakage)
 
 * [ ] Perform Google Dorks search
   * [ ] Effective dorks in the [GHDB](https://www.exploit-db.com/google-hacking-database)
 * [ ] Perform OSINT for as  much public information as possible from online resources
   * [ ] [Investigator](https://abhijithb200.github.io/investigator/)
 
-**Fingerprinting Web Server**
+**Fingerprinting Web Server -**  [**WSTG-INFO-02**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/01-Information\_Gathering/02-Fingerprint\_Web\_Server)
 
 * [ ] Find the type of Web Server
 * [ ] Find the version details of the Web Server
   * [ ] View Wappylyzer, Whatruns, Server Reponses
 
-**Looking For Metafiles**
+**Looking For Metafiles -** [**WSTG-INFO-03**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/01-Information\_Gathering/03-Review\_Webserver\_Metafiles\_for\_Information\_Leakage)
 
 * [ ] View the Robots.txt file
 * [ ] View the Sitemap.xml file
 * [ ] View the Humans.txt file
 * [ ] View the Security.txt file
 
-**Enumerating Web Server’s Applications**
+**Enumerating Web Server’s Applications -** [**WSTG-INFO-04**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/01-Information\_Gathering/04-Enumerate\_Applications\_on\_Webserver)
 
+*
 * [ ] Enumerating with Nmap
 * [ ] Enumerating with Netcat
 * [ ] Perform a DNS lookup
 * [ ] Perform a Reverse DNS lookup
 
-**Review The Web Contents**
+**Review The Web Contents -** [**WSTG-INFO-05**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/01-Information\_Gathering/05-Review\_Webpage\_Content\_for\_Information\_Leakage)
 
 * [ ] Inspect the page source for sensitive info
 * [ ] Try to find Sensitive Javascript codes
 * [ ] Try to find any keys
 * [ ] Make sure the autocomplete is disabled
 
-**Identifying Application’s Entry Points**
+**Identifying Application’s Entry Points -** [**WSTG-INFO-06**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/01-Information\_Gathering/06-Identify\_Application\_Entry\_Points)
 
 * [ ] Identify what the methods used are?
 * [ ] Identify where the methods used are?
 * [ ] Identify the Injection point
 
-**Mapping Execution Paths**
+**Mapping Execution Paths -** [**WSTG-INFO-07**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/01-Information\_Gathering/07-Map\_Execution\_Paths\_Through\_Application)
 
 * [ ] Use Burp Suite
 * [ ] Use Dirsearch
@@ -72,7 +73,7 @@ Nongreedy match `.*?website.com$`
   * [ ] `feroxbuster -H "User-Agent: PENTEST" -w fzf-wordlists -u http://site/`
   * [ ] `feroxbuster -H "User-Agent: PENTEST" -w $WORDLIST -u SITE -t $THREADS`
 
-**Fingerprint Web Application Framework**
+**Fingerprint Web Application Framework -** [**WSTG-INFO-08**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/01-Information\_Gathering/08-Fingerprint\_Web\_Application\_Framework)**,**[ **WSTG-INFO-09** ](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/01-Information\_Gathering/09-Fingerprint\_Web\_Application)**(Merged)**
 
 * [ ] Use the Wappalyzer browser extension
 * [ ] Use Whatweb
@@ -81,7 +82,7 @@ Nongreedy match `.*?website.com$`
 * [ ] View the cookie parameter
 * [ ] View the HTTP headers
 
-**Map Application Architecture**
+**Map Application Architecture -** [**WSTG-INFO-10**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/01-Information\_Gathering/10-Map\_Application\_Architecture)
 
 * [ ] Map the overall site structure
 
@@ -772,6 +773,54 @@ API Documentation Conventions
 
 Additional checks:
 
+**Mass Assignment Vulnerabilities**\
+
+
+Mass Assignment with account registration for PrivEsc:
+
+Admin Registration
+
+```json
+POST /api/admin/create/user
+Token: AdminAuthToken
+-Redacted-
+{
+"username": "admin2",
+"pass": "Iforgetit0ften",
+"admin": true
+}
+```
+
+```json
+POST /create/user
+Token: StandardUserAuthToken
+-Redacted-
+{
+"username": "tester",
+"pass": "Test1234",
+"admin": true
+}
+```
+
+
+
+Blind Mass Assignment: \
+If you suspect an API is vulnerable to Mass Assignment, there is a chance it may ignore the irrelevant variables and accept the variable that matches the expected name and format.
+
+```json
+{
+"username":"testern",
+"email":"tester@site.com",
+"admin": true,
+"admin":1,
+"isadmin": true,
+"role":"admin",
+"role":"administrator",
+"user_priv": "admin",
+"password":"Password1!"
+}
+```
+
 **Check different `Content-Types`**
 
 ```
@@ -1076,11 +1125,11 @@ Also available on [Notion ](https://hariprasaanth.notion.site/THICK-CLIENT-PENTE
 
 {% tab title="APKs" %}
 `TargetSdkversion` \
-``OS version an app was designed for\
+OS version an app was designed for\
 \
 `< package= com.vulnerableapp.test>` \
 `Describes package/app name`\
-``\
+\
 `<uses-sdk android:minSdkVersion="17" android:minSdkVersion="21"/>` \
 `App minimum and maximum supported versions(range)`
 
