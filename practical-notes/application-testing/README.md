@@ -661,6 +661,7 @@ Nongreedy match `.*?website.com$`
 **Test For No-Rate Limiting**
 
 * [ ] Ensure rate limiting is enabled
+  * [ ] Example responses: `x-rate-limit:`, `x-rate-limit-remaining:`
 * [ ] Try to bypass rate limiting by changing the case of the endpoints
 * [ ] Try to bypass rate limiting by adding / at the end of the URL
 * [ ] Try to bypass rate limiting by adding HTTP headers
