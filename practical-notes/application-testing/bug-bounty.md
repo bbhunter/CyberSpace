@@ -634,7 +634,61 @@ curl http://site.xxx/file.js | grep -Eo "(http|https)://[a-zA-Z0-9./?=_-]*"*
 ```
 {% endtab %}
 
-{% tab title="Interesting Web Paths" %}
+{% tab title="Interesting Web Paths/Parameters" %}
+**Remote Code Execution Parameters**\
+?cmd={payload}\
+?exec={payload} \
+?command={payload} \
+?execute{payload}\
+?ping={payload} \
+?query={payload} \
+?jump={payload} \
+?code={payload} \
+?reg={payload} \
+?do={payload} \
+?func={payload} \
+?arg={payload} \
+?option={payload} \
+?load={payload} \
+?process={payload} \
+?step={payload} \
+?read={payload} \
+?function={payload} \
+?req={payload} \
+?feature={payload} \
+?exe={payload} \
+?module={payload} \
+?payload={payload} \
+?run={payload} \
+?print={payload} \
+?cmd={payload} \
+?exec={payload} \
+?command={payload} \
+?execute={payload} \
+?ping={payload} \
+?query={payload} \
+?jump={payload} \
+?code={payload} \
+?reg={payload} \
+?do={payload} \
+?func={payload} \
+?arg={payload} \
+?option={payload} \
+?load={payload} \
+?process={payload} \
+?step={payload} \
+?read={payload} \
+?function={payload} \
+?req={payload} \
+?feature={payload} \
+?exe={payload} \
+?module={payload} \
+?payload={payload} \
+?run={payload} \
+?print={payload}
+
+
+
 **Git**
 
 /.git
@@ -662,4 +716,6 @@ curl http://site.xxx/file.js | grep -Eo "(http|https)://[a-zA-Z0-9./?=_-]*"*
 /.svn/entries
 {% endtab %}
 {% endtabs %}
+
+
 
