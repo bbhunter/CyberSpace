@@ -154,21 +154,21 @@ Nongreedy match `.*?website.com$`
 
 #### **IDENTITY MANAGEMENT TESTING**
 
-**Test Role Definitions**
+**Test Role Definitions -**  [**WSTG-IDNT-01**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/03-Identity\_Management\_Testing/01-Test\_Role\_Definitions)
 
 * [ ] Test for forced browsing
 * [ ] Test for IDOR (Insecure Direct Object Reference)
 * [ ] Test for parameter tampering
 * [ ] Ensure low privilege users can’t able to access high privilege resources
 
-**Test User Registration Process**
+**Test User Registration Process -** [**WSTG-IDNT-02**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/03-Identity\_Management\_Testing/02-Test\_User\_Registration\_Process)
 
 * [ ] Ensure the same user or identity can’t register again and again
 * [ ] Ensure the registrations are verified
 * [ ] Ensure disposable email addresses are rejected
 * [ ] Check what proof is required for successful registration
 
-**Test Account Provisioning Process**
+**Test Account Provisioning Process -** [**WSTG-IDNT-03**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/03-Identity\_Management\_Testing/04-Testing\_for\_Account\_Enumeration\_and\_Guessable\_User\_Account)
 
 * [ ] Check the verification for the provisioning process
 * [ ] Check the verification for the de-provisioning process
@@ -176,21 +176,21 @@ Nongreedy match `.*?website.com$`
 * [ ] Check whether a user is able to de-provision themself or not?
 * [ ] Check for the resources of a de-provisioned user
 
-**Testing For Account Enumeration**
+**Testing For Account Enumeration -** [**WSTG-IDNT-04**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/03-Identity\_Management\_Testing/04-Testing\_for\_Account\_Enumeration\_and\_Guessable\_User\_Account)
 
 * [ ] Check the response when a valid username and password entered
 * [ ] Check the response when a valid username and an invalid password entered
 * [ ] Check the response when an invalid username and password entered
 * [ ] Ensure the rate-limiting functionality is enabled in username and password fields
 
-**Test For Weak Username Policy**
+**Test For Weak Username Policy -** [**WSTG-IDNT-05**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/03-Identity\_Management\_Testing/05-Testing\_for\_Weak\_or\_Unenforced\_Username\_Policy)
 
 * [ ] Check the response for both valid and invalid usernames
 * [ ] Check for username enumeration
 
 #### **AUTHENTICATION TESTING**
 
-**Test For Un-Encrypted Channel**
+**Test For Un-Encrypted Channel -** [**WSTG-ATHN-01**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/04-Authentication\_Testing/01-Testing\_for\_Credentials\_Transported\_over\_an\_Encrypted\_Channel)
 
 * [ ] Check for the HTTP login page
 * [ ] Check for the HTTP register or sign-in page
@@ -199,7 +199,7 @@ Nongreedy match `.*?website.com$`
 * [ ] Check for resources on HTTP after logout
 * [ ] Test for forced browsing to HTTP pages
 
-**Test For Default Credentials**
+**Test For Default Credentials -** [**WSTG-ATHN-02**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/04-Authentication\_Testing/02-Testing\_for\_Default\_Credentials)
 
 * [ ] Test with default credentials
 * [ ] Test organization name as credentials
@@ -207,7 +207,7 @@ Nongreedy match `.*?website.com$`
 * [ ] Test for the default username and a blank password
 * [ ] Review the page source for credentials
 
-**Test For Weak Lockout Mechanism**
+**Test For Weak Lockout Mechanism -** [**WSTG-ATHN-03**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/04-Authentication\_Testing/03-Testing\_for\_Weak\_Lock\_Out\_Mechanism)
 
 * [ ] Ensure the account has been locked after 3-5 incorrect attempts
 * [ ] Ensure the system accepts only the valid CAPTCHA
@@ -216,7 +216,7 @@ Nongreedy match `.*?website.com$`
 * [ ] Ensure CAPTCHA reloads after entering the wrong code
 * [ ] Ensure the user has a recovery option for a lockout account
 
-**Test For Bypassing Authentication Schema**
+**Test For Bypassing Authentication Schema -** [**WSTG-ATHN-04**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/04-Authentication\_Testing/04-Testing\_for\_Bypassing\_Authentication\_Schema)
 
 * [ ] Test forced browsing directly to the internal dashboard without login
 * [ ] Test for session ID prediction
@@ -225,17 +225,17 @@ Nongreedy match `.*?website.com$`
 * [ ] Test to gain access with the help of session ID
 * [ ] Test multiple logins allowed or not?
 
-**Test For Vulnerable Remember Password**
+**Test For Vulnerable Remember Password -** [**WSTG-ATHN-05**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/04-Authentication\_Testing/05-Testing\_for\_Vulnerable\_Remember\_Password)
 
 * [ ] Ensure that the stored password is encrypted
 * [ ] Ensure that the stored password is on the server-side
 
-**Test For Browser Cache Weakness**
+**Test For Browser Cache Weakness -** [**WSTG-ATHN-06**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/04-Authentication\_Testing/06-Testing\_for\_Browser\_Cache\_Weaknesses)
 
 * [ ] Ensure proper cache-control is set on sensitive pages
 * [ ] Ensure no sensitive data is stored in the browser cache storage
 
-**Test For Weak Password Policy**
+**Test For Weak Password Policy -** [**WSTG-ATHN-07**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/04-Authentication\_Testing/07-Testing\_for\_Weak\_Password\_Policy)
 
 * [ ] Ensure the password policy is set to strong
 * [ ] Check for password reusability
@@ -244,12 +244,12 @@ Nongreedy match `.*?website.com$`
 * [ ] Check the minimum password length to be set
 * [ ] Check the maximum password length to be set
 
-**Testing For Weak Security Questions**
+**Testing For Weak Security Questions -** [**WSTG-ATHN-08**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/04-Authentication\_Testing/08-Testing\_for\_Weak\_Security\_Question\_Answer)
 
 * [ ] Check for the complexity of the questions
 * [ ] Check for brute-forcing
 
-**Test For Weak Password Reset Function**
+**Test For Weak Password Reset Function -** [**WSTG-ATHN-09**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/04-Authentication\_Testing/09-Testing\_for\_Weak\_Password\_Change\_or\_Reset\_Functionalities)
 
 * [ ] Check what information is required to reset the password
 * [ ] Check for password reset function with HTTP
@@ -259,7 +259,7 @@ Nongreedy match `.*?website.com$`
 * [ ] Ensure the token must expire after being used
 * [ ] Ensure the token must expire after not being used for a long time
 
-**Test For Weak Password Change Function**
+**Test For Weak Password Change Function -** [**WSTG-ATHN-09**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/04-Authentication\_Testing/09-Testing\_for\_Weak\_Password\_Change\_or\_Reset\_Functionalities)
 
 * [ ] Check if the old password asked to make a change
 * [ ] Check for the uniqueness of the forgotten password
@@ -268,7 +268,7 @@ Nongreedy match `.*?website.com$`
 * [ ] Ensure the old password is not displayed after changed
 * [ ] Ensure the other sessions got destroyed after the password change
 
-**Test For Weak Authentication In Alternative Channel**
+**Test For Weak Authentication In Alternative Channel -** [**WSTG-ATHN-10**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/04-Authentication\_Testing/10-Testing\_for\_Weaker\_Authentication\_in\_Alternative\_Channel)
 
 * [ ] Test authentication on the desktop browsers
 * [ ] Test authentication on the mobile browsers
@@ -279,7 +279,7 @@ Nongreedy match `.*?website.com$`
 
 #### **AUTHORIZATION TESTING**
 
-**Testing Directory Traversal File Include**
+**Testing Directory Traversal File Include -** [**WSTG-ATHZ-01**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/05-Authorization\_Testing/01-Testing\_Directory\_Traversal\_File\_Include)
 
 * [ ] Identify the injection point on the URL
 * [ ] Test for Local File Inclusion
@@ -287,7 +287,7 @@ Nongreedy match `.*?website.com$`
 * [ ] Test Traversal on the URL parameter
 * [ ] Test Traversal on the cookie parameter
 
-**Testing Traversal With Encoding**
+**Testing Traversal With Encoding -**&#x20;
 
 * [ ] Test Traversal with Base64 encoding
 * [ ] Test Traversal with URL encoding
@@ -298,7 +298,7 @@ Nongreedy match `.*?website.com$`
 * [ ] Test Traversal with Octal encoding
 * [ ] Test Traversal with Gzip encoding
 
-**Testing Travesal With Different OS Schemes**
+**Testing Travesal With Different OS Schemes -**
 
 * [ ] Test Traversal with Unix schemes
 * [ ] Test Traversal with Windows schemes
@@ -310,15 +310,13 @@ Nongreedy match `.*?website.com$`
 * [ ] Test Traversal with all characters encode
 * [ ] Test Traversal with only special characters encode
 
-**Test Authorization Schema Bypass**
+**Test Authorization Schema Bypass -** [**WSTG-ATHZ-02**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/05-Authorization\_Testing/02-Testing\_for\_Bypassing\_Authorization\_Schema)
 
 * [ ] Test for Horizontal authorization schema bypass
 * [ ] Test for Vertical authorization schema bypass
 * [ ] Test override the target with custom headers
 
-**Test For Privilege Escalation**
-
-
+**Test For Privilege Escalation -**  [**WSTG-ATHZ-03**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/05-Authorization\_Testing/03-Testing\_for\_Privilege\_Escalation)
 
 * [ ] Identify the injection point
 * [ ] Test for bypassing the security measures
@@ -337,7 +335,7 @@ Nongreedy match `.*?website.com$`
     * [ ] Monitor and verify findings (subject to false positives)
 * [ ] Test for parameter tampering to high privileged user
 
-**Test For Insecure Direct Object Reference**
+**Test For Insecure Direct Object Reference -** [**WSTG-ATHZ-04**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/05-Authorization\_Testing/04-Testing\_for\_Insecure\_Direct\_Object\_References)
 
 * [ ] Test to change the ID parameter
 * [ ] Test to add parameters at the endpoints
@@ -354,7 +352,7 @@ Nongreedy match `.*?website.com$`
 
 #### **SESSION MANAGEMENT TESTING**
 
-**Test For Session Management Schema**
+**Test For Session Management Schema -** [**WSTG-SESS-01**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/06-Session\_Management\_Testing/01-Testing\_for\_Session\_Management\_Schema)
 
 * [ ] Ensure all Set-Cookie directives are secure
 * [ ] Ensure no cookie operation takes place over an unencrypted channel
@@ -368,18 +366,18 @@ Nongreedy match `.*?website.com$`
 * [ ] Check for session after closing the browser
 * [ ] Try decoding cookies (Base64, Hex, URL, etc)
 
-**Test For Cookie Attributes**
+**Test For Cookie Attributes -** [**WSTG-SESS-02**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/06-Session\_Management\_Testing/02-Testing\_for\_Cookies\_Attributes)
 
 * [ ] Ensure the cookie must be set with the secure attribute
 * [ ] Ensure the cookie must be set with the path attribute
 * [ ] Ensure the cookie must have the HTTPOnly flag
 
-**Test For Session Fixation**
+**Test For Session Fixation -** [WSTG-SESS-03](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/06-Session\_Management\_Testing/03-Testing\_for\_Session\_Fixation)
 
 * [ ] Ensure new cookies have been issued upon a successful authentication
 * [ ] Test manipulating the cookies
 
-**Test For Exposed Session Variables**
+**Test For Exposed Session Variables -** [**WSTG-SESS-04**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/06-Session\_Management\_Testing/04-Testing\_for\_Exposed\_Session\_Variables)
 
 * [ ] Test for encryption
 * [ ] Test for GET and POST vulnerabilities
@@ -391,7 +389,7 @@ Nongreedy match `.*?website.com$`
 * [ ] Test after password change
 * [ ] Test after logout
 
-**Test For Cross Site Request Forgery**
+**Test For Cross Site Request Forgery -** [WSTG-SESS-05](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/06-Session\_Management\_Testing/05-Testing\_for\_Cross\_Site\_Request\_Forgery)
 
 * [ ] Check if the token is validated on the server-side or not
 * [ ] Check if the token is validated for full or partial length
@@ -407,7 +405,7 @@ Nongreedy match `.*?website.com$`
 * [ ] Check CSRF by changing the host values
 * [ ] Check CSRF alongside clickjacking
 
-**Test For Logout Functionality**
+**Test For Weak Logout Functionality -** [**WSTG-SESS-06**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/06-Session\_Management\_Testing/06-Testing\_for\_Logout\_Functionality)
 
 * [ ] Check the log out function on different pages
 * [ ] Check for the visibility of the logout button
@@ -415,17 +413,17 @@ Nongreedy match `.*?website.com$`
 * [ ] Ensure after logout we can’t able to access the dashboard by pressing the back button
 * [ ] Ensure proper session timeout has been set
 
-**Test For Session Timeout**
+**Test For Session Timeout -** [**WSTG-SESS-07**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/06-Session\_Management\_Testing/07-Testing\_Session\_Timeout)
 
 * [ ] Ensure there is a session timeout exists
 * [ ] Ensure after the timeout, all of the tokens are destroyed
 
-**Test For Session Puzzling**
+**Test For Session Puzzling -** [**WSTG-SESS-08**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/06-Session\_Management\_Testing/08-Testing\_for\_Session\_Puzzling)
 
 * [ ] Identify all the session variables
 * [ ] Try to break the logical flow of the session generation
 
-**Test For Session Hijacking**
+**Test For Session Hijacking -** [**WSTG-SESS-09**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/06-Session\_Management\_Testing/09-Testing\_for\_Session\_Hijacking)
 
 * [ ] Test session hijacking on target that doesn’t has HSTS enabled
 * [ ] Test by login with the help of captured cookies
