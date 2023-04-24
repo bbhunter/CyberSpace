@@ -42,6 +42,7 @@ Nongreedy match `.*?website.com$`
 **Enumerating Web Server’s Applications -** [**WSTG-INFO-04**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/01-Information\_Gathering/04-Enumerate\_Applications\_on\_Webserver)
 
 * [ ] Enumerating with Nmap
+  * [ ] `nmap –Pn –sT –sV –p0-65535 <IP or Domain>`
 * [ ] Enumerating with Netcat
 * [ ] Perform a DNS lookup
 * [ ] Perform a Reverse DNS lookup
