@@ -35,17 +35,34 @@ Nongreedy match `.*?website.com$`
 **Looking For Metafiles -** [**WSTG-INFO-03**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/01-Information\_Gathering/03-Review\_Webserver\_Metafiles\_for\_Information\_Leakage)
 
 * [ ] View the Robots.txt file
+  * [ ] https://www.google.com/search?q=site.com+robots.txt
 * [ ] View the Sitemap.xml file
 * [ ] View the Humans.txt file
 * [ ] View the Security.txt file
 
 **Enumerating Web Server’s Applications -** [**WSTG-INFO-04**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/01-Information\_Gathering/04-Enumerate\_Applications\_on\_Webserver)
 
-* [ ] Enumerating with Nmap
-  * [ ] `nmap –Pn –sT –sV –p0-65535 <IP or Domain>`
+*   [ ] Enumerating with Nmap
+
+    *
+
+    ```bash
+    nmap –Pn –sT –sV –p0-65535 <IP or Domain>
+    ```
 * [ ] Enumerating with Netcat
 * [ ] Perform a DNS lookup
 * [ ] Perform a Reverse DNS lookup
+* [ ] Attempt Zone Transfer&#x20;
+  *   [ ] First identify nameservers for the site
+
+      ```bash
+      host -t ns www.site.com
+      ```
+  *   [ ] Transfer to discovered nameservers
+
+      ```bash
+      host -l www.site.com ns1.securesite.net
+      ```
 
 **Review The Web Contents -** [**WSTG-INFO-05**](https://owasp.org/www-project-web-security-testing-guide/stable/4-Web\_Application\_Security\_Testing/01-Information\_Gathering/05-Review\_Webpage\_Content\_for\_Information\_Leakage)
 
